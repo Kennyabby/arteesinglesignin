@@ -25,7 +25,7 @@
 		sudo apt install –g npm
 		npm install –g meteor
 		mkdir Artee
-		cd Spar
+		cd Atee
 		meteor create arteesinglesignin
 		cd singlesignin
 		meteor run
