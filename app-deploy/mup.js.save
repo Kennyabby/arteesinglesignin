@@ -4,7 +4,7 @@ module.exports = {
       // TODO: set host address, username, and authentication method
       host: '34.242.180.128',
       username: 'ubuntu',
-      pem: '/home/ubuntu/Artee/arteesinglesignin/TestServerKey.pem'
+      // pem: './path/to/pem'
       // password: 'server-password'
       // or neither for authenticate from ssh-agent
     }
@@ -20,7 +20,7 @@ module.exports = {
     },
 
     buildOptions: {
-     // servernly: true,
+      servernly: true,
     },
     env: {
       // TODO: Change to your app's url
@@ -40,8 +40,7 @@ module.exports = {
   },
 
   mongo: {
-   // version: '3.4.1',
-    port:27017,
+    version: '',
     servers: {
       one: {}
     }
