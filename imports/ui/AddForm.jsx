@@ -1,7 +1,8 @@
 import React,{Component} from 'react';
 import { AppsheetLink } from '/imports/api/links';
 import { Meteor } from 'meteor/meteor';
-import { Tracker } from 'meteor/tracker'
+import { Tracker } from 'meteor/tracker';
+import AWS from 'aws-sdk';
 
 var title="";
 var url="";
@@ -10,7 +11,8 @@ export class AddForm extends Component{
     constructor(props){
         super(props);
         this.state={
-            isViewAdd:"none"
+            isViewAdd:"none",
+            logo:"logo.png"
         }
         
     }
@@ -49,12 +51,15 @@ export class AddForm extends Component{
             })
         }
         
-        
-        
+    }
+
+    getLogo=(e)=>{
+        console.log(e.target.files[0]);
     }
     
     appName = <input className='formInput' type="text" placeholder='Enter Appsheet Name' onChange={this.getAppName}/>;
     appUrl = <input className='formInput' type="text" placeholder='Enter Appsheet Link' onChange={this.getAppUrl}/>;
+    appLogo = <input className='formInput' type="file" placeholder='Select an Image for the link' onChange={this.getLogo}/>;
     updateLinks=()=>{
         // console.log(this.appName.target);
         var sub = Meteor.subscribe('AppsheetLink');
@@ -70,6 +75,7 @@ export class AddForm extends Component{
                     AppsheetLink.insert({
                         title:title,
                         url:url,
+                        logo:this.logo,
                         createdAt: new Date()
                     })
                     this.props.updates();
@@ -90,6 +96,7 @@ export class AddForm extends Component{
                 <div className="formDetails">
                     <p>Name: {this.appName}</p>
                     <p>Url: {this.appUrl}</p>
+                    <p>Logo: {this.appLogo}</p>
                     <button className='add' style={{display:this.state.isViewAdd}} title="Add Link" onClick={this.updateLinks}>Add Link</button>
                     <button className='ccl' title="Cancel" onClick={this.cancleUpdateLinks}>Cancel</button>
                 </div>

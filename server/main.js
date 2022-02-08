@@ -9,16 +9,19 @@ if(Meteor.isServer) {
       // console.log(LoginDetails.find().fetch());
       //  AppsheetLink.insert({
       //   title:"Artee Visitor Regulator",
+      //   logo:"artee_visitor_regulator.png",
       //   url:"https://www.appsheet.com/start/e20ae8b0-dc92-40fd-b080-a8fbc767b0ea",
       //   createdAt:new Date()
       //  })
       //  AppsheetLink.insert({
       //   title:"Artee Ticketing 2021",
+      //   logo:"artee_ticketing_2021.jpg",
       //   url:"https://www.appsheet.com/start/345a570c-710d-4a30-9d56-a6450994860b",
       //   createdAt:new Date()
       //  })
       //  AppsheetLink.insert({
       //   title:"Artee Vehicle Inspection",
+      //   logo:"artee_vehicle_inspection.png",
       //   url:"https://www.appsheet.com/start/8f7ae2fa-acdb-42f0-afb3-cd2fe696c9a2",
       //   createdAt:new Date()
       //  })
@@ -44,6 +47,7 @@ if(Meteor.isServer) {
       //  console.log(LoginDetails.find().fetch());
     //   Myvars = new Mongo.Collection("myvars");
       // LoginDetails.remove({});
+      // AppsheetLink.remove({});
       // console.log(AppsheetLink.find().fetch());
       
       LoginDetails.allow({
