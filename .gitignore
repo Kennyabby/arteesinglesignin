@@ -1,3 +1,4 @@
 node_modules/
 gitup.sh
 devop.sh
+.env

@@ -1,7 +1,22 @@
 import { Meteor } from 'meteor/meteor';
 import { AppsheetLink } from '/imports/api/links';
 import { LoginDetails } from '/imports/api/userLogin';
+// import AWS from 'aws-sdk';
+// const S3_BUCKET ='help-desk-bucket';
+// const REGION ='eu-west-1';
 
+// AWS.config.update({
+//     apiVersion: "2010-12-01",
+//     accessKeyId: process.env.ACCESS_KEY_ID,
+//     secretAccessKey: process.env.SECRET_ACCESS_KEY,
+//     region: REGION,
+//     endpoint: "http://54.247.57.9:3000",
+// })
+
+// const myBucket = new AWS.S3({
+//     params: { Bucket: S3_BUCKET},
+//     region: REGION,
+// })
 
 if(Meteor.isServer) {
   // console.log(sessionStorage)
@@ -49,7 +64,7 @@ if(Meteor.isServer) {
       // LoginDetails.remove({});
       // AppsheetLink.remove({});
       // console.log(AppsheetLink.find().fetch());
-      
+      // console.log(process.env.ACCESS_KEY_ID);
       LoginDetails.allow({
         insert: function () {
           return true;
