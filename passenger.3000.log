@@ -1,0 +1,208 @@
+[ N 2022-02-12 16:12:29.4407 4027429/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-12 16:12:29.4626 4027432/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-12 16:12:29.4628 4027432/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-12 16:12:29.4708 4027432/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 4027432
+[ N 2022-02-12 16:12:31.6409 4027432/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 4027481 output: 
+App 4027481 output: You are attempting to run Meteor as the 'root' superuser. If you are
+App 4027481 output: developing, this is almost certainly *not* what you want to do and will likely
+App 4027481 output: result in incorrect file permissions. However, if you are running this command
+App 4027481 output: in a build process (CI, etc.), or you are absolutely sure you know what you are
+App 4027481 output: doing, set the METEOR_ALLOW_SUPERUSER environment variable or pass
+App 4027481 output: --allow-superuser to proceed.
+App 4027481 output: 
+App 4027481 output: Even with METEOR_ALLOW_SUPERUSER or --allow-superuser, permissions in your app
+App 4027481 output: directory will be incorrect if you ever attempt to perform any Meteor tasks as
+App 4027481 output: a normal user. If you need to fix your permissions, run the following command
+App 4027481 output: from the root of your project:
+App 4027481 output: 
+App 4027481 output:   sudo chown -Rh <username> .meteor/local
+App 4027481 output: 
+
+[ N 2022-02-12 16:12:48.5877 4027432/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-12 16:12:48.5878 4027432/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-12 16:12:48.5879 4027432/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-12 16:12:48.5879 4027432/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-12 16:12:48.5880 4027432/Td Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-12 16:12:48.5880 4027432/Td Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ W 2022-02-12 16:13:18.5925 4027654/T1 age/Wat/WatchdogMain.cpp:537 ]: Some Phusion Passenger(R) agent processes did not exit in time, forcefully shutting down all.
+[ N 2022-02-12 16:41:40.0862 4041093/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-12 16:41:40.1076 4041096/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-12 16:41:40.1078 4041096/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-12 16:41:40.1157 4041096/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 4041096
+[ N 2022-02-12 16:41:42.2840 4041096/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 4041145 output: 
+App 4041145 output: You are attempting to run Meteor as the 'root' superuser. If you are
+App 4041145 output: developing, this is almost certainly *not* what you want to do and will likely
+App 4041145 output: result in incorrect file permissions. However, if you are running this command
+App 4041145 output: in a build process (CI, etc.), or you are absolutely sure you know what you are
+App 4041145 output: doing, set the METEOR_ALLOW_SUPERUSER environment variable or pass
+App 4041145 output: --allow-superuser to proceed.
+App 4041145 output: 
+App 4041145 output: Even with METEOR_ALLOW_SUPERUSER or --allow-superuser, permissions in your app
+App 4041145 output: directory will be incorrect if you ever attempt to perform any Meteor tasks as
+App 4041145 output: a normal user. If you need to fix your permissions, run the following command
+App 4041145 output: from the root of your project:
+App 4041145 output: 
+App 4041145 output:   sudo chown -Rh <username> .meteor/local
+App 4041145 output: 
+
+[ N 2022-02-12 16:42:32.3960 4041096/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-12 16:42:32.3960 4041096/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-12 16:42:32.3961 4041096/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-12 16:42:32.3961 4041096/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-12 16:42:32.3962 4041096/Td Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-12 16:42:32.3962 4041096/Td Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ W 2022-02-12 16:43:02.4021 4041555/T1 age/Wat/WatchdogMain.cpp:537 ]: Some Phusion Passenger(R) agent processes did not exit in time, forcefully shutting down all.
+[ N 2022-02-12 16:46:48.8324 4043400/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-12 16:46:48.8535 4043403/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-12 16:46:48.8536 4043403/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-12 16:46:48.8616 4043403/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 4043403
+[ N 2022-02-12 16:46:51.0491 4043403/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 4043452 output: [[[[[ ~/Artee/arteesinglesignin ]]]]]
+App 4043452 output: 
+App 4043452 output: => Started proxy.
+App 4043452 output: => Started HMR server.
+App 4043452 output: => Meteor 2.6 is available. Update this project with 'meteor update'.
+App 4043452 output: => Started MongoDB.
+App 4043452 output: => Started your app.
+App 4043452 output: 
+App 4043452 output: => App running at: http://localhost:7175/
+
+[ N 2022-02-12 16:47:41.1548 4043403/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-12 16:47:41.1548 4043403/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-12 16:47:41.1549 4043403/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 4043452, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-12 16:47:41.1550 4043403/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-12 16:47:41.1550 4043403/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-12 16:47:41.1551 4043403/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-12 16:47:41.1551 4043403/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-12 16:47:41.1552 4043403/Td Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-12 16:47:41.1552 4043403/Td Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-12 16:47:41.1555 4043403/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 4043452, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-12 16:47:41.4334 4043403/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-12 16:48:31.1171 4044365/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-12 16:48:31.1381 4044368/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-12 16:48:31.1383 4044368/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-12 16:48:31.1462 4044368/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 4044368
+[ N 2022-02-12 16:48:33.3219 4044368/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 4044417 output: [[[[[ ~/Artee/arteesinglesignin ]]]]]
+App 4044417 output: 
+App 4044417 output: => Started proxy.
+App 4044417 output: => Started HMR server.
+
+[ N 2022-02-12 16:48:44.6972 4044368/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-12 16:48:44.6973 4044368/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-12 16:48:44.6974 4044368/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 4044417, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-12 16:48:44.6975 4044368/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-12 16:48:44.6975 4044368/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-12 16:48:44.6976 4044368/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-12 16:48:44.6976 4044368/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-12 16:48:44.6977 4044368/Td Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-12 16:48:44.6977 4044368/Td Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-12 16:48:44.6991 4044368/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 4044417, application /home/ubuntu/Artee/arteesinglesignin (development)
+App 4044417 output: Error starting Mongo (2 tries left): rs.initiate error: write EPIPE
+[ N 2022-02-12 16:48:46.6840 4044368/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-12 16:49:16.6143 4044869/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-12 16:49:16.6356 4044872/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-12 16:49:16.6359 4044872/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-12 16:49:16.6440 4044872/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 4044872
+[ N 2022-02-12 16:49:18.8152 4044872/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 4044921 output: [[[[[ ~/Artee/arteesinglesignin ]]]]]
+App 4044921 output: 
+App 4044921 output: => Started proxy.
+App 4044921 output: => Started HMR server.
+App 4044921 output: => Meteor 2.6 is available. Update this project with 'meteor update'.
+App 4044921 output: => Started MongoDB.
+App 4044921 output: => Started your app.
+App 4044921 output: 
+App 4044921 output: => App running at: http://localhost:9857/
+
+[ N 2022-02-12 16:50:14.0190 4044872/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-12 16:50:14.0191 4044872/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-12 16:50:14.0191 4044872/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 4044921, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-12 16:50:14.0192 4044872/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-12 16:50:14.0192 4044872/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-12 16:50:14.0192 4044872/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-12 16:50:14.0192 4044872/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-12 16:50:14.0194 4044872/Td Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-12 16:50:14.0194 4044872/Td Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-12 16:50:14.0197 4044872/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 4044921, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-12 16:50:14.3088 4044872/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-12 16:50:29.7622 4045632/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-12 16:50:29.7838 4045635/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-12 16:50:29.7840 4045635/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-12 16:50:29.7920 4045635/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 4045635
+[ N 2022-02-12 16:50:31.9519 4045635/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 4045686 output: [[[[[ ~/Artee/arteesinglesignin ]]]]]
+App 4045686 output: 
+App 4045686 output: => Started proxy.
+App 4045686 output: => Started HMR server.
+App 4045686 output: => Meteor 2.6 is available. Update this project with 'meteor update'.
+App 4045686 output: => Started MongoDB.
+App 4045686 output: => Started your app.
+App 4045686 output: 
+App 4045686 output: => App running at: http://localhost:6467/
+
+[ N 2022-02-12 16:51:43.2435 4045635/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-12 16:51:43.2435 4045635/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-12 16:51:43.2435 4045635/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 4045686, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-12 16:51:43.2436 4045635/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-12 16:51:43.2436 4045635/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-12 16:51:43.2436 4045635/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-12 16:51:43.2436 4045635/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-12 16:51:43.2438 4045635/Td Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-12 16:51:43.2438 4045635/Td Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-12 16:51:43.2440 4045635/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 4045686, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-12 16:51:43.5237 4045635/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-12 16:58:14.2600 4049245/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-12 16:58:14.2867 4049248/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-12 16:58:14.2869 4049248/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-12 16:58:14.2948 4049248/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 4049248
+[ N 2022-02-12 16:58:16.5079 4049248/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 4049298 output: [[[[[ ~/Artee/arteesinglesignin ]]]]]
+App 4049298 output: 
+App 4049298 output: => Started proxy.
+App 4049298 output: => Started HMR server.
+App 4049298 output: => Meteor 2.6 is available. Update this project with 'meteor update'.
+App 4049298 output: => Started MongoDB.
+App 4049298 output: => Started your app.
+App 4049298 output: 
+App 4049298 output: => App running at: http://localhost:5324/
+
+[ N 2022-02-12 19:11:03.6248 4049248/T8 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-12 19:11:03.6248 4049248/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-12 19:11:03.6249 4049248/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 4049298, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-12 19:11:03.6250 4049248/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-12 19:11:03.6250 4049248/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-12 19:11:03.6251 4049248/T8 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-12 19:11:03.6252 4049248/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-12 19:11:03.6252 4049248/Tc Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-12 19:11:03.6252 4049248/Tc Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-12 19:11:03.6262 4049248/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 4049298, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-12 19:11:03.9303 4049248/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-12 19:22:44.4005 4113689/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-12 19:22:44.4217 4113692/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-12 19:22:44.4219 4113692/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-12 19:22:44.4298 4113692/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 4113692
+[ N 2022-02-12 19:22:46.6280 4113692/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 4113741 output: [[[[[ ~/Artee/arteesinglesignin ]]]]]
+App 4113741 output: 
+App 4113741 output: => Started proxy.
+App 4113741 output: => Started HMR server.
+App 4113741 output: => Meteor 2.6 is available. Update this project with 'meteor update'.
+App 4113741 output: => Started MongoDB.
+App 4113741 output: => Started your app.
+App 4113741 output: 
+App 4113741 output: => App running at: http://localhost:10667/
+
+[ N 2022-02-12 19:23:31.1695 4113692/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-12 19:23:31.1695 4113692/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-12 19:23:31.1696 4113692/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 4113741, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-12 19:23:31.1696 4113692/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-12 19:23:31.1697 4113692/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-12 19:23:31.1697 4113692/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-12 19:23:31.1697 4113692/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-12 19:23:31.1698 4113692/Tc Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-12 19:23:31.1698 4113692/Tc Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-12 19:23:31.1700 4113692/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 4113741, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-12 19:23:31.4382 4113692/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished

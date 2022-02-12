@@ -332,4 +332,1172 @@ found [92m0[0m vulnerabilities
 updated 1 package and audited 45 packages in 0.618s
 found [92m0[0m vulnerabilities
 
-[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m ebe99843beb287e[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m ebe99843beb287e[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m ebe99843beb287e[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m bcrypt@5.0.1 ch[0m[K[[90m..................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m bcrypt@5.0.1 ch[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m node-addon-api@[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m node-addon-api@[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m semver@7.3.5 ch[0m[K[[90m..................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m semver@6.3.0 ch[0m[K[[90m..................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m whatwg-url@5.0.[0m[K[[7m [27m[90m.................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m abbrev@1.1.1 ch[0m[K[[7m [27m[90m.................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m gauge@3.0.2 che[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m delegates@1.0.0[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m delegates@1.0.0[0m[K[[7m [27m[90m.................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m is-fullwidth-co[0m[K[[7m [27m[90m.................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m glob@7.2.0 chec[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m once@1.4.0 chec[0m[K[[7m [27m[90m.................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m brace-expansion[0m[K[[7m [27m[90m.................[0m] | loadDep:yallist: [7msill[0m [35mresolveWithNewModule[0m yallist@4.0.0[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m chownr@2.0.0 c[0m[K[[7m      [27m[90m............[0m] | diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K[[7m       [27m[90m...........[0m] | postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m  
+[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m ebe99843beb287e[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m ebe99843beb287e[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m ebe99843beb287e[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m bcrypt@5.0.1 ch[0m[K[[90m..................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m bcrypt@5.0.1 ch[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m node-addon-api@[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m node-addon-api@[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m semver@7.3.5 ch[0m[K[[90m..................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m semver@6.3.0 ch[0m[K[[90m..................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m whatwg-url@5.0.[0m[K[[7m [27m[90m.................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m abbrev@1.1.1 ch[0m[K[[7m [27m[90m.................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m gauge@3.0.2 che[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m delegates@1.0.0[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m delegates@1.0.0[0m[K[[7m [27m[90m.................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m is-fullwidth-co[0m[K[[7m [27m[90m.................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m glob@7.2.0 chec[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m once@1.4.0 chec[0m[K[[7m [27m[90m.................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m brace-expansion[0m[K[[7m [27m[90m.................[0m] | loadDep:yallist: [7msill[0m [35mresolveWithNewModule[0m yallist@4.0.0[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m chownr@2.0.0 c[0m[K[[7m      [27m[90m............[0m] | diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K[[7m       [27m[90m...........[0m] | postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m         [27m[90m.........[0m] - extract:npmlog: [7msill[0m [35mextract[0m is-fullwidth-code-point@^3.[0m[K[[7m           [27m[90m.......[0m] / extract:gauge: [7msill[0m [35mextract[0m gauge@^3.0.0 extracted to /h[0m[K[[7m            [27m[90m......[0m] \ finalize:delegates: [7msill[0m [35mfinalize[0m /home/ubuntu/Artee/bun[0m[K[[7m            [27m[90m......[0m] - finalize:wide-align: [7msill[0m [35mfinalize[0m /home/ubuntu/Artee/bu[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:bcrypt: [32;40mtiming[0m [35maction:finalize[0m Comp[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:bcrypt: [32;40mtiming[0m [35maction:finalize[0m Comp[0m[K[[7m            [27m[90m......[0m] | preinstall:tar: [32minfo[0m [35mlifecycle[0m tar@6.1.11~preinstall: ta[0m[K[K[?25h
+> bcrypt@5.0.1 install /home/ubuntu/Artee/bundle/programs/server/node_modules/bcrypt
+> node-pre-gyp install --fallback-to-build
+
+[bcrypt] Success: "/home/ubuntu/Artee/bundle/programs/server/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node" is installed via remote
+[?25l[[7m            [27m[90m......[0m] | postinstall: [32minfo[0m [35mlifecycle[0m bcrypt@5.0.1~postinstall: bc[0m[K[K[?25h+ bcrypt@5.0.1
+added 54 packages from 114 contributors and audited 99 packages in 2.444s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found [92m0[0m vulnerabilities
+
+[?25l[[7m            [27m[90m......[0m] / postinstall: [7msill[0m [35minstall[0m printInstalled[0m[K[K[?25h[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90marteesinglesignin.js[39m
+(node:1826940) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1826940) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ cd arteesinglesignin
+]0;ubuntu@ip-172-31-38-179: ~/Artee/arteesinglesigninubuntu@ip-172-31-38-179:~/Artee/arteesinglesignin$ ./gitup.sh
+[main 53d9a16] update
+ Committer: Ubuntu <ubuntu@ip-172-31-38-179.eu-west-1.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 276 insertions(+), 18 deletions(-)
+ delete mode 100644 arteesinglesignin.tar.gz
+ delete mode 100755 run.sh
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 12.48 KiB | 4.16 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/Kennyabby/arteesinglesignin.git
+   57a2249..53d9a16  main -> main
+Branch 'main' set up to track remote branch 'main' from 'https://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@github.com/Kennyabby/arteesinglesignin.git'.
+]0;ubuntu@ip-172-31-38-179: ~/Artee/arteesinglesigninubuntu@ip-172-31-38-179:~/Artee/arteesinglesignin$ cd ..
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ forever
+[36mhelp[39m:    usage: forever [action] [options] SCRIPT [script-options]
+[36mhelp[39m:    
+[36mhelp[39m:    Monitors the script specified in the current process or as a daemon
+[36mhelp[39m:    
+[36mhelp[39m:    actions:
+[36mhelp[39m:      start               Start SCRIPT as a daemon
+[36mhelp[39m:      stop                Stop the daemon SCRIPT by Id|Uid|Pid|Index|Script
+[36mhelp[39m:      stopall             Stop all running forever scripts
+[36mhelp[39m:      restart             Restart the daemon SCRIPT
+[36mhelp[39m:      restartall          Restart all running forever scripts
+[36mhelp[39m:      list                List all running forever scripts
+[36mhelp[39m:      config              Lists all forever user configuration
+[36mhelp[39m:      set <key> <val>     Sets the specified forever config <key>
+[36mhelp[39m:      clear <key>         Clears the specified forever config <key>
+[36mhelp[39m:      logs                Lists log files for all forever processes
+[36mhelp[39m:      logs <script|index> Tails the logs for <script|index>
+[36mhelp[39m:      columns add <col>   Adds the specified column to the output in `forever list`. Supported columns: 'uid', 'command', 'script', 'forever', 'pid', 'id', 'logfile', 'uptime'
+[36mhelp[39m:      columns rm <col>    Removed the specified column from the output in `forever list`
+[36mhelp[39m:      columns set <cols>  Set all columns for the output in `forever list`
+[36mhelp[39m:      columns reset       Resets all columns to defaults for the output in `forever list`
+[36mhelp[39m:      cleanlogs           [CAREFUL] Deletes all historical forever log files
+[36mhelp[39m:    
+[36mhelp[39m:    options:
+[36mhelp[39m:      -m  MAX          Only run the specified script MAX times
+[36mhelp[39m:      -l  LOGFILE      Logs the forever output to LOGFILE
+[36mhelp[39m:      -o  OUTFILE      Logs stdout from child script to OUTFILE
+[36mhelp[39m:      -e  ERRFILE      Logs stderr from child script to ERRFILE
+[36mhelp[39m:      -p  PATH         Base path for all forever related files (pid files, etc.)
+[36mhelp[39m:      -c  COMMAND      COMMAND to execute (defaults to node)
+[36mhelp[39m:      -a, --append     Append logs
+[36mhelp[39m:      -f, --fifo       Stream logs to stdout
+[36mhelp[39m:      -n, --number     Number of log lines to print
+[36mhelp[39m:      --pidFile        The pid file
+[36mhelp[39m:      --uid            Process uid, useful as a namespace for processes (must wrap in a string)
+[36mhelp[39m:                       e.g. forever start --uid "production" app.js
+[36mhelp[39m:                           forever stop production
+[36mhelp[39m:      --sourceDir      The source directory for which SCRIPT is relative to
+[36mhelp[39m:      --workingDir     The working directory in which SCRIPT will execute
+[36mhelp[39m:      --minUptime      Minimum uptime (millis) for a script to not be considered "spinning"
+[36mhelp[39m:      --spinSleepTime  Time to wait (millis) between launches of a spinning script.
+[36mhelp[39m:      --colors         --no-colors will disable output coloring
+[36mhelp[39m:      --plain          alias of --no-colors
+[36mhelp[39m:      -d, --debug      Forces forever to log debug output
+[36mhelp[39m:      -v, --verbose    Turns on the verbose messages from Forever
+[36mhelp[39m:      -s, --silent     Run the child script silencing stdout and stderr
+[36mhelp[39m:      -w, --watch      Watch for file changes
+[36mhelp[39m:      --watchDirectory Top-level directory to watch from
+[36mhelp[39m:      --watchIgnore    To ignore pattern when watch is enabled (multiple option is allowed)
+[36mhelp[39m:      -t, --killTree   Kills the entire child process tree on `stop`
+[36mhelp[39m:      --killSignal     Support exit signal customization (default is SIGKILL)
+[36mhelp[39m:                       used for restarting script gracefully e.g. --killSignal=SIGTERM
+[36mhelp[39m:      --version        Print the current version
+[36mhelp[39m:      -h, --help       You're staring at it
+[36mhelp[39m:    
+[36mhelp[39m:    [Long Running Process]
+[36mhelp[39m:      The forever process will continue to run outputting log messages to the console.
+[36mhelp[39m:      ex. forever -o out.log -e err.log my-script.js
+[36mhelp[39m:    
+[36mhelp[39m:    [Daemon]
+[36mhelp[39m:      The forever process will run as a daemon which will make the target process start
+[36mhelp[39m:      in the background. This is extremely useful for remote starting simple node.js scripts
+[36mhelp[39m:      without using nohup. It is recommended to run start with -o -l, & -e.
+[36mhelp[39m:      ex. forever start -l forever.log -o out.log -e err.log my-daemon.js
+[36mhelp[39m:          forever stop my-daemon.js
+[36mhelp[39m:    
+(node:1826979) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1826979) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ forever stop
+[36mhelp[39m:    usage: forever [action] [options] SCRIPT [script-options]
+[36mhelp[39m:    
+[36mhelp[39m:    Monitors the script specified in the current process or as a daemon
+[36mhelp[39m:    
+[36mhelp[39m:    actions:
+[36mhelp[39m:      start               Start SCRIPT as a daemon
+[36mhelp[39m:      stop                Stop the daemon SCRIPT by Id|Uid|Pid|Index|Script
+[36mhelp[39m:      stopall             Stop all running forever scripts
+[36mhelp[39m:      restart             Restart the daemon SCRIPT
+[36mhelp[39m:      restartall          Restart all running forever scripts
+[36mhelp[39m:      list                List all running forever scripts
+[36mhelp[39m:      config              Lists all forever user configuration
+[36mhelp[39m:      set <key> <val>     Sets the specified forever config <key>
+[36mhelp[39m:      clear <key>         Clears the specified forever config <key>
+[36mhelp[39m:      logs                Lists log files for all forever processes
+[36mhelp[39m:      logs <script|index> Tails the logs for <script|index>
+[36mhelp[39m:      columns add <col>   Adds the specified column to the output in `forever list`. Supported columns: 'uid', 'command', 'script', 'forever', 'pid', 'id', 'logfile', 'uptime'
+[36mhelp[39m:      columns rm <col>    Removed the specified column from the output in `forever list`
+[36mhelp[39m:      columns set <cols>  Set all columns for the output in `forever list`
+[36mhelp[39m:      columns reset       Resets all columns to defaults for the output in `forever list`
+[36mhelp[39m:      cleanlogs           [CAREFUL] Deletes all historical forever log files
+[36mhelp[39m:    
+[36mhelp[39m:    options:
+[36mhelp[39m:      -m  MAX          Only run the specified script MAX times
+[36mhelp[39m:      -l  LOGFILE      Logs the forever output to LOGFILE
+[36mhelp[39m:      -o  OUTFILE      Logs stdout from child script to OUTFILE
+[36mhelp[39m:      -e  ERRFILE      Logs stderr from child script to ERRFILE
+[36mhelp[39m:      -p  PATH         Base path for all forever related files (pid files, etc.)
+[36mhelp[39m:      -c  COMMAND      COMMAND to execute (defaults to node)
+[36mhelp[39m:      -a, --append     Append logs
+[36mhelp[39m:      -f, --fifo       Stream logs to stdout
+[36mhelp[39m:      -n, --number     Number of log lines to print
+[36mhelp[39m:      --pidFile        The pid file
+[36mhelp[39m:      --uid            Process uid, useful as a namespace for processes (must wrap in a string)
+[36mhelp[39m:                       e.g. forever start --uid "production" app.js
+[36mhelp[39m:                           forever stop production
+[36mhelp[39m:      --sourceDir      The source directory for which SCRIPT is relative to
+[36mhelp[39m:      --workingDir     The working directory in which SCRIPT will execute
+[36mhelp[39m:      --minUptime      Minimum uptime (millis) for a script to not be considered "spinning"
+[36mhelp[39m:      --spinSleepTime  Time to wait (millis) between launches of a spinning script.
+[36mhelp[39m:      --colors         --no-colors will disable output coloring
+[36mhelp[39m:      --plain          alias of --no-colors
+[36mhelp[39m:      -d, --debug      Forces forever to log debug output
+[36mhelp[39m:      -v, --verbose    Turns on the verbose messages from Forever
+[36mhelp[39m:      -s, --silent     Run the child script silencing stdout and stderr
+[36mhelp[39m:      -w, --watch      Watch for file changes
+[36mhelp[39m:      --watchDirectory Top-level directory to watch from
+[36mhelp[39m:      --watchIgnore    To ignore pattern when watch is enabled (multiple option is allowed)
+[36mhelp[39m:      -t, --killTree   Kills the entire child process tree on `stop`
+[36mhelp[39m:      --killSignal     Support exit signal customization (default is SIGKILL)
+[36mhelp[39m:                       used for restarting script gracefully e.g. --killSignal=SIGTERM
+[36mhelp[39m:      --version        Print the current version
+[36mhelp[39m:      -h, --help       You're staring at it
+[36mhelp[39m:    
+[36mhelp[39m:    [Long Running Process]
+[36mhelp[39m:      The forever process will continue to run outputting log messages to the console.
+[36mhelp[39m:      ex. forever -o out.log -e err.log my-script.js
+[36mhelp[39m:    
+[36mhelp[39m:    [Daemon]
+[36mhelp[39m:      The forever process will run as a daemon which will make the target process start
+[36mhelp[39m:      in the background. This is extremely useful for remote starting simple node.js scripts
+[36mhelp[39m:      without using nohup. It is recommended to run start with -o -l, & -e.
+[36mhelp[39m:      ex. forever start -l forever.log -o out.log -e err.log my-daemon.js
+[36mhelp[39m:          forever stop my-daemon.js
+[36mhelp[39m:    
+(node:1826987) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1826987) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ forever stopr[K[K[K[K[Kret[Kstart
+[36mhelp[39m:    usage: forever [action] [options] SCRIPT [script-options]
+[36mhelp[39m:    
+[36mhelp[39m:    Monitors the script specified in the current process or as a daemon
+[36mhelp[39m:    
+[36mhelp[39m:    actions:
+[36mhelp[39m:      start               Start SCRIPT as a daemon
+[36mhelp[39m:      stop                Stop the daemon SCRIPT by Id|Uid|Pid|Index|Script
+[36mhelp[39m:      stopall             Stop all running forever scripts
+[36mhelp[39m:      restart             Restart the daemon SCRIPT
+[36mhelp[39m:      restartall          Restart all running forever scripts
+[36mhelp[39m:      list                List all running forever scripts
+[36mhelp[39m:      config              Lists all forever user configuration
+[36mhelp[39m:      set <key> <val>     Sets the specified forever config <key>
+[36mhelp[39m:      clear <key>         Clears the specified forever config <key>
+[36mhelp[39m:      logs                Lists log files for all forever processes
+[36mhelp[39m:      logs <script|index> Tails the logs for <script|index>
+[36mhelp[39m:      columns add <col>   Adds the specified column to the output in `forever list`. Supported columns: 'uid', 'command', 'script', 'forever', 'pid', 'id', 'logfile', 'uptime'
+[36mhelp[39m:      columns rm <col>    Removed the specified column from the output in `forever list`
+[36mhelp[39m:      columns set <cols>  Set all columns for the output in `forever list`
+[36mhelp[39m:      columns reset       Resets all columns to defaults for the output in `forever list`
+[36mhelp[39m:      cleanlogs           [CAREFUL] Deletes all historical forever log files
+[36mhelp[39m:    
+[36mhelp[39m:    options:
+[36mhelp[39m:      -m  MAX          Only run the specified script MAX times
+[36mhelp[39m:      -l  LOGFILE      Logs the forever output to LOGFILE
+[36mhelp[39m:      -o  OUTFILE      Logs stdout from child script to OUTFILE
+[36mhelp[39m:      -e  ERRFILE      Logs stderr from child script to ERRFILE
+[36mhelp[39m:      -p  PATH         Base path for all forever related files (pid files, etc.)
+[36mhelp[39m:      -c  COMMAND      COMMAND to execute (defaults to node)
+[36mhelp[39m:      -a, --append     Append logs
+[36mhelp[39m:      -f, --fifo       Stream logs to stdout
+[36mhelp[39m:      -n, --number     Number of log lines to print
+[36mhelp[39m:      --pidFile        The pid file
+[36mhelp[39m:      --uid            Process uid, useful as a namespace for processes (must wrap in a string)
+[36mhelp[39m:                       e.g. forever start --uid "production" app.js
+[36mhelp[39m:                           forever stop production
+[36mhelp[39m:      --sourceDir      The source directory for which SCRIPT is relative to
+[36mhelp[39m:      --workingDir     The working directory in which SCRIPT will execute
+[36mhelp[39m:      --minUptime      Minimum uptime (millis) for a script to not be considered "spinning"
+[36mhelp[39m:      --spinSleepTime  Time to wait (millis) between launches of a spinning script.
+[36mhelp[39m:      --colors         --no-colors will disable output coloring
+[36mhelp[39m:      --plain          alias of --no-colors
+[36mhelp[39m:      -d, --debug      Forces forever to log debug output
+[36mhelp[39m:      -v, --verbose    Turns on the verbose messages from Forever
+[36mhelp[39m:      -s, --silent     Run the child script silencing stdout and stderr
+[36mhelp[39m:      -w, --watch      Watch for file changes
+[36mhelp[39m:      --watchDirectory Top-level directory to watch from
+[36mhelp[39m:      --watchIgnore    To ignore pattern when watch is enabled (multiple option is allowed)
+[36mhelp[39m:      -t, --killTree   Kills the entire child process tree on `stop`
+[36mhelp[39m:      --killSignal     Support exit signal customization (default is SIGKILL)
+[36mhelp[39m:                       used for restarting script gracefully e.g. --killSignal=SIGTERM
+[36mhelp[39m:      --version        Print the current version
+[36mhelp[39m:      -h, --help       You're staring at it
+[36mhelp[39m:    
+[36mhelp[39m:    [Long Running Process]
+[36mhelp[39m:      The forever process will continue to run outputting log messages to the console.
+[36mhelp[39m:      ex. forever -o out.log -e err.log my-script.js
+[36mhelp[39m:    
+[36mhelp[39m:    [Daemon]
+[36mhelp[39m:      The forever process will run as a daemon which will make the target process start
+[36mhelp[39m:      in the background. This is extremely useful for remote starting simple node.js scripts
+[36mhelp[39m:      without using nohup. It is recommended to run start with -o -l, & -e.
+[36mhelp[39m:      ex. forever start -l forever.log -o out.log -e err.log my-daemon.js
+[36mhelp[39m:          forever stop my-daemon.js
+[36mhelp[39m:    
+(node:1826994) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1826994) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ forever
+[36mhelp[39m:    usage: forever [action] [options] SCRIPT [script-options]
+[36mhelp[39m:    
+[36mhelp[39m:    Monitors the script specified in the current process or as a daemon
+[36mhelp[39m:    
+[36mhelp[39m:    actions:
+[36mhelp[39m:      start               Start SCRIPT as a daemon
+[36mhelp[39m:      stop                Stop the daemon SCRIPT by Id|Uid|Pid|Index|Script
+[36mhelp[39m:      stopall             Stop all running forever scripts
+[36mhelp[39m:      restart             Restart the daemon SCRIPT
+[36mhelp[39m:      restartall          Restart all running forever scripts
+[36mhelp[39m:      list                List all running forever scripts
+[36mhelp[39m:      config              Lists all forever user configuration
+[36mhelp[39m:      set <key> <val>     Sets the specified forever config <key>
+[36mhelp[39m:      clear <key>         Clears the specified forever config <key>
+[36mhelp[39m:      logs                Lists log files for all forever processes
+[36mhelp[39m:      logs <script|index> Tails the logs for <script|index>
+[36mhelp[39m:      columns add <col>   Adds the specified column to the output in `forever list`. Supported columns: 'uid', 'command', 'script', 'forever', 'pid', 'id', 'logfile', 'uptime'
+[36mhelp[39m:      columns rm <col>    Removed the specified column from the output in `forever list`
+[36mhelp[39m:      columns set <cols>  Set all columns for the output in `forever list`
+[36mhelp[39m:      columns reset       Resets all columns to defaults for the output in `forever list`
+[36mhelp[39m:      cleanlogs           [CAREFUL] Deletes all historical forever log files
+[36mhelp[39m:    
+[36mhelp[39m:    options:
+[36mhelp[39m:      -m  MAX          Only run the specified script MAX times
+[36mhelp[39m:      -l  LOGFILE      Logs the forever output to LOGFILE
+[36mhelp[39m:      -o  OUTFILE      Logs stdout from child script to OUTFILE
+[36mhelp[39m:      -e  ERRFILE      Logs stderr from child script to ERRFILE
+[36mhelp[39m:      -p  PATH         Base path for all forever related files (pid files, etc.)
+[36mhelp[39m:      -c  COMMAND      COMMAND to execute (defaults to node)
+[36mhelp[39m:      -a, --append     Append logs
+[36mhelp[39m:      -f, --fifo       Stream logs to stdout
+[36mhelp[39m:      -n, --number     Number of log lines to print
+[36mhelp[39m:      --pidFile        The pid file
+[36mhelp[39m:      --uid            Process uid, useful as a namespace for processes (must wrap in a string)
+[36mhelp[39m:                       e.g. forever start --uid "production" app.js
+[36mhelp[39m:                           forever stop production
+[36mhelp[39m:      --sourceDir      The source directory for which SCRIPT is relative to
+[36mhelp[39m:      --workingDir     The working directory in which SCRIPT will execute
+[36mhelp[39m:      --minUptime      Minimum uptime (millis) for a script to not be considered "spinning"
+[36mhelp[39m:      --spinSleepTime  Time to wait (millis) between launches of a spinning script.
+[36mhelp[39m:      --colors         --no-colors will disable output coloring
+[36mhelp[39m:      --plain          alias of --no-colors
+[36mhelp[39m:      -d, --debug      Forces forever to log debug output
+[36mhelp[39m:      -v, --verbose    Turns on the verbose messages from Forever
+[36mhelp[39m:      -s, --silent     Run the child script silencing stdout and stderr
+[36mhelp[39m:      -w, --watch      Watch for file changes
+[36mhelp[39m:      --watchDirectory Top-level directory to watch from
+[36mhelp[39m:      --watchIgnore    To ignore pattern when watch is enabled (multiple option is allowed)
+[36mhelp[39m:      -t, --killTree   Kills the entire child process tree on `stop`
+[36mhelp[39m:      --killSignal     Support exit signal customization (default is SIGKILL)
+[36mhelp[39m:                       used for restarting script gracefully e.g. --killSignal=SIGTERM
+[36mhelp[39m:      --version        Print the current version
+[36mhelp[39m:      -h, --help       You're staring at it
+[36mhelp[39m:    
+[36mhelp[39m:    [Long Running Process]
+[36mhelp[39m:      The forever process will continue to run outputting log messages to the console.
+[36mhelp[39m:      ex. forever -o out.log -e err.log my-script.js
+[36mhelp[39m:    
+[36mhelp[39m:    [Daemon]
+[36mhelp[39m:      The forever process will run as a daemon which will make the target process start
+[36mhelp[39m:      in the background. This is extremely useful for remote starting simple node.js scripts
+[36mhelp[39m:      without using nohup. It is recommended to run start with -o -l, & -e.
+[36mhelp[39m:      ex. forever start -l forever.log -o out.log -e err.log my-daemon.js
+[36mhelp[39m:          forever stop my-daemon.js
+[36mhelp[39m:    
+(node:1827002) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1827002) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ sudo apt-get remove[K[K[K[Kmove forever
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package forever
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ sudo apt-get remove forever[1P forever[1P forever[1P forever[1P forever[1P forever[1P foreverp foreveru foreverr foreverg forevere forever
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package forever
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ npm -g uninstall <name>[K[K[K[K[K[K[K forever
+[?25l⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 0ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 10ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 10ms[0m[K[K[?25h[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m EACCES
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35msyscall[0m rename
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mpath[0m /usr/lib/node_modules/forever
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mdest[0m /usr/lib/node_modules/.forever-SJEi5HMf
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m -13
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Error: EACCES: permission denied, rename '/usr/lib/node_modules/forever' -> '/usr/lib/node_modules/.forever-SJEi5HMf'
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m  [Error: EACCES: permission denied, rename '/usr/lib/node_modules/forever' -> '/usr/lib/node_modules/.forever-SJEi5HMf'] {
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m   errno: -13,
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m   code: 'EACCES',
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m   syscall: 'rename',
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m   path: '/usr/lib/node_modules/forever',
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m   dest: '/usr/lib/node_modules/.forever-SJEi5HMf'
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m }
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m The operation was rejected by your operating system.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m It is likely you do not have the permissions to access this file as the current user
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m If you believe this might be a permissions issue, please double-check the
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m permissions of the file and its containing directories, or try running
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m the command again as root/Administrator.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /home/ubuntu/.npm/_logs/2022-02-11T16_47_20_323Z-debug-0.log
+[0m]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ npm -g uninstall forever[1@s[1@u[1@d[1@o[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --save
+[?25l⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 11ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 11ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 11ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 11ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 11ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 11ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 11ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 11ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 11ms[0m[K[K[?25h
+removed 254 packages, and audited 1 package in 805ms
+
+found [32m[1m0[22m[39m vulnerabilities
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ sudo npm -g uninstall forever --save
+[?25l⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[K[?25h
+up to date, audited 1 package in 257ms
+
+found [32m[1m0[22m[39m vulnerabilities
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ sudo npm -g uninstall forever --save[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@p[1@u[1@r[1@g[1@e
+Unknown command: "purge"
+
+To see a list of supported npm commands, run:
+  npm help
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ forever
+bash: /usr/bin/forever: No such file or directory
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ npm list -g
+[0m/usr/lib[0m
+[0m├── caniuse-lite@1.0.30001304[0m
+[0m├── corepack@0.10.0[0m
+[0m├── create-react-app@5.0.0[0m
+[0m├── meteor@2.5.7[0m
+[0m├── mup@1.5.5[0m
+[0m├── mupx-letsencrypt@1.1.1[0m
+[0m├── mupx@1.5.3[0m
+[0m├── npm@8.3.1[0m
+[0m└── surge@0.23.1[0m
+[0m[0m
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ npm -g uninstall mup
+[?25l⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 11ms[0m[K[K[?25h[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m EACCES
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35msyscall[0m rename
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mpath[0m /usr/lib/node_modules/mup
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mdest[0m /usr/lib/node_modules/.mup-8S3l0CRC
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m -13
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Error: EACCES: permission denied, rename '/usr/lib/node_modules/mup' -> '/usr/lib/node_modules/.mup-8S3l0CRC'
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m  [Error: EACCES: permission denied, rename '/usr/lib/node_modules/mup' -> '/usr/lib/node_modules/.mup-8S3l0CRC'] {
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m   errno: -13,
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m   code: 'EACCES',
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m   syscall: 'rename',
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m   path: '/usr/lib/node_modules/mup',
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m   dest: '/usr/lib/node_modules/.mup-8S3l0CRC'
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m }
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m The operation was rejected by your operating system.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m It is likely you do not have the permissions to access this file as the current user
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m If you believe this might be a permissions issue, please double-check the
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m permissions of the file and its containing directories, or try running
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m the command again as root/Administrator.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /home/ubuntu/.npm/_logs/2022-02-11T16_48_47_106Z-debug-0.log
+[0m]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ npm -g uninstall mup[1@s[1@u[1@d[1@o[1@ 
+[?25l⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 10ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 10ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 10ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 10ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 10ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 10ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 10ms[0m[K[K[?25h
+removed 113 packages, and audited 1 package in 662ms
+
+found [32m[1m0[22m[39m vulnerabilities
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ sudo npm -g uninstall mup[Cx
+[?25l⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 10ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 10ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 10ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 10ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 10ms[0m[K[K[?25h
+removed 111 packages, and audited 1 package in 551ms
+
+found [32m[1m0[22m[39m vulnerabilities
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ npm lis [Kt -g
+[0m/usr/lib[0m
+[0m├── caniuse-lite@1.0.30001304[0m
+[0m├── corepack@0.10.0[0m
+[0m├── create-react-app@5.0.0[0m
+[0m├── meteor@2.5.7[0m
+[0m├── mupx-letsencrypt@1.1.1[0m
+[0m├── npm@8.3.1[0m
+[0m└── surge@0.23.1[0m
+[0m[0m
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ npm list -gsudo npm -g uninstall mupx[K[K[K[K mupx-letsencrypt
+[?25l⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 11ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 11ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 11ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 11ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 11ms[0m[K[K[?25h
+removed 111 packages, and audited 1 package in 524ms
+
+found [32m[1m0[22m[39m vulnerabilities
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ sudo npm -g uninstall  mupx-letsencrypt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnpm list -g[K
+[0m/usr/lib[0m
+[0m├── caniuse-lite@1.0.30001304[0m
+[0m├── corepack@0.10.0[0m
+[0m├── create-react-app@5.0.0[0m
+[0m├── meteor@2.5.7[0m
+[0m├── npm@8.3.1[0m
+[0m└── surge@0.23.1[0m
+[0m[0m
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ npm insta[K[K[K[K[K[K[K[K[Ksudo npm install forever -g
+[?25l⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠸ idealTree:lib: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ idealTree:lib: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ idealTree:lib: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:lib: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:nssocket: [7msill[0m [35mfetch manifest[0m xdg-basedir@^3.0[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:nssocket: [7msill[0m [35mfetch manifest[0m xdg-basedir@^3.0[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:nssocket: [7msill[0m [35mfetch manifest[0m xdg-basedir@^3.0[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠋ idealTree:nssocket: [7msill[0m [35mfetch manifest[0m xdg-basedir@^3.0[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ idealTree:winston: [7msill[0m [35mplaceDep[0m node_modules/forever/no[0m[K⸨[107;97m###[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠧ idealTree:cliff: [32;40mtiming[0m [35midealTree:node_modules/forever/n[0m[K⸨[107;97m###[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠋ idealTree:cliff: [32;40mtiming[0m [35midealTree:node_modules/forever/n[0m[K⸨[107;97m###[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ idealTree:cliff: [32;40mtiming[0m [35midealTree:node_modules/forever/n[0m[K⸨[107;97m###[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠹ idealTree:cliff: [32;40mtiming[0m [35midealTree:node_modules/forever/n[0m[K⸨[107;97m###[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ idealTree:cliff: [32;40mtiming[0m [35midealTree:node_modules/forever/n[0m[K⸨[107;97m###[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ idealTree:anymatch: [7msill[0m [35mfetch manifest[0m is-extglob@^2.1.[0m[K⸨[107;97m###[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠋ idealTree:anymatch: [7msill[0m [35mfetch manifest[0m is-extglob@^2.1.[0m[K⸨[107;97m###[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ idealTree:anymatch: [7msill[0m [35mfetch manifest[0m is-extglob@^2.1.[0m[K⸨[107;97m###[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ idealTree:anymatch: [7msill[0m [35mfetch manifest[0m is-extglob@^2.1.[0m[K⸨[107;97m###[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ idealTree:to-regex: [7msill[0m [35mplaceDep[0m node_modules/forever t[0m[K⸨[107;97m###[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ idealTree:to-regex: [7msill[0m [35mplaceDep[0m node_modules/forever t[0m[K⸨[107;97m###[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:glob-parent: [32;40mtiming[0m [35midealTree:node_modules/for[0m[K⸨[107;97m###[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠼ idealTree:extglob: [7msill[0m [35mplaceDep[0m node_modules/forever re[0m[K⸨[107;97m###[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠸ idealTree:micromatch: [32;40mtiming[0m [35midealTree:node_modules/fore[0m[K⸨[107;97m###[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠋ idealTree:micromatch: [32;40mtiming[0m [35midealTree:node_modules/fore[0m[K⸨[107;97m####[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ idealTree:extglob: [32;40mtiming[0m [35midealTree:node_modules/forever[0m[K⸨[107;97m#####[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ idealTree:winston: [7msill[0m [35mplaceDep[0m node_modules/forever/no[0m[K⸨[107;97m#####[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠋ idealTree:winston: [7msill[0m [35mplaceDep[0m node_modules/forever/no[0m[K⸨[107;97m#####[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠋ idealTree:winston: [7msill[0m [35mplaceDep[0m node_modules/forever/no[0m[K⸨[107;97m#####[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠋ idealTree:winston: [7msill[0m [35mplaceDep[0m node_modules/forever/no[0m[K⸨[107;97m#####[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ idealTree:winston: [7msill[0m [35mplaceDep[0m node_modules/forever/no[0m[K⸨[107;97m#####[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ idealTree:winston: [7msill[0m [35mplaceDep[0m node_modules/forever/no[0m[K⸨[107;97m#####[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠧ idealTree:winston: [7msill[0m [35mplaceDep[0m node_modules/forever/no[0m[K⸨[107;97m#####[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ idealTree:snapdragon: [32;40mtiming[0m [35midealTree:node_modules/fore[0m[K⸨[107;97m#####[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ idealTree:snapdragon: [32;40mtiming[0m [35midealTree:node_modules/fore[0m[K⸨[107;97m#####[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ idealTree:unset-value: [7msill[0m [35mfetch manifest[0m object-visit@[0m[K⸨[107;97m######[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠹ idealTree:split-string: [32;40mtiming[0m [35midealTree:node_modules/fo[0m[K⸨[107;97m#######[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠹ idealTree:unset-value: [32;40mtiming[0m [35midealTree:node_modules/for[0m[K⸨[107;97m#######[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ idealTree:unset-value: [32;40mtiming[0m [35midealTree:node_modules/for[0m[K⸨[107;97m#######[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠹ idealTree:logform: [7msill[0m [35mfetch manifest[0m fn.name@1.x.x[0m[K⸨[107;97m#######[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠸ idealTree:winston: [32;40mtiming[0m [35midealTree:node_modules/forever[0m[K⸨[107;97m#######[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ idealTree:winston: [32;40mtiming[0m [35midealTree:node_modules/forever[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 2467ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠸ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 2467ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠸ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 2467ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:fsevents: [7msill[0m [35mreify[0m mark deleted [ '/usr/lib/node[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:fsevents: [7msill[0m [35mreify[0m mark deleted [ '/usr/lib/node[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ reify:fsevents: [7msill[0m [35mreify[0m mark deleted [ '/usr/lib/node[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ reify:fsevents: [7msill[0m [35mreify[0m mark deleted [ '/usr/lib/node[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ reify:fsevents: [7msill[0m [35mreify[0m mark deleted [ '/usr/lib/node[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠸ reify:fsevents: [7msill[0m [35mreify[0m mark deleted [ '/usr/lib/node[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠸ reify:fsevents: [7msill[0m [35mreify[0m mark deleted [ '/usr/lib/node[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠸ reify:fsevents: [7msill[0m [35mreify[0m mark deleted [ '/usr/lib/node[0m[K⸨[107;97m#############[0m[100;90m⠂⠂⠂⠂⠂[0m⸩ ⠇ reify:is-obj: [32;40mtiming[0m [35mreifyNode:node_modules/forever/node[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+[0m[?25l⸨[107;97m###############[0m[100;90m⠂⠂⠂[0m⸩ ⠙ reify:eyes: [32;40mtiming[0m [35mreifyNode:node_modules/forever/node_m[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+[0m[?25l⸨[107;97m################[0m[100;90m⠂⠂[0m⸩ ⠙ reify:extglob: [32;40mtiming[0m [35mreifyNode:node_modules/forever/nod[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+[0m[?25l⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠇ reify:pkginfo: [32;40mtiming[0m [35mreifyNode:node_modules/forever/nod[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠼ reify:lazy: [32;40mtiming[0m [35mreifyNode:node_modules/forever/node_m[0m[K⸨[107;97m##################[0m⸩ ⠋ reify:@dabh/diagnostics: [32;40mtiming[0m [35mmetavuln:load:security-a[0m[K⸨[107;97m##################[0m⸩ ⠸ reify:logform: [32;40mtiming[0m [35mmetavuln:packument:nconf[0m Completed[0m[K⸨[107;97m##################[0m⸩ ⠼ reify:async: [32;40mtiming[0m [35mreifyNode:node_modules/forever/node_[0m[K[K[?25h
+added 254 packages, and audited 255 packages in 4s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+[31m[1m8[22m[39m vulnerabilities (5 [33m[1mmoderate[22m[39m, 3 [31m[1mhigh[22m[39m)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ npm u[Kaudit fix --force
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35musing --force[0m Recommended protections disabled.
+[0m[?25l⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ : [30;43mWARN[0m [35musing --force[0m Recommended protections disabled.[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ : [30;43mWARN[0m [35musing --force[0m Recommended protections disabled.[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ : [30;43mWARN[0m [35musing --force[0m Recommended protections disabled.[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ : [30;43mWARN[0m [35musing --force[0m Recommended protections disabled.[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ : [30;43mWARN[0m [35musing --force[0m Recommended protections disabled.[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ : [30;43mWARN[0m [35musing --force[0m Recommended protections disabled.[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mold lockfile[0m 
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mold lockfile[0m The package-lock.json file was created with an old version of npm,
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mold lockfile[0m so supplemental metadata must be fetched from the registry.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mold lockfile[0m 
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mold lockfile[0m This is a one-time fix-up, please be patient...
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mold lockfile[0m 
+[0m[?25l⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠋ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠸ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠸ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠧ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠼ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠋ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠹ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠹ : [30;43mWARN[0m [35mold lockfile[0m[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠹ : [30;43mWARN[0m [35mold lockfile[0m[0m[K[K[?25h
+up to date, audited 62 packages in 2s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found [32m[1m0[22m[39m vulnerabilities
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ sudo rm logs[C[1@-[C[1@r[1@ 
+sudo: logs: command not found
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ sudo -r rm logs[1P[1P[1P[C[C[C-logsrlogs logs
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ sudo rm -r logs[C[K[K[K[Kbundle
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ sudo nano .[Krun.sh
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 20 lines ](B[m[H(B[0;7m  GNU nano 4.8                         run.sh                                   [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m[36m#load environment variables[4d(B[0;1m[34mrm[39m(B[m -rf bundle[5d(B[0;1m[34mtar[39m(B[m -xzf arteesinglesignin.tar(B[m.gz[6d(B[0;1m[34mmkdir[39m(B[m logs[7d(B[0;1m[34mcd[39m(B[m bundle/programs/server[8d[32mexport[39m(B[m MONGO_URL[32m=(B[0;1m[33m"mongodb://127.0.0.1:27017/meteor"[9d(B[0m[32mexport[39m(B[m ROOT_URL[32m=(B[0;1m[33m"http://helpdesk.sparnigeria.com"[10d(B[0m[32mexport[39m(B[m ACCESS_KEY_ID[32m=(B[0;1m[33m'AKIA5VBGVTKPYDPRFRXD'[11d(B[0m[32mexport[39m(B[m SECRET_ACCESS_KEY[32m=(B[0;1m[33m'q5BlgWTw3+tj8Ds83r+7t1f38aU0Zntc4SzjLseI'[12d(B[0m[32mexport[39m(B[m PORT[32m=[39m(B[m8080[13dmeteor npm (B[0;1m[34minstall[35m --save[39m(B[m @babel/runtime[14dmeteor npm (B[0;1m[34minstall[39m(B[m @babel/runtime@latest[15dmeteor npm (B[0;1m[34minstall[35m --save[39m(B[m bcrypt[16d[36m#npm install[17d(B[0;1m[34mcd[39m(B[m ../[18d(B[0;1m[34mcd[39m(B[m ../[19d(B[0;1m[34mmv[39m(B[m main.js arteesinglesignin.js[20dsudo forever start arteesinglesignin.js[2d[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[6;11H[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[6;10H [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25lmkdi[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [22d[K[6dm[?12l[?25h[?25l[K[?12l[?25h[?25l[6;22r[22;1H
+[1;24r[5;34H[?12l[?25h[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 19 lines ](B[m[5;34H[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ ./[K[Ksudo nano run.sh
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 19 lines ](B[m[H(B[0;7m  GNU nano 4.8                         run.sh                                   [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m[36m#load environment variables[4d(B[0;1m[34mrm[39m(B[m -rf bundle[5d(B[0;1m[34mtar[39m(B[m -xzf arteesinglesignin.tar(B[m.gz[6d(B[0;1m[34mcd[39m(B[m bundle/programs/server[7d[32mexport[39m(B[m MONGO_URL[32m=(B[0;1m[33m"mongodb://127.0.0.1:27017/meteor"[8d(B[0m[32mexport[39m(B[m ROOT_URL[32m=(B[0;1m[33m"http://helpdesk.sparnigeria.com"[9d(B[0m[32mexport[39m(B[m ACCESS_KEY_ID[32m=(B[0;1m[33m'AKIA5VBGVTKPYDPRFRXD'[10d(B[0m[32mexport[39m(B[m SECRET_ACCESS_KEY[32m=(B[0;1m[33m'q5BlgWTw3+tj8Ds83r+7t1f38aU0Zntc4SzjLseI'[11d(B[0m[32mexport[39m(B[m PORT[32m=[39m(B[m8080[12dmeteor npm (B[0;1m[34minstall[35m --save[39m(B[m @babel/runtime[13dmeteor npm (B[0;1m[34minstall[39m(B[m @babel/runtime@latest[14dmeteor npm (B[0;1m[34minstall[35m --save[39m(B[m bcrypt[15d[36m#npm install[16d(B[0;1m[34mcd[39m(B[m ../[17d(B[0;1m[34mcd[39m(B[m ../[18d(B[0;1m[34mmv[39m(B[m main.js arteesinglesignin.js[19dsudo forever start arteesinglesignin.js[2d[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25ls[?12l[?25h[?25lu[?12l[?25h[?25ld[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25l[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[19;5H[1P[?12l[?25h[?25l[1P[22d[K[19;4H[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 19 lines ](B[m[19d[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ ./run.sh
+[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m d32c298be7e87a1[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m @babel/runtime@[0m[K[[7m      [27m[90m............[0m] - loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m regenerator-ru[0m[K[[7m       [27m[90m...........[0m] - postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m       [27m[90m...........[0m] / extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m          [27m[90m........[0m] \ extract:detect-libc: [7msill[0m [35mextract[0m periscopic@2.0.3 extra[0m[K[[7m           [27m[90m.......[0m] - extract:estree-walker: [7msill[0m [35mextract[0m estree-walker@2.0.2[0m[K[[7m           [27m[90m.......[0m] | extract:source-map-support: [7msill[0m [35mextract[0m promise@8.1.0 e[0m[K[[7m           [27m[90m.......[0m] - extract:acorn: [7msill[0m [35mextract[0m acorn@6.4.2 extracted to /ho[0m[K[[7m            [27m[90m......[0m] \ extract:@babel/parser: [7msill[0m [35mextract[0m @babel/parser@7.15.3[0m[K[[7m            [27m[90m......[0m] / extract:fibers: [7msill[0m [35mextract[0m fibers@5.0.1 extracted to /[0m[K[[7m            [27m[90m......[0m] / extract:fibers: [7msill[0m [35mextract[0m fibers@5.0.1 extracted to /[0m[K[[7m            [27m[90m......[0m] - finalize:@types/underscore: [7msill[0m [35mfinalize[0m /home/ubuntu/A[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:underscore: [32;40mtiming[0m [35maction:finalize[0m[0m[K[[7m            [27m[90m......[0m] - build:string_decoder: [7msill[0m [35mlinkStuff[0m string_decoder@1.1.[0m[K[K[?25h
+> fibers@5.0.1 install /home/ubuntu/Artee/bundle/programs/server/node_modules/fibers
+> node build.js || nodejs build.js
+
+`linux-x64-83-glibc` exists; testing
+Binary is fine; exiting
+[?25l[[7m            [27m[90m......[0m] \ postinstall: [32minfo[0m [35mlifecycle[0m underscore@1.13.1~postinstal[0m[K[K[?25h+ @babel/runtime@7.17.2
+added 45 packages from 50 contributors and audited 45 packages in 1.334s
+found [92m0[0m vulnerabilities
+
+[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m c015fbcdf2cdd93[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m c015fbcdf2cdd93[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m c015fbcdf2cdd93[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mremoveObsoleteDep[0m removing regenerat[0m[K[[7m      [27m[90m............[0m] / diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K[[7m       [27m[90m...........[0m] - postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m       [27m[90m...........[0m] - extract:@babel/runtime: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.np[0m[K[[7m            [27m[90m......[0m] \ unbuild:@babel/runtime: [7msill[0m [35mdoReverseSerial[0m unbuild 10[0m[K[[7m            [27m[90m......[0m] - postinstall: [32minfo[0m [35mlifecycle[0m @babel/runtime@7.17.2~postin[0m[K[K[?25h+ @babel/runtime@7.17.2
+updated 1 package and audited 45 packages in 0.58s
+found [92m0[0m vulnerabilities
+
+[?25l[[7m            [27m[90m......[0m] | postinstall: [32;40mtiming[0m [35maudit body[0m Completed in 0ms[0m[K[K[?25h[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 0300b150f698a10[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 0300b150f698a10[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 0300b150f698a10[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m bcrypt@5.0.1 ch[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m node-addon-api@[0m[K[[7m [27m[90m.................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m abbrev@1.1.1 ch[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m readable-stream[0m[K[[7m [27m[90m.................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m ansi-regex@5.0.[0m[K[[7m [27m[90m.................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m concat-map@0.0.[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m mkdirp@1.0.4 c[0m[K[[7m      [27m[90m............[0m] | diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K[[7m       [27m[90m...........[0m] | postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m         [27m[90m.........[0m] - extract:npmlog: [32;40mhttp[0m [35mfetch[0m POST 200 https://registry.npm[0m[K[[7m           [27m[90m.......[0m] / extract:gauge: [7msill[0m [35mextract[0m gauge@^3.0.0 extracted to /h[0m[K[[7m            [27m[90m......[0m] | finalize:concat-map: [7msill[0m [35mfinalize[0m /home/ubuntu/Artee/bu[0m[K[[7m            [27m[90m......[0m] - finalize:once: [7msill[0m [35mfinalize[0m /home/ubuntu/Artee/bundle/p[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:bcrypt: [32;40mtiming[0m [35maction:finalize[0m Comp[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:bcrypt: [32;40mtiming[0m [35maction:finalize[0m Comp[0m[K[[7m            [27m[90m......[0m] | preinstall:bcrypt: [32;40mtiming[0m [35maction:refresh-package-json[0m Co[0m[K[K[?25h
+> bcrypt@5.0.1 install /home/ubuntu/Artee/bundle/programs/server/node_modules/bcrypt
+> node-pre-gyp install --fallback-to-build
+
+[bcrypt] Success: "/home/ubuntu/Artee/bundle/programs/server/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node" is installed via remote
+[?25l[[7m            [27m[90m......[0m] | postinstall: [32minfo[0m [35mlifecycle[0m bcrypt@5.0.1~postinstall: bc[0m[K[K[?25h+ bcrypt@5.0.1
+added 54 packages from 114 contributors and audited 99 packages in 1.88s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found [92m0[0m vulnerabilities
+
+[?25l[[7m            [27m[90m......[0m] / postinstall: [7msill[0m [35minstall[0m printInstalled[0m[K[K[?25h[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90marteesinglesignin.js[39m
+(node:1827375) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1827375) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ ./run.shsudo nano run.sh
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 19 lines ](B[m[H(B[0;7m  GNU nano 4.8                         run.sh                                   [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m[36m#load environment variables[4d(B[0;1m[34mrm[39m(B[m -rf bundle[5d(B[0;1m[34mtar[39m(B[m -xzf arteesinglesignin.tar(B[m.gz[6d(B[0;1m[34mcd[39m(B[m bundle/programs/server[7d[32mexport[39m(B[m MONGO_URL[32m=(B[0;1m[33m"mongodb://127.0.0.1:27017/meteor"[8d(B[0m[32mexport[39m(B[m ROOT_URL[32m=(B[0;1m[33m"http://helpdesk.sparnigeria.com"[9d(B[0m[32mexport[39m(B[m ACCESS_KEY_ID[32m=(B[0;1m[33m'AKIA5VBGVTKPYDPRFRXD'[10d(B[0m[32mexport[39m(B[m SECRET_ACCESS_KEY[32m=(B[0;1m[33m'q5BlgWTw3+tj8Ds83r+7t1f38aU0Zntc4SzjLseI'[11d(B[0m[32mexport[39m(B[m PORT[32m=[39m(B[m8080[12dmeteor npm (B[0;1m[34minstall[35m --save[39m(B[m @babel/runtime[13dmeteor npm (B[0;1m[34minstall[39m(B[m @babel/runtime@latest[14dmeteor npm (B[0;1m[34minstall[35m --save[39m(B[m bcrypt[15d[36m#npm install[16d(B[0;1m[34mcd[39m(B[m ../[17d(B[0;1m[34mcd[39m(B[m ../[18d(B[0;1m[34mmv[39m(B[m main.js arteesinglesignin.js[19dforever start arteesinglesignin.js[2d[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25lf[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25l[22d[K[19;6H[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[19;15H-arteesinglesignin.js[19;16H[?12l[?25h[?25l(B[0;1m[35m --arteesinglesignin[39m(B[m.js[19;17H[?12l[?25h[?25l(B[0;1m[35mmarteesinglesignin[39m(B[m.js[19;18H[?12l[?25h[?25l(B[0;1m[35miarteesinglesignin[39m(B[m.js[19;19H[?12l[?25h[?25l(B[0;1m[35mnarteesinglesignin[39m(B[m.js[19;20H[?12l[?25h[?25l(B[0;1m[35mUarteesinglesignin[39m(B[m.js[19;21H[?12l[?25h[?25l(B[0;1m[35mparteesinglesignin[39m(B[m.js[19;22H[?12l[?25h[?25l(B[0;1m[35mtarteesinglesignin[39m(B[m.js[19;23H[?12l[?25h[?25l(B[0;1m[35miarteesinglesignin[39m(B[m.js[19;24H[?12l[?25h[?25l(B[0;1m[35mmarteesinglesignin[39m(B[m.js[19;25H[?12l[?25h[?25l(B[0;1m[35mearteesinglesignin[39m(B[m.js[19;26H[?12l[?25h[?25l arteesinglesignin.js[19;27H[?12l[?25h[?25l2arteesinglesignin.js[19;28H[?12l[?25h[?25l[1P[?12l[?25h[?25l3arteesinglesignin.js[19;28H[?12l[?25h[?25l0arteesinglesignin.js[19;29H[?12l[?25h[?25l00arteesinglesignin.js[19;30H[?12l[?25h[?25l000arteesinglesignin.js[19;31H[?12l[?25h[?25l arteesinglesignin.js[19;32H[?12l[?25h[?25l-arteesinglesignin.js[19;33H[?12l[?25h[?25l(B[0;1m[35m --arteesinglesignin[39m(B[m.js[19;34H[?12l[?25h[?25l(B[0;1m[35mparteesinglesignin[39m(B[m.js[19;35H[?12l[?25h[?25l(B[0;1m[35msarteesinglesignin[39m(B[m.js[19;36H[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l(B[0;1m[35msarteesinglesignin[39m(B[m.js[19;35H[?12l[?25h[?25l(B[0;1m[35mparteesinglesignin[39m(B[m.js[19;36H[?12l[?25h[?25l(B[0;1m[35miarteesinglesignin[39m(B[m.js[19;37H[?12l[?25h[?25l(B[0;1m[35mnarteesinglesignin[39m(B[m.js[19;38H[?12l[?25h[?25l(B[0;1m[35mSarteesinglesignin[39m(B[m.js[19;39H[?12l[?25h[?25l(B[0;1m[35mlarteesinglesignin[39m(B[m.js[19;40H[?12l[?25h[?25l(B[0;1m[35mearteesinglesignin[39m(B[m.js[19;41H[?12l[?25h[?25l(B[0;1m[35meearteesinglesignin[39m(B[m.js[19;42H[?12l[?25h[?25l(B[0;1m[35mparteesinglesignin[39m(B[m.js[19;43H[?12l[?25h[?25l(B[0;1m[35mTarteesinglesignin[39m(B[m.js[19;44H[?12l[?25h[?25l(B[0;1m[35miarteesinglesignin[39m(B[m.js[19;45H[?12l[?25h[?25l(B[0;1m[35mmarteesinglesignin[39m(B[m.js[19;46H[?12l[?25h[?25l(B[0;1m[35mearteesinglesignin[39m(B[m.js[19;47H[?12l[?25h[?25l arteesinglesignin.js[19;48H[?12l[?25h[?25l1arteesinglesignin.js[19;49H[?12l[?25h[?25l0arteesinglesignin.js[19;50H[?12l[?25h[?25l00arteesinglesignin.js[19;51H[?12l[?25h[?25l000arteesinglesignin.js[19;52H[?12l[?25h[?25l arteesinglesignin.js[19;53H[?12l[?25h[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 19 lines ](B[m[19;53H[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ sudo nano run.sh[8P./run.sh
+[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 11a447597d2a630[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 11a447597d2a630[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 11a447597d2a630[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m @babel/runtime@[0m[K[[7m      [27m[90m............[0m] - loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m regenerator-ru[0m[K[[7m      [27m[90m............[0m] \ diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K[[7m       [27m[90m...........[0m] / extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] | extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m          [27m[90m........[0m] | extract:semver: [7msill[0m [35mextract[0m semver@5.4.1 extracted to /[0m[K[[7m           [27m[90m.......[0m] - extract:estree-walker: [7msill[0m [35mextract[0m estree-walker@2.0.2[0m[K[[7m           [27m[90m.......[0m] | extract:source-map: [7msill[0m [35mextract[0m source-map@0.1.32 extra[0m[K[[7m           [27m[90m.......[0m] - extract:acorn: [7msill[0m [35mextract[0m acorn@6.4.2 extracted to /ho[0m[K[[7m            [27m[90m......[0m] \ extract:@babel/parser: [7msill[0m [35mextract[0m @babel/parser@7.15.3[0m[K[[7m            [27m[90m......[0m] / extract:fibers: [7msill[0m [35mextract[0m fibers@5.0.1 extracted to /[0m[K[[7m            [27m[90m......[0m] | finalize:underscore: [7msill[0m [35mdoSerial[0m finalize 360[0m[K[[7m            [27m[90m......[0m] \ finalize:chalk: [7msill[0m [35mfinalize[0m /home/ubuntu/Artee/bundle/[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:underscore: [32;40mtiming[0m [35maction:finalize[0m[0m[K[[7m            [27m[90m......[0m] / build:underscore: [7msill[0m [35mdoSerial[0m build 360[0m[K[K[?25h
+> fibers@5.0.1 install /home/ubuntu/Artee/bundle/programs/server/node_modules/fibers
+> node build.js || nodejs build.js
+
+`linux-x64-83-glibc` exists; testing
+Binary is fine; exiting
+[?25l[[7m            [27m[90m......[0m] \ postinstall: [32minfo[0m [35mlifecycle[0m underscore@1.13.1~postinstal[0m[K[K[?25h+ @babel/runtime@7.17.2
+added 45 packages from 50 contributors and audited 45 packages in 1.403s
+found [92m0[0m vulnerabilities
+
+[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 04506df48427959[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 04506df48427959[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 04506df48427959[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mremoveObsoleteDep[0m removing regenerat[0m[K[[7m      [27m[90m............[0m] / diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K[[7m       [27m[90m...........[0m] - postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m       [27m[90m...........[0m] - extract:@babel/runtime: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.np[0m[K[[7m       [27m[90m...........[0m] - extract:@babel/runtime: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.np[0m[K[[7m            [27m[90m......[0m] / remove:@babel/runtime: [7msill[0m [35mdoSerial[0m remove 10[0m[K[[7m            [27m[90m......[0m] / postinstall: [32minfo[0m [35mlifecycle[0m @babel/runtime@7.17.2~postin[0m[K[K[?25h+ @babel/runtime@7.17.2
+updated 1 package and audited 45 packages in 0.584s
+found [92m0[0m vulnerabilities
+
+[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f456a09c16a0720[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f456a09c16a0720[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f456a09c16a0720[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f456a09c16a0720[0m[K[[90m..................[0m] - rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f456a09c16a0720[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m bcrypt@5.0.1 ch[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m bcrypt@5.0.1 ch[0m[K[[90m..................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m @mapbox/node-pr[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m node-fetch@2.6.[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m agent-base@6.0.[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m whatwg-url@5.0.[0m[K[[7m [27m[90m.................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m webidl-conversi[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m abbrev@1.1.1 ch[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m delegates@1.0.0[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m delegates@1.0.0[0m[K[[7m [27m[90m.................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m wide-align@1.1.[0m[K[[7m [27m[90m.................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m ansi-regex@5.0.[0m[K[[7m [27m[90m.................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m glob@7.2.0 chec[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m path-is-absolut[0m[K[[7m [27m[90m.................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m brace-expansion[0m[K[[7m [27m[90m.................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m lru-cache@6.0.0[0m[K[[7m [27m[90m.................[0m] | loadDep:yallist: [7msill[0m [35mresolveWithNewModule[0m yallist@4.0.0[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m minizlib@2.1.2[0m[K[[7m      [27m[90m............[0m] | diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K[[7m       [27m[90m...........[0m] | postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m       [27m[90m...........[0m] / extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m          [27m[90m........[0m] / extract:nopt: [7msill[0m [35mextract[0m emoji-regex@^8.0.0 extracted[0m[K[[7m            [27m[90m......[0m] \ extract:bcrypt: [7msill[0m [35mextract[0m bcrypt@latest extracted to[0m[K[[7m            [27m[90m......[0m] | finalize:whatwg-url: [7msill[0m [35mfinalize[0m /home/ubuntu/Artee/bu[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:bcrypt: [32;40mtiming[0m [35maction:finalize[0m Comp[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:bcrypt: [32;40mtiming[0m [35maction:finalize[0m Comp[0m[K[[7m            [27m[90m......[0m] / build:chownr: [7msill[0m [35mlinkStuff[0m chownr@2.0.0 has /home/ubun[0m[K[K[?25h
+> bcrypt@5.0.1 install /home/ubuntu/Artee/bundle/programs/server/node_modules/bcrypt
+> node-pre-gyp install --fallback-to-build
+
+[bcrypt] Success: "/home/ubuntu/Artee/bundle/programs/server/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node" is installed via remote
+[?25l[[7m            [27m[90m......[0m] | postinstall: [32minfo[0m [35mlifecycle[0m bcrypt@5.0.1~postinstall: bc[0m[K[K[?25h+ bcrypt@5.0.1
+added 54 packages from 114 contributors and audited 99 packages in 2.498s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found [92m0[0m vulnerabilities
+
+[?25l[[7m            [27m[90m......[0m] / postinstall: [7msill[0m [35minstall[0m printInstalled[0m[K[K[?25h[32minfo[39m:    Forever processing file: [90marteesinglesignin.js[39m
+(node:1827544) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1827544) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ node t[K--trace-wo[Karnings ...
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/Artee/...'
+[90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m {
+  code: [32m'MODULE_NOT_FOUND'[39m,
+  requireStack: []
+}
+
+Node.js v17.4.0
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ node --trace-warnings ...[K[K[Ka
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/Artee/a'
+[90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m {
+  code: [32m'MODULE_NOT_FOUND'[39m,
+  requireStack: []
+}
+
+Node.js v17.4.0
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ node --trace-warnings a=[K[K[K
+Welcome to Node.js v17.4.0.
+Type ".help" for more information.
+[1G[0J> [3G
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+[1G[0J> [3G
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ node --trace-warnings a..../run.sh[Ksudo nano run.sh
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 19 lines ](B[m[H(B[0;7m  GNU nano 4.8                         run.sh                                   [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m[36m#load environment variables[4d(B[0;1m[34mrm[39m(B[m -rf bundle[5d(B[0;1m[34mtar[39m(B[m -xzf arteesinglesignin.tar(B[m.gz[6d(B[0;1m[34mcd[39m(B[m bundle/programs/server[7d[32mexport[39m(B[m MONGO_URL[32m=(B[0;1m[33m"mongodb://127.0.0.1:27017/meteor"[8d(B[0m[32mexport[39m(B[m ROOT_URL[32m=(B[0;1m[33m"http://helpdesk.sparnigeria.com"[9d(B[0m[32mexport[39m(B[m ACCESS_KEY_ID[32m=(B[0;1m[33m'AKIA5VBGVTKPYDPRFRXD'[10d(B[0m[32mexport[39m(B[m SECRET_ACCESS_KEY[32m=(B[0;1m[33m'q5BlgWTw3+tj8Ds83r+7t1f38aU0Zntc4SzjLseI'[11d(B[0m[32mexport[39m(B[m PORT[32m=[39m(B[m8080[12dmeteor npm (B[0;1m[34minstall[35m --save[39m(B[m @babel/runtime[13dmeteor npm (B[0;1m[34minstall[39m(B[m @babel/runtime@latest[14dmeteor npm (B[0;1m[34minstall[35m --save[39m(B[m bcrypt[15d[36m#npm install[16d(B[0;1m[34mcd[39m(B[m ../[17d(B[0;1m[34mcd[39m(B[m ../[18d(B[0;1m[34mmv[39m(B[m main.js arteesinglesignin.js[19dforever start(B[0;1m[35m --minUptime[39m(B[m 3000(B[0;1m[35m --spinSleepTime[39m(B[m 1000 arteesinglesignin.js[2d[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[7;52H[?12l[?25h[?25l[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[7;50H(B[0;1m[33m"[39m(B[m[K[?12l[?25h[?25l(B[0;1m[33m"[39m(B[m[K[?12l[?25h[?25l(B[0;1m[33m"[39m(B[m[K[?12l[?25h[?25l(B[0;1m[33m"[39m(B[m[K[?12l[?25h[?25l(B[0;1m[33m"[39m(B[m[K[?12l[?25h[?25l(B[0;1m[33m"[39m(B[m[K[?12l[?25h[?25l(B[0;1m[33ms"[39m(B[m[?12l[?25h[?25l(B[0;1m[33m"[39m(B[m[K[?12l[?25h[?25l(B[0;1m[33ma"[39m(B[m[?12l[?25h[?25l(B[0;1m[33mr"[39m(B[m[?12l[?25h[?25l(B[0;1m[33mt"[39m(B[m[?12l[?25h[?25l(B[0;1m[33me"[39m(B[m[?12l[?25h[?25l(B[0;1m[33mee"[39m(B[m[?12l[?25h[?25l(B[0;1m[33ms"[39m(B[m[?12l[?25h[?25l(B[0;1m[33mi"[39m(B[m[?12l[?25h[?25l(B[0;1m[33mn"[39m(B[m[?12l[?25h[?25l(B[0;1m[33mg"[39m(B[m[?12l[?25h[?25l(B[0;1m[33ml"[39m(B[m[?12l[?25h[?25l(B[0;1m[33me"[22d[39m(B[m[K[7;56H[?12l[?25h[?25l(B[0;1m[33ms"[39m(B[m[?12l[?25h[?25l(B[0;1m[33mi"[39m(B[m[?12l[?25h[?25l(B[0;1m[33mg"[39m(B[m[?12l[?25h[?25l(B[0;1m[33mn"[39m(B[m[?12l[?25h[?25l(B[0;1m[33mi"[39m(B[m[?12l[?25h[?25l(B[0;1m[33mn"[39m(B[m[?12l[?25h[?25l[22;34H(B[0;7m[ Writing... ](B[m[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 19 lines ](B[m[7;62H[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ ./run.sh
+[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 013df2c1a126100[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 013df2c1a126100[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 013df2c1a126100[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m @babel/runtime@[0m[K[[7m      [27m[90m............[0m] - loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m regenerator-ru[0m[K[[7m       [27m[90m...........[0m] \ diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K[[7m       [27m[90m...........[0m] / extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:ansi-styles: [7msill[0m [35mextract[0m duplexer2@0.1.4 extrac[0m[K[[7m          [27m[90m........[0m] | extract:sourcemap-codec: [7msill[0m [35mextract[0m sourcemap-codec@1.[0m[K[[7m           [27m[90m.......[0m] / extract:readable-stream: [7msill[0m [35mextract[0m readable-stream@3.[0m[K[[7m           [27m[90m.......[0m] / extract:@meteorjs/reify: [7msill[0m [35mextract[0m @meteorjs/reify@0.[0m[K[[7m            [27m[90m......[0m] \ extract:@babel/parser: [7msill[0m [35mextract[0m @babel/parser@7.15.3[0m[K[[7m            [27m[90m......[0m] / extract:fibers: [7msill[0m [35mextract[0m fibers@5.0.1 extracted to /[0m[K[[7m            [27m[90m......[0m] / extract:fibers: [7msill[0m [35mextract[0m fibers@5.0.1 extracted to /[0m[K[[7m            [27m[90m......[0m] | finalize:estree-walker: [7msill[0m [35mfinalize[0m /home/ubuntu/Artee[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:underscore: [32;40mtiming[0m [35maction:finalize[0m[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:underscore: [32;40mtiming[0m [35maction:finalize[0m[0m[K[[7m            [27m[90m......[0m] / build:underscore: [7msill[0m [35mdoSerial[0m build 360[0m[K[K[?25h
+> fibers@5.0.1 install /home/ubuntu/Artee/bundle/programs/server/node_modules/fibers
+> node build.js || nodejs build.js
+
+`linux-x64-83-glibc` exists; testing
+Binary is fine; exiting
+[?25l[[7m            [27m[90m......[0m] \ postinstall: [32minfo[0m [35mlifecycle[0m underscore@1.13.1~postinstal[0m[K[K[?25h+ @babel/runtime@7.17.2
+added 45 packages from 50 contributors and audited 45 packages in 1.447s
+found [92m0[0m vulnerabilities
+
+[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m a8426c3437080f4[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m a8426c3437080f4[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m a8426c3437080f4[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mremoveObsoleteDep[0m removing regenerat[0m[K[[7m      [27m[90m............[0m] / diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K[[7m       [27m[90m...........[0m] - postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m       [27m[90m...........[0m] - extract:@babel/runtime: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.np[0m[K[[7m       [27m[90m...........[0m] - extract:@babel/runtime: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.np[0m[K[[7m            [27m[90m......[0m] / remove:@babel/runtime: [7msill[0m [35mdoSerial[0m remove 10[0m[K[[7m            [27m[90m......[0m] / postinstall: [32minfo[0m [35mlifecycle[0m @babel/runtime@7.17.2~postin[0m[K[K[?25h+ @babel/runtime@7.17.2
+updated 1 package and audited 45 packages in 0.614s
+found [92m0[0m vulnerabilities
+
+[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f5ac7ed05317d9f[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f5ac7ed05317d9f[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f5ac7ed05317d9f[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f5ac7ed05317d9f[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f5ac7ed05317d9f[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f5ac7ed05317d9f[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f5ac7ed05317d9f[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f5ac7ed05317d9f[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f5ac7ed05317d9f[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f5ac7ed05317d9f[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f5ac7ed05317d9f[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f5ac7ed05317d9f[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f5ac7ed05317d9f[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f5ac7ed05317d9f[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f5ac7ed05317d9f[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f5ac7ed05317d9f[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f5ac7ed05317d9f[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f5ac7ed05317d9f[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m f5ac7ed05317d9f[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m bcrypt@5.0.1 ch[0m[K[[90m..................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m bcrypt@5.0.1 ch[0m[K[[90m..................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m bcrypt@5.0.1 ch[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m bcrypt@5.0.1 ch[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m @mapbox/node-pr[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m @mapbox/node-pr[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m rimraf@3.0.2 ch[0m[K[[90m..................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m semver@6.3.0 ch[0m[K[[90m..................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m whatwg-url@5.0.[0m[K[[7m [27m[90m.................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m abbrev@1.1.1 ch[0m[K[[7m [27m[90m.................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m console-control[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m delegates@1.0.0[0m[K[[7m [27m[90m.................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m delegates@1.0.0[0m[K[[7m [27m[90m.................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m emoji-regex@8.0[0m[K[[7m [27m[90m.................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m glob@7.2.0 chec[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m path-is-absolut[0m[K[[7m [27m[90m.................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m brace-expansion[0m[K[[7m [27m[90m.................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m lru-cache@6.0.0[0m[K[[7m [27m[90m.................[0m] | loadDep:yallist: [7msill[0m [35mresolveWithNewModule[0m yallist@4.0.0[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m minipass@3.1.6[0m[K[[7m      [27m[90m............[0m] | diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K[[7m       [27m[90m...........[0m] | postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m         [27m[90m.........[0m] - extract:strip-ansi: [7msill[0m [35mextract[0m fs.realpath@^1.0.0 extr[0m[K[[7m           [27m[90m.......[0m] / extract:gauge: [7msill[0m [35mextract[0m gauge@^3.0.0 extracted to /h[0m[K[[7m            [27m[90m......[0m] \ finalize:delegates: [7msill[0m [35mfinalize[0m /home/ubuntu/Artee/bun[0m[K[[7m            [27m[90m......[0m] - finalize:yallist: [7msill[0m [35mfinalize[0m /home/ubuntu/Artee/bundl[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:bcrypt: [32;40mtiming[0m [35maction:finalize[0m Comp[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:bcrypt: [32;40mtiming[0m [35maction:finalize[0m Comp[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:delegates: [7msill[0m [35mrefresh-package-jso[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:semver: [7msill[0m [35mrefresh-package-json[0m /[0m[K[[7m            [27m[90m......[0m] | install:brace-expansion: [32minfo[0m [35mlifecycle[0m brace-expansion@[0m[K[K[?25h
+> bcrypt@5.0.1 install /home/ubuntu/Artee/bundle/programs/server/node_modules/bcrypt
+> node-pre-gyp install --fallback-to-build
+
+[bcrypt] Success: "/home/ubuntu/Artee/bundle/programs/server/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node" is installed via remote
+[?25l[[7m            [27m[90m......[0m] | postinstall: [32minfo[0m [35mlifecycle[0m bcrypt@5.0.1~postinstall: bc[0m[K[[7m            [27m[90m......[0m] / postinstall: [32minfo[0m [35mlifecycle[0m bcrypt@5.0.1~postinstall: bc[0m[K[[7m            [27m[90m......[0m] / postinstall: [32minfo[0m [35mlifecycle[0m bcrypt@5.0.1~postinstall: bc[0m[K[[7m            [27m[90m......[0m] / postinstall: [32minfo[0m [35mlifecycle[0m bcrypt@5.0.1~postinstall: bc[0m[K[[7m            [27m[90m......[0m] \ postinstall: [32minfo[0m [35mlifecycle[0m bcrypt@5.0.1~postinstall: bc[0m[K[K[?25h+ bcrypt@5.0.1
+added 54 packages from 114 contributors and audited 99 packages in 3.667s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found [92m0[0m vulnerabilities
+
+[?25l[[7m            [27m[90m......[0m] / postinstall: [7msill[0m [35minstall[0m printInstalled[0m[K[K[?25h[32minfo[39m:    Forever processing file: [90marteesinglesignin.js[39m
+(node:1832109) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1832109) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ mongo [Kd
+2022-02-11T17:07:43.122+0000 I  CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2022-02-11T17:07:43.137+0000 W  ASIO     [main] No TransportLayer configured during NetworkInterface startup
+2022-02-11T17:07:43.137+0000 I  CONTROL  [initandlisten] MongoDB starting : pid=1832487 port=27017 dbpath=/data/db 64-bit host=ip-172-31-38-179
+2022-02-11T17:07:43.137+0000 I  CONTROL  [initandlisten] db version v4.2.17
+2022-02-11T17:07:43.137+0000 I  CONTROL  [initandlisten] git version: be089838c55d33b6f6039c4219896ee4a3cd704f
+2022-02-11T17:07:43.137+0000 I  CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1f  31 Mar 2020
+2022-02-11T17:07:43.137+0000 I  CONTROL  [initandlisten] allocator: tcmalloc
+2022-02-11T17:07:43.137+0000 I  CONTROL  [initandlisten] modules: none
+2022-02-11T17:07:43.137+0000 I  CONTROL  [initandlisten] build environment:
+2022-02-11T17:07:43.137+0000 I  CONTROL  [initandlisten]     distmod: ubuntu1804
+2022-02-11T17:07:43.137+0000 I  CONTROL  [initandlisten]     distarch: x86_64
+2022-02-11T17:07:43.137+0000 I  CONTROL  [initandlisten]     target_arch: x86_64
+2022-02-11T17:07:43.137+0000 I  CONTROL  [initandlisten] options: {}
+2022-02-11T17:07:43.137+0000 E  NETWORK  [initandlisten] Failed to unlink socket file /tmp/mongodb-27017.sock Operation not permitted
+2022-02-11T17:07:43.137+0000 F  -        [initandlisten] Fatal Assertion 40486 at src/mongo/transport/transport_layer_asio.cpp 684
+2022-02-11T17:07:43.137+0000 F  -        [initandlisten] \n\n***aborting after fassert() failure\n\n
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ mongod status
+2022-02-11T17:07:48.992+0000 I  CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2022-02-11T17:07:48.996+0000 W  ASIO     [main] No TransportLayer configured during NetworkInterface startup
+Invalid command: status
+Options:
+  --networkMessageCompressors arg (=snappy,zstd,zlib)
+                                        Comma-separated list of compressors to 
+                                        use for network messages
+
+General options:
+  -h [ --help ]                         Show this usage information
+  --version                             Show version information
+  -f [ --config ] arg                   Configuration file specifying 
+                                        additional options
+  --configExpand arg                    Process expansion directives in config 
+                                        file (none, exec, rest)
+  --ipv6                                Enable IPv6 support (disabled by 
+                                        default)
+  --listenBacklog arg (=128)            Set socket listen backlog size
+  --maxConns arg (=1000000)             Max number of simultaneous connections
+  --pidfilepath arg                     Full path to pidfile (if not set, no 
+                                        pidfile is created)
+  --timeZoneInfo arg                    Full path to time zone info directory, 
+                                        e.g. /usr/share/zoneinfo
+  --nounixsocket                        Disable listening on unix sockets
+  --unixSocketPrefix arg                Alternative directory for UNIX domain 
+                                        sockets (defaults to /tmp)
+  --filePermissions arg                 Permissions to set on UNIX domain 
+                                        socket file - 0700 by default
+  --fork                                Fork server process
+  -v [ --verbose ] [=arg(=v)]           Be more verbose (include multiple times
+                                        for more verbosity e.g. -vvvvv)
+  --quiet                               Quieter output
+  --port arg                            Specify port number - 27017 by default
+  --logpath arg                         Log file to send write to instead of 
+                                        stdout - has to be a file, not 
+                                        directory
+  --syslog                              Log to system's syslog facility instead
+                                        of file or stdout
+  --syslogFacility arg                  syslog facility used for mongodb syslog
+                                        message
+  --logappend                           Append to logpath instead of 
+                                        over-writing
+  --logRotate arg                       Set the log rotation behavior 
+                                        (rename|reopen)
+  --timeStampFormat arg                 Desired format for timestamps in log 
+                                        messages. One of ctime, iso8601-utc or 
+                                        iso8601-local
+  --setParameter arg                    Set a configurable parameter
+  --bind_ip arg                         Comma separated list of ip addresses to
+                                        listen on - localhost by default
+  --bind_ip_all                         Bind to all ip addresses
+  --noauth                              Run without security
+  --transitionToAuth                    For rolling access control upgrade. 
+                                        Attempt to authenticate over outgoing 
+                                        connections and proceed regardless of 
+                                        success. Accept incoming connections 
+                                        with or without authentication.
+  --slowms arg (=100)                   Value of slow for profile and console 
+                                        log
+  --slowOpSampleRate arg (=1)           Fraction of slow ops to include in the 
+                                        profile and console log
+  --auth                                Run with security
+  --clusterIpSourceWhitelist arg        Network CIDR specification of permitted
+                                        origin for `__system` access
+  --profile arg                         0=off 1=slow, 2=all
+  --cpu                                 Periodically show cpu and iowait 
+                                        utilization
+  --sysinfo                             Print some diagnostic system 
+                                        information
+  --noscripting                         Disable scripting engine
+  --notablescan                         Do not allow table scans
+  --shutdown                            Kill a running server (for init 
+                                        scripts)
+  --keyFile arg                         Private key for cluster authentication
+  --clusterAuthMode arg                 Authentication mode used for cluster 
+                                        authentication. Alternatives are 
+                                        (keyFile|sendKeyFile|sendX509|x509)
+
+Replication options:
+  --oplogSize arg                       Size to use (in MB) for replication op 
+                                        log. default is 5% of disk space (i.e. 
+                                        large is good)
+
+Replica set options:
+  --replSet arg                         arg is <setname>[/<optionalseedhostlist
+                                        >]
+  --enableMajorityReadConcern [=arg(=1)] (=1)
+                                        Enables majority readConcern
+
+Sharding options:
+  --configsvr                           Declare this is a config db of a 
+                                        cluster; default port 27019; default 
+                                        dir /data/configdb
+  --shardsvr                            Declare this is a shard db of a 
+                                        cluster; default port 27018
+
+Storage options:
+  --storageEngine arg                   What storage engine to use - defaults 
+                                        to wiredTiger if no data files present
+  --dbpath arg                          Directory for datafiles - defaults to 
+                                        /data/db
+  --directoryperdb                      Each database will be stored in a 
+                                        separate directory
+  --syncdelay arg (=60)                 Seconds between disk syncs (0=never, 
+                                        but not recommended)
+  --journalCommitInterval arg (=100)    how often to group/batch commit (ms)
+  --noIndexBuildRetry                   Do not retry any index builds that were
+                                        interrupted by shutdown
+  --upgrade                             Upgrade db if needed
+  --repair                              Run repair on all dbs
+  --journal                             Enable journaling
+  --nojournal                           Disable journaling (journaling is on by
+                                        default for 64 bit)
+
+WiredTiger options:
+  --wiredTigerCacheSizeGB arg           Maximum amount of memory to allocate 
+                                        for cache; Defaults to 1/2 of physical 
+                                        RAM
+  --wiredTigerJournalCompressor arg (=snappy)
+                                        Use a compressor for log records 
+                                        [none|snappy|zlib|zstd]
+  --wiredTigerDirectoryForIndexes       Put indexes and data in different 
+                                        directories
+  --wiredTigerMaxCacheOverflowFileSizeGB arg (=0)
+                                        Maximum amount of disk space to use for
+                                        cache overflow; Defaults to 0 
+                                        (unbounded)
+  --wiredTigerCollectionBlockCompressor arg (=snappy)
+                                        Block compression algorithm for 
+                                        collection data [none|snappy|zlib|zstd]
+  --wiredTigerIndexPrefixCompression arg (=1)
+                                        Use prefix compression on row-store 
+                                        leaf pages
+
+TLS Options:
+  --tlsOnNormalPorts                    Use TLS on configured ports
+  --tlsMode arg                         Set the TLS operation mode 
+                                        (disabled|allowTLS|preferTLS|requireTLS
+                                        )
+  --tlsCertificateKeyFile arg           Certificate and key file for TLS
+  --tlsCertificateKeyFilePassword arg   Password to unlock key in the TLS 
+                                        certificate key file
+  --tlsClusterFile arg                  Key file for internal TLS 
+                                        authentication
+  --tlsClusterPassword arg              Internal authentication key file 
+                                        password
+  --tlsCAFile arg                       Certificate Authority file for TLS
+  --tlsClusterCAFile arg                CA used for verifying remotes during 
+                                        inbound connections
+  --tlsCRLFile arg                      Certificate Revocation List file for 
+                                        TLS
+  --tlsDisabledProtocols arg            Comma separated list of TLS protocols 
+                                        to disable [TLS1_0,TLS1_1,TLS1_2]
+  --tlsAllowConnectionsWithoutCertificates 
+                                        Allow client to connect without 
+                                        presenting a certificate
+  --tlsAllowInvalidHostnames            Allow server certificates to provide 
+                                        non-matching hostnames
+  --tlsAllowInvalidCertificates         Allow connections to servers with 
+                                        invalid certificates
+  --tlsFIPSMode                         Activate FIPS 140-2 mode at startup
+  --tlsLogVersions arg                  Comma separated list of TLS protocols 
+                                        to log on connect [TLS1_0,TLS1_1,TLS1_2
+                                        ]
+
+Free Monitoring Options:
+  --enableFreeMonitoring arg            Enable Cloud Free Monitoring 
+                                        (on|runtime|off)
+  --freeMonitoringTag arg               Cloud Free Monitoring Tags
+
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ sudo start mongos[Kd
+sudo: start: command not found
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ sudo start mongodb
+sudo: start: command not found
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ mongodb
+
+Command 'mongodb' not found, did you mean:
+
+  command 'mongod' from deb mongodb-server-core (1:3.6.9+really3.6.8+90~g8e540c0b6d-0ubuntu5.3)
+
+Try: sudo apt install <deb name>
+
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ mongod
+2022-02-11T17:09:12.511+0000 I  CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2022-02-11T17:09:12.513+0000 W  ASIO     [main] No TransportLayer configured during NetworkInterface startup
+2022-02-11T17:09:12.514+0000 I  CONTROL  [initandlisten] MongoDB starting : pid=1833733 port=27017 dbpath=/data/db 64-bit host=ip-172-31-38-179
+2022-02-11T17:09:12.514+0000 I  CONTROL  [initandlisten] db version v4.2.17
+2022-02-11T17:09:12.514+0000 I  CONTROL  [initandlisten] git version: be089838c55d33b6f6039c4219896ee4a3cd704f
+2022-02-11T17:09:12.514+0000 I  CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1f  31 Mar 2020
+2022-02-11T17:09:12.514+0000 I  CONTROL  [initandlisten] allocator: tcmalloc
+2022-02-11T17:09:12.514+0000 I  CONTROL  [initandlisten] modules: none
+2022-02-11T17:09:12.514+0000 I  CONTROL  [initandlisten] build environment:
+2022-02-11T17:09:12.514+0000 I  CONTROL  [initandlisten]     distmod: ubuntu1804
+2022-02-11T17:09:12.514+0000 I  CONTROL  [initandlisten]     distarch: x86_64
+2022-02-11T17:09:12.514+0000 I  CONTROL  [initandlisten]     target_arch: x86_64
+2022-02-11T17:09:12.514+0000 I  CONTROL  [initandlisten] options: {}
+2022-02-11T17:09:12.514+0000 E  NETWORK  [initandlisten] Failed to unlink socket file /tmp/mongodb-27017.sock Operation not permitted
+2022-02-11T17:09:12.514+0000 F  -        [initandlisten] Fatal Assertion 40486 at src/mongo/transport/transport_layer_asio.cpp 684
+2022-02-11T17:09:12.514+0000 F  -        [initandlisten] \n\n***aborting after fassert() failure\n\n
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ npm unis[K[K[K[Kunis[Knstall mongod
+[?25l⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 68ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠋ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 68ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 68ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 68ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 68ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 68ms[0m[K[K[?25h
+up to date, audited 62 packages in 682ms
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found [32m[1m0[22m[39m vulnerabilities
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ mongod
+2022-02-11T17:09:37.742+0000 I  CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2022-02-11T17:09:37.745+0000 W  ASIO     [main] No TransportLayer configured during NetworkInterface startup
+2022-02-11T17:09:37.746+0000 I  CONTROL  [initandlisten] MongoDB starting : pid=1834099 port=27017 dbpath=/data/db 64-bit host=ip-172-31-38-179
+2022-02-11T17:09:37.746+0000 I  CONTROL  [initandlisten] db version v4.2.17
+2022-02-11T17:09:37.746+0000 I  CONTROL  [initandlisten] git version: be089838c55d33b6f6039c4219896ee4a3cd704f
+2022-02-11T17:09:37.746+0000 I  CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1f  31 Mar 2020
+2022-02-11T17:09:37.746+0000 I  CONTROL  [initandlisten] allocator: tcmalloc
+2022-02-11T17:09:37.746+0000 I  CONTROL  [initandlisten] modules: none
+2022-02-11T17:09:37.746+0000 I  CONTROL  [initandlisten] build environment:
+2022-02-11T17:09:37.746+0000 I  CONTROL  [initandlisten]     distmod: ubuntu1804
+2022-02-11T17:09:37.746+0000 I  CONTROL  [initandlisten]     distarch: x86_64
+2022-02-11T17:09:37.746+0000 I  CONTROL  [initandlisten]     target_arch: x86_64
+2022-02-11T17:09:37.746+0000 I  CONTROL  [initandlisten] options: {}
+2022-02-11T17:09:37.746+0000 E  NETWORK  [initandlisten] Failed to unlink socket file /tmp/mongodb-27017.sock Operation not permitted
+2022-02-11T17:09:37.746+0000 F  -        [initandlisten] Fatal Assertion 40486 at src/mongo/transport/transport_layer_asio.cpp 684
+2022-02-11T17:09:37.746+0000 F  -        [initandlisten] \n\n***aborting after fassert() failure\n\n
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ mongodnpm uninstall mongod -g
+[?25l⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[K[?25h
+up to date, audited 1 package in 256ms
+
+found [32m[1m0[22m[39m vulnerabilities
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ npm uninstall mongod -g[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo apt-get remove mongod
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package mongod
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ sudo service mongod stop
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ sudo service mongod stop[K[Kart
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ sudo service mongod start[K[K[Katus
+[?1h=[0;1;31m●[0m mongod.service - MongoDB Database Server[m
+     Loaded: loaded (/lib/systemd/system/mongod.service; enabled; vendor preset[m[7m>[27m
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Fri 2022-02-11 17:10:43 UTC; 4s a[m[7m>[27m
+       Docs: https://docs.mongodb.org/manual[m
+    Process: 1835037 ExecStart=/usr/bin/mongod --config /etc/mongod.conf [0;1;31m(code=[m[7m>[27m
+   Main PID: 1835037 (code=exited, status=100)[m
+[m
+Feb 11 17:10:42 ip-172-31-38-179 systemd[1]: Started MongoDB Database Server.[m
+Feb 11 17:10:43 ip-172-31-38-179 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmongod.service: Main process exite[m[7m>[27m
+Feb 11 17:10:43 ip-172-31-38-179 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmongod.service: Failed with result[m[7m>[27m
+[7mlines 1-10/10 (END)[27m[K[K[K[7mlines 1-10/10 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 1-10/10 (END)[27m[K[K [KESCESC[KOO[KAA[K...skipping...
+[0;1;31m●[0m mongod.service - MongoDB Database Server[m
+     Loaded: loaded (/lib/systemd/system/mongod.service; enabled; vendor preset[m[7m>[27m
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Fri 2022-02-11 17:10:43 UTC; 4s a[m[7m>[27m
+       Docs: https://docs.mongodb.org/manual[m
+    Process: 1835037 ExecStart=/usr/bin/mongod --config /etc/mongod.conf [0;1;31m(code=[m[7m>[27m
+   Main PID: 1835037 (code=exited, status=100)[m
+[m
+Feb 11 17:10:42 ip-172-31-38-179 systemd[1]: Started MongoDB Database Server.[m
+Feb 11 17:10:43 ip-172-31-38-179 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmongod.service: Main process exite[m[7m>[27m
+Feb 11 17:10:43 ip-172-31-38-179 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmongod.service: Failed with result[m[7m>[27m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-10/10 (END)[27m[K[K[?1l>
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ netstat -tulpn | grep[K[K[K[K[K[K[K
+(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      -                   
+tcp        0      0 172.17.0.1:53           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 172.31.38.179:53        0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:53            0.0.0.0:*               LISTEN      -                   
+tcp        0      0 10.0.3.1:53             0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:953           0.0.0.0:*               LISTEN      -                   
+tcp6       0      0 :::80                   :::*                    LISTEN      -                   
+tcp6       0      0 fe80::8ba:29ff:fe1b::53 :::*                    LISTEN      -                   
+tcp6       0      0 ::1:53                  :::*                    LISTEN      -                   
+tcp6       0      0 :::22                   :::*                    LISTEN      -                   
+tcp6       0      0 ::1:953                 :::*                    LISTEN      -                   
+udp        0      0 172.17.0.1:53           0.0.0.0:*                           -                   
+udp        0      0 172.17.0.1:53           0.0.0.0:*                           -                   
+udp        0      0 10.0.3.1:53             0.0.0.0:*                           -                   
+udp        0      0 10.0.3.1:53             0.0.0.0:*                           -                   
+udp        0      0 172.31.38.179:53        0.0.0.0:*                           -                   
+udp        0      0 172.31.38.179:53        0.0.0.0:*                           -                   
+udp        0      0 127.0.0.1:53            0.0.0.0:*                           -                   
+udp        0      0 127.0.0.1:53            0.0.0.0:*                           -                   
+udp        0      0 10.0.3.1:53             0.0.0.0:*                           -                   
+udp        0      0 127.0.0.53:53           0.0.0.0:*                           -                   
+udp        0      0 0.0.0.0:67              0.0.0.0:*                           -                   
+udp        0      0 172.31.38.179:68        0.0.0.0:*                           -                   
+udp6       0      0 ::1:53                  :::*                                -                   
+udp6       0      0 ::1:53                  :::*                                -                   
+udp6       0      0 fe80::8ba:29ff:fe1b::53 :::*                                -                   
+udp6       0      0 fe80::8ba:29ff:fe1b::53 :::*                                -                   
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ netstat -tulpn | grep
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Try 'grep --help' for more information.
+(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ netstat -tulpn | grep[1@s[1@u[1@d[1@o[1@ 
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Try 'grep --help' for more information.
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ sudo ss -tulpn | grep LISTEN
+tcp   [01;31m[KLISTEN[m[K 0      511                             0.0.0.0:80          0.0.0.0:*                                                                                users:(("nginx",pid=1789996,fd=8),("nginx",pid=1789995,fd=8),("nginx",pid=1789994,fd=8))
+tcp   [01;31m[KLISTEN[m[K 0      10                           172.17.0.1:53          0.0.0.0:*                                                                                users:(("named",pid=544,fd=52),("named",pid=544,fd=51),("named",pid=544,fd=50))
+tcp   [01;31m[KLISTEN[m[K 0      10                        172.31.38.179:53          0.0.0.0:*                                                                                users:(("named",pid=544,fd=33),("named",pid=544,fd=32),("named",pid=544,fd=31))
+tcp   [01;31m[KLISTEN[m[K 0      10                            127.0.0.1:53          0.0.0.0:*                                                                                users:(("named",pid=544,fd=28),("named",pid=544,fd=27),("named",pid=544,fd=26))
+tcp   [01;31m[KLISTEN[m[K 0      32                             10.0.3.1:53          0.0.0.0:*                                                                                users:(("dnsmasq",pid=659,fd=7))                                               
+tcp   [01;31m[KLISTEN[m[K 0      4096                      127.0.0.53%lo:53          0.0.0.0:*                                                                                users:(("systemd-resolve",pid=445,fd=13))                                      
+tcp   [01;31m[KLISTEN[m[K 0      128                             0.0.0.0:22          0.0.0.0:*                                                                                users:(("sshd",pid=941,fd=3))                                                  
+tcp   [01;31m[KLISTEN[m[K 0      4096                          127.0.0.1:953         0.0.0.0:*                                                                                users:(("named",pid=544,fd=22))                                                
+tcp   [01;31m[KLISTEN[m[K 0      511                                [::]:80             [::]:*                                                                                users:(("nginx",pid=1789996,fd=9),("nginx",pid=1789995,fd=9),("nginx",pid=1789994,fd=9))
+tcp   [01;31m[KLISTEN[m[K 0      10      [fe80::8ba:29ff:fe1b:cc27]%eth0:53             [::]:*                                                                                users:(("named",pid=544,fd=46),("named",pid=544,fd=45),("named",pid=544,fd=44))
+tcp   [01;31m[KLISTEN[m[K 0      10                                [::1]:53             [::]:*                                                                                users:(("named",pid=544,fd=41),("named",pid=544,fd=40),("named",pid=544,fd=39))
+tcp   [01;31m[KLISTEN[m[K 0      128                                [::]:22             [::]:*                                                                                users:(("sshd",pid=941,fd=4))                                                  
+tcp   [01;31m[KLISTEN[m[K 0      4096                              [::1]:953            [::]:*                                                                                users:(("named",pid=544,fd=47))                                                
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ sudo apt-get purge mongodb-org*
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Note, selecting 'mongodb-org-unstable-tools' for glob 'mongodb-org*'
+Note, selecting 'mongodb-org-mongos' for glob 'mongodb-org*'
+Note, selecting 'mongodb-org-tools' for glob 'mongodb-org*'
+Note, selecting 'mongodb-org-unstable-server' for glob 'mongodb-org*'
+Note, selecting 'mongodb-org-unstable-shell' for glob 'mongodb-org*'
+Note, selecting 'mongodb-org-shell' for glob 'mongodb-org*'
+Note, selecting 'mongodb-org-unstable-mongos' for glob 'mongodb-org*'
+Note, selecting 'mongodb-org-unstable' for glob 'mongodb-org*'
+Note, selecting 'mongodb-org' for glob 'mongodb-org*'
+Note, selecting 'mongodb-org-server' for glob 'mongodb-org*'
+Package 'mongodb-org-unstable' is not installed, so not removed
+Package 'mongodb-org-unstable-mongos' is not installed, so not removed
+Package 'mongodb-org-unstable-server' is not installed, so not removed
+Package 'mongodb-org-unstable-shell' is not installed, so not removed
+Package 'mongodb-org-unstable-tools' is not installed, so not removed
+The following packages were automatically installed and are no longer required:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap libjansson4 liblua5.2-0 ssl-cert
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  mongodb-org* mongodb-org-mongos* mongodb-org-server* mongodb-org-shell*
+  mongodb-org-tools*
+0 upgraded, 0 newly installed, 5 to remove and 22 not upgraded.
+After this operation, 297 MB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 139742 files and directories currently installed.)
+Removing mongodb-org (4.2.18) ...
+Removing mongodb-org-mongos (4.2.17) ...
+Removing mongodb-org-server (4.2.17) ...
+Removing mongodb-org-shell (4.2.17) ...
+Removing mongodb-org-tools (4.2.17) ...
+Processing triggers for man-db (2.9.1-1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 139694 files and directories currently installed.)
+Purging configuration files for mongodb-org-server (4.2.17) ...
+Purging configuration files for mongodb-org (4.2.18) ...
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ sudo rm -r /var/log/mongodb
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ sudo rm -r /var/lib/mongodb
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ ./run.sh
+[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 2d5ee85fc6ed3e8[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 2d5ee85fc6ed3e8[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 2d5ee85fc6ed3e8[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m @babel/runtime@[0m[K[[7m      [27m[90m............[0m] - loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m regenerator-ru[0m[K[[7m      [27m[90m............[0m] \ diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K[[7m       [27m[90m...........[0m] / extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m          [27m[90m........[0m] \ extract:periscopic: [7msill[0m [35mextract[0m semver@5.4.1 extracted[0m[K[[7m           [27m[90m.......[0m] - extract:estree-walker: [7msill[0m [35mextract[0m estree-walker@2.0.2[0m[K[[7m           [27m[90m.......[0m] | extract:promise: [7msill[0m [35mextract[0m promise@8.1.0 extracted to[0m[K[[7m           [27m[90m.......[0m] - extract:acorn: [7msill[0m [35mextract[0m acorn@6.4.2 extracted to /ho[0m[K[[7m            [27m[90m......[0m] \ extract:@babel/parser: [7msill[0m [35mextract[0m @babel/parser@7.15.3[0m[K[[7m            [27m[90m......[0m] / extract:fibers: [7msill[0m [35mextract[0m fibers@5.0.1 extracted to /[0m[K[[7m            [27m[90m......[0m] / extract:fibers: [7msill[0m [35mextract[0m fibers@5.0.1 extracted to /[0m[K[[7m            [27m[90m......[0m] | finalize:regenerator-runtime: [7msill[0m [35mfinalize[0m /home/ubuntu[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:underscore: [32;40mtiming[0m [35maction:finalize[0m[0m[K[[7m            [27m[90m......[0m] \ preinstall:underscore: [32;40mtiming[0m [35maction:refresh-package-jso[0m[K[[7m            [27m[90m......[0m] - install:ansi-regex: [32minfo[0m [35mlifecycle[0m ansi-regex@0.2.1~inst[0m[K[K[?25h
+> fibers@5.0.1 install /home/ubuntu/Artee/bundle/programs/server/node_modules/fibers
+> node build.js || nodejs build.js
+
+`linux-x64-83-glibc` exists; testing
+Binary is fine; exiting
+[?25l[[7m            [27m[90m......[0m] \ postinstall: [32minfo[0m [35mlifecycle[0m underscore@1.13.1~postinstal[0m[K[K[?25h+ @babel/runtime@7.17.2
+added 45 packages from 50 contributors and audited 45 packages in 1.486s
+found [92m0[0m vulnerabilities
+
+[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 9b57a2427fc1d93[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 9b57a2427fc1d93[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 9b57a2427fc1d93[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mremoveObsoleteDep[0m removing regenerat[0m[K[[7m      [27m[90m............[0m] | loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m regenerator-ru[0m[K[[7m       [27m[90m...........[0m] - postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m       [27m[90m...........[0m] - extract:@babel/runtime: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.np[0m[K[[7m       [27m[90m...........[0m] - extract:@babel/runtime: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.np[0m[K[[7m            [27m[90m......[0m] / remove:@babel/runtime: [7msill[0m [35mdoSerial[0m remove 10[0m[K[[7m            [27m[90m......[0m] - postinstall: [32minfo[0m [35mlifecycle[0m @babel/runtime@7.17.2~postin[0m[K[K[?25h+ @babel/runtime@7.17.2
+updated 1 package and audited 45 packages in 0.592s
+found [92m0[0m vulnerabilities
+
+[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 148692f59697bb7[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 148692f59697bb7[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 148692f59697bb7[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 148692f59697bb7[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m bcrypt@5.0.1 ch[0m[K[[90m..................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m bcrypt@5.0.1 ch[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m @mapbox/node-pr[0m[K[[90m..................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m @mapbox/node-pr[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m npmlog@5.0.1 ch[0m[K[[90m..................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m semver@6.3.0 ch[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m whatwg-url@5.0.[0m[K[[7m [27m[90m.................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m abbrev@1.1.1 ch[0m[K[[7m [27m[90m.................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m set-blocking@2.[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m readable-stream[0m[K[[7m [27m[90m.................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m readable-stream[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m wide-align@1.1.[0m[K[[7m [27m[90m.................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m ansi-regex@5.0.[0m[K[[7m [27m[90m.................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m glob@7.2.0 chec[0m[K[[7m [27m[90m.................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m wrappy@1.0.2 ch[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m concat-map@0.0.[0m[K[[7m [27m[90m.................[0m] | loadDep:yallist: [7msill[0m [35mresolveWithNewModule[0m yallist@4.0.0[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m mkdirp@1.0.4 c[0m[K[[7m      [27m[90m............[0m] | diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K[[7m       [27m[90m...........[0m] | postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m        [27m[90m..........[0m] - extract:path-is-absolute: [7msill[0m [35mextract[0m tar@6.1.11[0m[K[[7m           [27m[90m.......[0m] / extract:gauge: [7msill[0m [35mextract[0m gauge@^3.0.0 extracted to /h[0m[K[[7m            [27m[90m......[0m] / finalize:bcrypt: [7msill[0m [35mdoSerial[0m finalize 432[0m[K[[7m            [27m[90m......[0m] \ finalize:webidl-conversions: [7msill[0m [35mfinalize[0m /home/ubuntu/[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:bcrypt: [32;40mtiming[0m [35maction:finalize[0m Comp[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:bcrypt: [32;40mtiming[0m [35maction:finalize[0m Comp[0m[K[[7m            [27m[90m......[0m] / build:chownr: [7msill[0m [35mlinkStuff[0m chownr@2.0.0 has /home/ubun[0m[K[K[?25h
+> bcrypt@5.0.1 install /home/ubuntu/Artee/bundle/programs/server/node_modules/bcrypt
+> node-pre-gyp install --fallback-to-build
+
+[bcrypt] Success: "/home/ubuntu/Artee/bundle/programs/server/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node" is installed via remote
+[?25l[[7m            [27m[90m......[0m] - postinstall: [32minfo[0m [35mlifecycle[0m bcrypt@5.0.1~postinstall: bc[0m[K[[7m            [27m[90m......[0m] / postinstall: [32minfo[0m [35mlifecycle[0m bcrypt@5.0.1~postinstall: bc[0m[K[K[?25h+ bcrypt@5.0.1
+added 54 packages from 114 contributors and audited 99 packages in 2.748s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found [92m0[0m vulnerabilities
+
+[?25l[[7m            [27m[90m......[0m] / postinstall: [7msill[0m [35minstall[0m printInstalled[0m[K[K[?25h[32minfo[39m:    Forever processing file: [90marteesinglesignin.js[39m
+(node:1838978) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1838978) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ node --trace [K-wora[K[K[Karnings ...
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/Artee/...'
+[90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m {
+  code: [32m'MODULE_NOT_FOUND'[39m,
+  requireStack: []
+}
+
+Node.js v17.4.0
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ ^C
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ cd arteesinglesignin
+]0;ubuntu@ip-172-31-38-179: ~/Artee/arteesinglesigninubuntu@ip-172-31-38-179:~/Artee/arteesinglesignin$ sudo rm -r nd[Kode_modules
+]0;ubuntu@ip-172-31-38-179: ~/Artee/arteesinglesigninubuntu@ip-172-31-38-179:~/Artee/arteesinglesignin$ sudo rm -r package-lock.json
+]0;ubuntu@ip-172-31-38-179: ~/Artee/arteesinglesigninubuntu@ip-172-31-38-179:~/Artee/arteesinglesignin$ [K]0;ubuntu@ip-172-31-38-179: ~/Artee/arteesinglesigninubuntu@ip-172-31-38-179:~/Artee/arteesinglesignin$ npm install
+[?25l⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠧ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠧ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠸ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠧ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠧ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠋ idealTree:arteesinglesignin: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ idealTree:meteor-node-stubs: [7msill[0m [35mplaceDep[0m ROOT xml2js@0[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠹ idealTree:meteor-node-stubs: [7msill[0m [35mplaceDep[0m ROOT xml2js@0[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ idealTree:meteor-node-stubs: [32;40mtiming[0m [35midealTree:node_modul[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠼ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 1764ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:meteor-node-stubs: [32;40mtiming[0m [35mreify:createSparse[0m Compl[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:meteor-node-stubs: [32;40mtiming[0m [35mreify:createSparse[0m Compl[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:meteor-node-stubs: [32;40mtiming[0m [35mreify:createSparse[0m Compl[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:meteor-node-stubs: [32;40mtiming[0m [35mreify:createSparse[0m Compl[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:meteor-node-stubs: [32;40mtiming[0m [35mreify:createSparse[0m Compl[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:meteor-node-stubs: [32;40mtiming[0m [35mreify:createSparse[0m Compl[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:meteor-node-stubs: [32;40mtiming[0m [35mreify:createSparse[0m Compl[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:meteor-node-stubs: [32;40mtiming[0m [35mreify:createSparse[0m Compl[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:meteor-node-stubs: [32;40mtiming[0m [35mreify:createSparse[0m Compl[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:meteor-node-stubs: [32;40mtiming[0m [35mreify:createSparse[0m Compl[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:meteor-node-stubs: [32;40mtiming[0m [35mreify:createSparse[0m Compl[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:meteor-node-stubs: [32;40mtiming[0m [35mreify:createSparse[0m Compl[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:meteor-node-stubs: [32;40mtiming[0m [35mreify:createSparse[0m Compl[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:meteor-node-stubs: [32;40mtiming[0m [35mreify:createSparse[0m Compl[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:meteor-node-stubs: [32;40mtiming[0m [35mreify:createSparse[0m Compl[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:meteor-node-stubs: [32;40mtiming[0m [35mreify:createSparse[0m Compl[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ reify:meteor-node-stubs: [32;40mtiming[0m [35mreify:createSparse[0m Compl[0m[K⸨[107;97m##################[0m⸩ ⠧ reify:meteor-node-stubs: [32;40mtiming[0m [35mreify:createSparse[0m Compl[0m[K⸨[107;97m##################[0m⸩ ⠧ reify:meteor-node-stubs: [32;40mtiming[0m [35mreify:createSparse[0m Compl[0m[K⸨[107;97m##################[0m⸩ ⠇ reify:@babel/runtime: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:@babel/runtime: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m##########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠋ reify:object-assign: [7msill[0m [35mtarball[0m no local data for aws-[0m[K⸨[107;97m#############[0m[100;90m⠂⠂⠂⠂⠂[0m⸩ ⠋ reify:xml2js: [32;40mtiming[0m [35mreifyNode:node_modules/sax[0m Complete[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+[0m[?25l⸨[107;97m##############[0m[100;90m⠂⠂⠂⠂[0m⸩ ⠏ reify:querystring: [30;43mWARN[0m [35mdeprecated[0m querystring@0.2.0: Th[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m uuid@3.3.2: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[?25l⸨[107;97m###############[0m[100;90m⠂⠂⠂[0m⸩ ⠹ reify:events: [32;40mtiming[0m [35mreifyNode:node_modules/uuid[0m Complet[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠧ reify:axios: [32;40mtiming[0m [35mreifyNode:node_modules/buffer[0m Comple[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠏ reify:react-dom: [32;40mtiming[0m [35mreifyNode:node_modules/@babel/ru[0m[K⸨[107;97m##################[0m⸩ ⠸ reify:aws-sdk: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs[0m[K[K[?25h
+added 25 packages, and audited 132 packages in 5s
+
+34 packages are looking for funding
+  run `npm fund` for details
+
+found [32m[1m0[22m[39m vulnerabilities
+]0;ubuntu@ip-172-31-38-179: ~/Artee/arteesinglesigninubuntu@ip-172-31-38-179:~/Artee/arteesinglesignin$ npm start
+
+> start
+> meteor run
+
+                                             -                                                 [1mPreparing project                       [22m  -                                                 [1mScanning local packages                 [22m  \                                                 [1mLoading isopacket `combined`            [22m  \                                                 [1mSelecting package versions              [22m  \                                              [[[[[ ~/Artee/arteesinglesignin ]]]]]
+
+                                                 [1mSelecting package versions              [22m  \                                              => Started proxy.
+                                                 [1mSelecting package versions              [22m  \                                              => Started HMR server.
+                                                 [1mSelecting package versions              [22m  \                                                 [1mDownloading missing packages            [22m  \                                                 [1mBuilding local packages                 [22m  \                                                 [1mDetermining active plugins              [22m  /                                                 [1mBuilding the application                [22m  |                                                 [1mBuilding for web.browser                [22m  -                                                 [1mLinking                                 [22m  -                                                 [1mBuilding for web.browser                [22m  -                                                 [1mLinking                                 [22m  |                                                 [1mBuilding for web.browser.legacy         [22m  |                                                 [1mLinking                                 [22m  \                                                 [1mBuilding the application                [22m  \                                                 [1mStarting your app                       [22m  -                                              => Meteor 2.6 is available. Update this project with 'meteor update'.
+                                                 [1mStarting your app                       [22m  -                                              => Started MongoDB.
+                                                 [1mStarting your app                       [22m  -                                              => Started your app.
+
+=> App running at: http://localhost:3000/
+^C
+]0;ubuntu@ip-172-31-38-179: ~/Artee/arteesinglesigninubuntu@ip-172-31-38-179:~/Artee/arteesinglesignin$ cd ..
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ ./run.sh
+[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m cad2b6c110ce942[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m @babel/runtime@[0m[K[[7m      [27m[90m............[0m] - loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m regenerator-ru[0m[K[[7m      [27m[90m............[0m] \ diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K[[7m       [27m[90m...........[0m] - postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m       [27m[90m...........[0m] | extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m         [27m[90m.........[0m] - extract:@types/estree: [7msill[0m [35mextract[0m amdefine@1.0.1 extra[0m[K[[7m           [27m[90m.......[0m] - extract:@types/underscore: [7msill[0m [35mextract[0m @types/underscor[0m[K[[7m           [27m[90m.......[0m] - extract:readable-stream: [7msill[0m [35mextract[0m readable-stream@2.[0m[K[[7m           [27m[90m.......[0m] - extract:@meteorjs/reify: [7msill[0m [35mextract[0m @meteorjs/reify@0.[0m[K[[7m            [27m[90m......[0m] | extract:@babel/parser: [7msill[0m [35mextract[0m @babel/parser@7.15.3[0m[K[[7m            [27m[90m......[0m] | extract:@babel/parser: [7msill[0m [35mextract[0m @babel/parser@7.15.3[0m[K[[7m            [27m[90m......[0m] - extract:fibers: [7msill[0m [35mextract[0m fibers@5.0.1 extracted to /[0m[K[[7m            [27m[90m......[0m] - extract:fibers: [7msill[0m [35mextract[0m fibers@5.0.1 extracted to /[0m[K[[7m            [27m[90m......[0m] \ finalize:@types/underscore: [7msill[0m [35mfinalize[0m /home/ubuntu/A[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:underscore: [32;40mtiming[0m [35maction:finalize[0m[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:underscore: [32;40mtiming[0m [35maction:finalize[0m[0m[K[[7m            [27m[90m......[0m] / build:underscore: [7msill[0m [35mdoSerial[0m build 360[0m[K[K[?25h
+> fibers@5.0.1 install /home/ubuntu/Artee/bundle/programs/server/node_modules/fibers
+> node build.js || nodejs build.js
+
+`linux-x64-83-glibc` exists; testing
+Binary is fine; exiting
+[?25l[[7m            [27m[90m......[0m] \ postinstall: [32minfo[0m [35mlifecycle[0m underscore@1.13.1~postinstal[0m[K[K[?25h+ @babel/runtime@7.17.2
+added 45 packages from 50 contributors and audited 45 packages in 1.452s
+found [92m0[0m vulnerabilities
+
+[?25l[[7m            [27m[90m......[0m] \ postinstall: [7msill[0m [35minstall[0m printInstalled[0m[K[K[?25h[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 2808274b13f5df9[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 2808274b13f5df9[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 2808274b13f5df9[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mremoveObsoleteDep[0m removing regenerat[0m[K[[7m      [27m[90m............[0m] / diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K[[7m       [27m[90m...........[0m] - postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m       [27m[90m...........[0m] - extract:@babel/runtime: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.np[0m[K[[7m       [27m[90m...........[0m] - extract:@babel/runtime: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.np[0m[K[[7m            [27m[90m......[0m] / remove:@babel/runtime: [7msill[0m [35mdoSerial[0m remove 10[0m[K[[7m            [27m[90m......[0m] / postinstall: [32minfo[0m [35mlifecycle[0m @babel/runtime@7.17.2~postin[0m[K[K[?25h+ @babel/runtime@7.17.2
+updated 1 package and audited 45 packages in 0.592s
+found [92m0[0m vulnerabilities
+
+[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 8964b4ef24ba0ec[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 8964b4ef24ba0ec[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 8964b4ef24ba0ec[0m[K[[90m..................[0m] - rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 8964b4ef24ba0ec[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m bcrypt@5.0.1 ch[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m bcrypt@5.0.1 ch[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m @mapbox/node-pr[0m[K[[90m..................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m @mapbox/node-pr[0m[K[[90m..................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m node-fetch@2.6.[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m debug@4.3.3 che[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m debug@4.3.3 che[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m debug@4.3.3 che[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m debug@4.3.3 che[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m debug@4.3.3 che[0m[K[[90m..................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m semver@6.3.0 ch[0m[K[[7m [27m[90m.................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m webidl-conversi[0m[K[[7m [27m[90m.................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m abbrev@1.1.1 ch[0m[K[[7m [27m[90m.................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m set-blocking@2.[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m readable-stream[0m[K[[7m [27m[90m.................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m has-unicode@2.0[0m[K[[7m [27m[90m.................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m is-fullwidth-co[0m[K[[7m [27m[90m.................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m glob@7.2.0 chec[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m fs.realpath@1.0[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m wrappy@1.0.2 ch[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m concat-map@0.0.[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m lru-cache@6.0.0[0m[K[[7m [27m[90m.................[0m] | loadDep:yallist: [7msill[0m [35mresolveWithNewModule[0m yallist@4.0.0[0m[K[[7m      [27m[90m............[0m] | diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K[[7m       [27m[90m...........[0m] | postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m       [27m[90m...........[0m] | extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m          [27m[90m........[0m] \ extract:debug: [7msill[0m [35mextract[0m nopt@^5.0.0 extracted to /ho[0m[K[[7m            [27m[90m......[0m] \ extract:bcrypt: [7msill[0m [35mextract[0m bcrypt@latest extracted to[0m[K[[7m            [27m[90m......[0m] | finalize:path-is-absolute: [7msill[0m [35mfinalize[0m /home/ubuntu/Ar[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:bcrypt: [32;40mtiming[0m [35maction:finalize[0m Comp[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:bcrypt: [32;40mtiming[0m [35maction:finalize[0m Comp[0m[K[[7m            [27m[90m......[0m] / build:chownr: [7msill[0m [35mlinkStuff[0m chownr@2.0.0 has /home/ubun[0m[K[K[?25h
+> bcrypt@5.0.1 install /home/ubuntu/Artee/bundle/programs/server/node_modules/bcrypt
+> node-pre-gyp install --fallback-to-build
+
+[bcrypt] Success: "/home/ubuntu/Artee/bundle/programs/server/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node" is installed via remote
+[?25l[[7m            [27m[90m......[0m] | postinstall: [32minfo[0m [35mlifecycle[0m bcrypt@5.0.1~postinstall: bc[0m[K[[7m            [27m[90m......[0m] / postinstall: [32minfo[0m [35mlifecycle[0m bcrypt@5.0.1~postinstall: bc[0m[K[[7m            [27m[90m......[0m] \ postinstall: [32minfo[0m [35mlifecycle[0m bcrypt@5.0.1~postinstall: bc[0m[K[K[?25h+ bcrypt@5.0.1
+added 54 packages from 114 contributors and audited 99 packages in 2.955s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found [92m0[0m vulnerabilities
+
+[?25l[[7m            [27m[90m......[0m] / postinstall: [7msill[0m [35minstall[0m printInstalled[0m[K[K[?25h[32minfo[39m:    Forever processing file: [90marteesinglesignin.js[39m
+(node:1844584) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1844584) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ install this version npm i mongoose@5.11.15
+install: target 'mongoose@5.11.15' is not a directory
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ install this version npm i mongoose@5.11.15[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[Cn mongoose@5.11.15d mongoose@5.11.15t mongoose@5.11.15a mongoose@5.11.15l mongoose@5.11.15l mongoose@5.11.15[1P[1@s
+[?25l⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠸ idealTree:ubuntu: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠸ idealTree:ubuntu: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠼ idealTree:ubuntu: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ idealTree:ubuntu: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ idealTree:ubuntu: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠧ idealTree:ubuntu: [7msill[0m [35midealTree[0m buildDeps[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠧ idealTree:ubuntu: [32;40mtiming[0m [35midealTree:#root[0m Completed in 36[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ idealTree:ubuntu: [32;40mtiming[0m [35midealTree:#root[0m Completed in 36[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠹ idealTree:ubuntu: [32;40mtiming[0m [35midealTree:#root[0m Completed in 36[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠸ idealTree:ubuntu: [32;40mtiming[0m [35midealTree:#root[0m Completed in 36[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠸ idealTree:ubuntu: [32;40mtiming[0m [35midealTree:#root[0m Completed in 36[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ idealTree:ubuntu: [32;40mtiming[0m [35midealTree:#root[0m Completed in 36[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 785ms[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ reify:mongoose: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠋ reify:mongoose: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠋ reify:mongoose: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠼ reify:mongoose: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ reify:mongoose: [7msill[0m [35maudit[0m bulk request {[0m[K⸨[107;97m##########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ reify:ms: [32;40mtiming[0m [35mreifyNode:node_modules/core-util-is[0m Com[0m[K⸨[107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m⸩ ⠹ reify:resolve-from: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.[0m[K[K[?25h[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m @types/bson@4.2.0: This is a stub types definition. bson provides its own type definitions, so you do not need this installed.
+[0m[?25l⸨[107;97m##############[0m[100;90m⠂⠂⠂⠂[0m⸩ ⠏ reify:bl: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.org/[0m[K⸨[107;97m##############[0m[100;90m⠂⠂⠂⠂[0m⸩ ⠼ reify:regexp-clone: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.[0m[K⸨[107;97m###############[0m[100;90m⠂⠂⠂[0m⸩ ⠏ reify:readable-stream: [32;40mtiming[0m [35mmetavuln:load:security-adv[0m[K⸨[107;97m################[0m[100;90m⠂⠂[0m⸩ ⠹ reify:mpath: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.o[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠼ reify:mquery: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠼ reify:mquery: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmjs.[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠇ reify:bluebird: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmj[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠋ reify:@types/node: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.n[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠋ reify:@types/node: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.n[0m[K⸨[107;97m##################[0m⸩ ⠧ reify:mongoose: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.npmj[0m[K[K[?25h
+added 31 packages, and audited 93 packages in 2s
+
+6 packages are looking for funding
+  run `npm fund` for details
+
+2 [35m[1mcritical[22m[39m severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+]0;ubuntu@ip-172-31-38-179: ~/Arteeubuntu@ip-172-31-38-179:~/Artee$ ./run.sh
+[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m cae334f9341d0a6[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m cae334f9341d0a6[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m cae334f9341d0a6[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m @babel/runtime@[0m[K[[7m      [27m[90m............[0m] - loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m regenerator-ru[0m[K[[7m      [27m[90m............[0m] \ diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K[[7m       [27m[90m...........[0m] - postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m       [27m[90m...........[0m] - extract:underscore: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_l[0m[K[[7m          [27m[90m........[0m] \ extract:detect-libc: [7msill[0m [35mextract[0m semver@5.7.1 extracted[0m[K[[7m           [27m[90m.......[0m] - extract:estree-walker: [7msill[0m [35mextract[0m estree-walker@2.0.2[0m[K[[7m           [27m[90m.......[0m] / extract:readable-stream: [7msill[0m [35mextract[0m readable-stream@3.[0m[K[[7m           [27m[90m.......[0m] / extract:@meteorjs/reify: [7msill[0m [35mextract[0m @meteorjs/reify@0.[0m[K[[7m            [27m[90m......[0m] \ extract:@babel/parser: [7msill[0m [35mextract[0m @babel/parser@7.15.3[0m[K[[7m            [27m[90m......[0m] \ extract:@babel/parser: [7msill[0m [35mextract[0m @babel/parser@7.15.3[0m[K[[7m            [27m[90m......[0m] / extract:fibers: [7msill[0m [35mextract[0m fibers@5.0.1 extracted to /[0m[K[[7m            [27m[90m......[0m] \ finalize:ansi-styles: [7msill[0m [35mfinalize[0m /home/ubuntu/Artee/b[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:underscore: [32;40mtiming[0m [35maction:finalize[0m[0m[K[[7m            [27m[90m......[0m] \ refresh-package-json:underscore: [32;40mtiming[0m [35maction:finalize[0m[0m[K[[7m            [27m[90m......[0m] / build:core-util-is: [7msill[0m [35mlinkStuff[0m core-util-is@1.0.3 ha[0m[K[K[?25h
+> fibers@5.0.1 install /home/ubuntu/Artee/bundle/programs/server/node_modules/fibers
+> node build.js || nodejs build.js
+
+`linux-x64-83-glibc` exists; testing
+Binary is fine; exiting
+[?25l[[7m            [27m[90m......[0m] / postinstall: [32minfo[0m [35mlifecycle[0m underscore@1.13.1~postinstal[0m[K[K[?25h+ @babel/runtime@7.17.2
+added 45 packages from 50 contributors and audited 45 packages in 1.49s
+found [92m0[0m vulnerabilities
+
+[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 0a8bb4920573637[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 0a8bb4920573637[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 0a8bb4920573637[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mremoveObsoleteDep[0m removing regenerat[0m[K[[7m      [27m[90m............[0m] | loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m regenerator-ru[0m[K[[7m       [27m[90m...........[0m] - postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m       [27m[90m...........[0m] - extract:@babel/runtime: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.np[0m[K[[7m       [27m[90m...........[0m] - extract:@babel/runtime: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.np[0m[K[[7m            [27m[90m......[0m] / remove:@babel/runtime: [7msill[0m [35mdoSerial[0m remove 10[0m[K[[7m            [27m[90m......[0m] / postinstall: [32minfo[0m [35mlifecycle[0m @babel/runtime@7.17.2~postin[0m[K[K[?25h+ @babel/runtime@7.17.2
+updated 1 package and audited 45 packages in 0.599s
+found [92m0[0m vulnerabilities
+
+[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 258ce856d826aba[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 258ce856d826aba[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 258ce856d826aba[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 258ce856d826aba[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 258ce856d826aba[0m[K[[90m..................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m bcrypt@5.0.1 ch[0m[K[[90m..................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m bcrypt@5.0.1 ch[0m[K[[90m..................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m @mapbox/node-pr[0m[K[[90m..................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m @mapbox/node-pr[0m[K[[90m..................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m npmlog@5.0.1 ch[0m[K[[90m..................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m semver@6.3.0 ch[0m[K[[7m [27m[90m.................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m tr46@0.0.3 chec[0m[K[[7m [27m[90m.................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m abbrev@1.1.1 ch[0m[K[[7m [27m[90m.................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m gauge@3.0.2 che[0m[K[[7m [27m[90m.................[0m] - fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m delegates@1.0.0[0m[K[[7m [27m[90m.................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m string-width@4.[0m[K[[7m [27m[90m.................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m is-fullwidth-co[0m[K[[7m [27m[90m.................[0m] \ fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m glob@7.2.0 chec[0m[K[[7m [27m[90m.................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m glob@7.2.0 chec[0m[K[[7m [27m[90m.................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m wrappy@1.0.2 ch[0m[K[[7m [27m[90m.................[0m] | fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m brace-expansion[0m[K[[7m [27m[90m.................[0m] / fetchMetadata: [7msill[0m [35mresolveWithNewModule[0m lru-cache@6.0.0[0m[K[[7m [27m[90m.................[0m] | loadDep:yallist: [7msill[0m [35mresolveWithNewModule[0m yallist@4.0.0[0m[K[[7m      [27m[90m............[0m] \ loadExtraneous: [7msill[0m [35mresolveWithNewModule[0m fs-minipass@2.[0m[K[[7m      [27m[90m............[0m] | diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[0m[K[[7m       [27m[90m...........[0m] | postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m       [27m[90m...........[0m] - extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m       [27m[90m...........[0m] \ extract:bcrypt: [34;40mverb[0m [35mlock[0m using /home/ubuntu/.npm/_locks[0m[K[[7m          [27m[90m........[0m] / extract:minimatch: [7msill[0m [35mextract[0m rimraf@^3.0.2 extracted[0m[K[[7m           [27m[90m.......[0m] / extract:gauge: [7msill[0m [35mextract[0m gauge@^3.0.0 extracted to /h[0m[K[[7m            [27m[90m......[0m] / finalize:bcrypt: [7msill[0m [35mdoSerial[0m finalize 432[0m[K[[7m            [27m[90m......[0m] | finalize:path-is-absolute: [7msill[0m [35mfinalize[0m /home/ubuntu/Ar[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:bcrypt: [32;40mtiming[0m [35maction:finalize[0m Comp[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:bcrypt: [32;40mtiming[0m [35maction:finalize[0m Comp[0m[K[[7m            [27m[90m......[0m] - refresh-package-json:fs.realpath: [7msill[0m [35mrefresh-package-j[0m[K[[7m            [27m[90m......[0m] / build:chownr: [7msill[0m [35mlinkStuff[0m chownr@2.0.0 has /home/ubun[0m[K[K[?25h
+> bcrypt@5.0.1 install /home/ubuntu/Artee/bundle/programs/server/node_modules/bcrypt
+> node-pre-gyp install --fallback-to-build
+
+[bcrypt] Success: "/home/ubuntu/Artee/bundle/programs/server/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node" is installed via remote
+[?25l[[7m            [27m[90m......[0m] | postinstall: [32minfo[0m [35mlifecycle[0m bcrypt@5.0.1~postinstall: bc[0m[K[[7m            [27m[90m......[0m] / postinstall: [32minfo[0m [35mlifecycle[0m bcrypt@5.0.1~postinstall: bc[0m[K[[7m            [27m[90m......[0m] / postinstall: [32minfo[0m [35mlifecycle[0m bcrypt@5.0.1~postinstall: bc[0m[K[[7m            [27m[90m......[0m] \ postinstall: [32minfo[0m [35mlifecycle[0m bcrypt@5.0.1~postinstall: bc[0m[K[K[?25h+ bcrypt@5.0.1
+added 54 packages from 114 contributors and audited 99 packages in 3.085s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found [92m0[0m vulnerabilities
+
+[?25l[[7m            [27m[90m......[0m] / postinstall: [7msill[0m [35minstall[0m printInstalled[0m[K[K[?25h[32minfo[39m:    Forever processing file: [90marteesinglesignin.js[39m
+(node:1855965) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1855965) Warning: Accessing non-existent property 'padLevel
