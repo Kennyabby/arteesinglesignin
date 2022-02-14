@@ -76,6 +76,7 @@ if(Meteor.isServer) {
           secret: settings.secret
         });
       }
+      console.log(settings.secret);
       Slingshot.fileRestrictions("imageUpload",{
         allowedFileTypes: ["image/png", "image/jpeg", "image/gif"],
         maxSize: 4 * 1024 * 1024,

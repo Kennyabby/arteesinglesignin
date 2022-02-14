@@ -1007,3 +1007,20 @@ App 1110956 output:
 App 1110956 output: => Client modified -- refreshing
 App 1110956 output: 
 App 1110956 output: => Client modified -- refreshing (x2)
+App 1110956 output: 
+App 1110956 output: => Client modified -- refreshing (x3)
+App 1110956 output: 
+App 1110956 output: => Server modified -- restarting...
+App 1110956 output:                                    W20220214-17:29:05.090(0)? (STDERR) /home/ubuntu/.meteor/packages/promise/.0.12.0.1180b18.l7yg++os+web.browser+web.browser.legacy+web.cordova/npm/node_modules/meteor-promise/promise_server.js:218
+App 1110956 output: W20220214-17:29:05.092(0)? (STDERR)       throw error;
+App 1110956 output: W20220214-17:29:05.093(0)? (STDERR)       ^
+App 1110956 output: W20220214-17:29:05.093(0)? (STDERR) 
+App 1110956 output: W20220214-17:29:05.093(0)? (STDERR) TypeError: Cannot read property 'secret' of undefined
+App 1110956 output: W20220214-17:29:05.093(0)? (STDERR)     at server/main.js:79:28
+App 1110956 output: W20220214-17:29:05.093(0)? (STDERR)     at Function.time (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:273:30)
+App 1110956 output: W20220214-17:29:05.094(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:415:15
+App 1110956 output: W20220214-17:29:05.094(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:465:7
+App 1110956 output: W20220214-17:29:05.094(0)? (STDERR)     at Function.run (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:280:14)
+App 1110956 output: W20220214-17:29:05.094(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:463:13
+App 1110956 output: => Exited with code: 1
+App 1110956 output: => Your application is crashing. Waiting for file change.

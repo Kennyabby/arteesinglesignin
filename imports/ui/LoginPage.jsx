@@ -146,7 +146,7 @@ export class LoginPage extends Component{
         <p><img src="sparLogo.png" style={{margin:"0px"}} alt="Spar Logo" width="400px"/></p>
         <div className="content" onClick={()=>{
         }}>
-            <h1 className="top-label">Signin Into Your Account</h1>
+            <h1 className="top-label">Sign Into Your Account</h1>
             {/* <img src="logo.png" alt="Spar Logo" width="100px"/> */}
             <div className="input">
             <div style={{display:"inline-flex", marginTop:"50px"}}>
