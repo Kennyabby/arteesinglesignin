@@ -83,105 +83,105 @@ export class LoginPage extends Component{
     }
   }
     
-    signin = <button 
-      className="login" 
-      type="submit" 
-      value="login" 
-      onClick={this.login}>Signin
-    </button>
-    getUsername = (e)=>{
-      username = e.target.value
-      this.setState({
-        err:""
-      })
-    }
-    getPassword = (e)=>{
-      password= e.target.value;
-      this.setState({
-        err:""
-      })
+  signin = <button 
+    className="login" 
+    type="submit" 
+    value="login" 
+    onClick={this.login}>Signin
+  </button>
+  getUsername = (e)=>{
+    username = e.target.value
+    this.setState({
+      err:""
+    })
+  }
+  getPassword = (e)=>{
+    password= e.target.value;
+    this.setState({
+      err:""
+    })
 
-      // console.log(e.key==='Enter');
-    }
-    gotoGoogle=(e)=>{
+    // console.log(e.key==='Enter');
+  }
+  gotoGoogle=(e)=>{
 
+  }
+  onKeyUpValue=(event)=>{
+    if (event.key==='Enter'){
+      this.login();
     }
-    onKeyUpValue=(event)=>{
-      if (event.key==='Enter'){
-        this.login();
-      }
+  }
+  render(){
+    const userInputStyle={
+      outline:this.state.topInput, 
+      border:this.state.border,
+      borderBottom:this.state.inputBorderBottom
     }
-    render(){
-      const userInputStyle={
-        outline:this.state.topInput, 
-        border:this.state.border,
-        borderBottom:this.state.inputBorderBottom
-      }
-      const passInputStyle={
-        outline:this.state.bottomInput, 
-        border:this.state.border,
-        borderBottom:this.state.passBorderBottom
-      }
-      const usernameInput = <input  
-        className="input-top" 
-        type="text" 
-        name="Username"
-        placeholder="Username"
-        style={userInputStyle}
-        onClick={this.toggleFocus}
-        onChange={this.getUsername}
-      />;
-      const passwordInput = <input 
-        className="input-bottom" 
-        type="password" 
-        name="Password"
-        placeholder="Password"
-        style={passInputStyle}
-        onClick={this.toggleFocus}
-        onChange={this.getPassword}
-        onKeyUp={this.onKeyUpValue.bind(this)}
-      />;
-        return(
-          <div className='cover'>
-          <p><img src="sparLogo.png" style={{margin:"0px"}} alt="Spar Logo" width="400px"/></p>
-          <div className="content" onClick={()=>{
-          }}>
-              <h1 className="top-label">Signin Into Your Account</h1>
-              {/* <img src="logo.png" alt="Spar Logo" width="100px"/> */}
-              <div className="input">
-              <div style={{display:"inline-flex", marginTop:"50px"}}>
-                <img src="username.png" alt="User Logo" height="30px"/>
-                {usernameInput}
-              </div>
-              <div style={{display:"inline-flex", marginTop:"30px"}}>
-                <img src="password.png" alt="Lock Logo" height="30px"/>
-                {passwordInput}
-              </div>
-              <p className="error">{this.state.err}</p>
-              </div>
-              <div className="alternate">
-                <p style={{cursor:"pointer"}} onClick={this.gotoGoogle}>Signin with Google</p></div>
-                
-              {this.signin}
-              </div>
-          </div>
-        );
+    const passInputStyle={
+      outline:this.state.bottomInput, 
+      border:this.state.border,
+      borderBottom:this.state.passBorderBottom
     }
+    const usernameInput = <input  
+      className="input-top" 
+      type="text" 
+      name="Username"
+      placeholder="Username"
+      style={userInputStyle}
+      onClick={this.toggleFocus}
+      onChange={this.getUsername}
+    />;
+    const passwordInput = <input 
+      className="input-bottom" 
+      type="password" 
+      name="Password"
+      placeholder="Password"
+      style={passInputStyle}
+      onClick={this.toggleFocus}
+      onChange={this.getPassword}
+      onKeyUp={this.onKeyUpValue.bind(this)}
+    />;
+      return(
+        <div className='cover'>
+        <p><img src="sparLogo.png" style={{margin:"0px"}} alt="Spar Logo" width="400px"/></p>
+        <div className="content" onClick={()=>{
+        }}>
+            <h1 className="top-label">Signin Into Your Account</h1>
+            {/* <img src="logo.png" alt="Spar Logo" width="100px"/> */}
+            <div className="input">
+            <div style={{display:"inline-flex", marginTop:"50px"}}>
+              <img src="username.png" alt="User Logo" height="30px"/>
+              {usernameInput}
+            </div>
+            <div style={{display:"inline-flex", marginTop:"30px"}}>
+              <img src="password.png" alt="Lock Logo" height="30px"/>
+              {passwordInput}
+            </div>
+            <p className="error">{this.state.err}</p>
+            </div>
+            <div className="alternate">
+              <p style={{cursor:"pointer"}} onClick={this.gotoGoogle}>Signin with Google</p></div>
+              
+            {this.signin}
+            </div>
+        </div>
+      );
+  }
+  
+  componentDidMount(){
     
-    componentDidMount(){
+    var subs = Meteor.subscribe('LoginDetails');
+    
+    Tracker.autorun(()=>{
       
-      var subs = Meteor.subscribe('LoginDetails');
-      
-      Tracker.autorun(()=>{
-        
-        if (subs.ready()){
-          users = LoginDetails.find().fetch();
-          this.setState({
-            users: users
-          })
-        }
-      })
-      
-      
-    }
+      if (subs.ready()){
+        users = LoginDetails.find().fetch();
+        this.setState({
+          users: users
+        })
+      }
+    })
+    
+    
+  }
 }

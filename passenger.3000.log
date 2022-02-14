@@ -932,3 +932,56 @@ App 982576 output: => Modified -- restarting.
 App 982576 output: W20220214-12:25:25.779(0)? (STDERR) The package joshowens:accounts-entry at 0.7.3 is incompatible with Meteor 0.9.0 or later. 
 App 982576 output: W20220214-12:25:25.781(0)? (STDERR) If a new, compatible version of this package exists, running 'meteor update' should cause you to update. 
 App 982576 output: => Meteor server restarted
+App 982576 output: 
+App 982576 output: => Server modified -- restarting...
+App 982576 output:                                    
+App 982576 output: W20220214-12:54:11.068(0)? (STDERR) The package joshowens:accounts-entry at 0.7.3 is incompatible with Meteor 0.9.0 or later. 
+App 982576 output: W20220214-12:54:11.069(0)? (STDERR) If a new, compatible version of this package exists, running 'meteor update' should cause you to update. 
+App 982576 output: => Meteor server restarted
+App 982576 output: 
+App 982576 output: => Server modified -- restarting...
+App 982576 output:                                    W20220214-12:54:25.416(0)? (STDERR) The package joshowens:accounts-entry at 0.7.3 is incompatible with Meteor 0.9.0 or later. 
+App 982576 output: W20220214-12:54:25.416(0)? (STDERR) If a new, compatible version of this package exists, running 'meteor update' should cause you to update. 
+App 982576 output: => Meteor server restarted
+App 982576 output: 
+App 982576 output: => Server modified -- restarting...
+App 982576 output:                                    
+App 982576 output: W20220214-12:55:17.613(0)? (STDERR) The package joshowens:accounts-entry at 0.7.3 is incompatible with Meteor 0.9.0 or later. 
+App 982576 output: W20220214-12:55:17.613(0)? (STDERR) If a new, compatible version of this package exists, running 'meteor update' should cause you to update. 
+App 982576 output: => Meteor server restarted
+
+[ N 2022-02-14 12:55:49.7649 959308/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-14 12:55:49.7649 959308/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-14 12:55:49.7650 959308/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 982576, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-14 12:55:49.7651 959308/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-14 12:55:49.7653 959308/Td Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-14 12:55:49.7658 959308/Td Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-14 12:55:49.7658 959308/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-14 12:55:49.7651 959308/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-14 12:55:49.7659 959308/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-14 12:55:49.7663 959308/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 982576, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-14 12:55:50.0705 959308/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-14 16:13:13.6312 1110904/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-14 16:13:13.6523 1110907/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-14 16:13:13.6525 1110907/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-14 16:13:13.6603 1110907/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 1110907
+[ N 2022-02-14 16:13:15.8847 1110907/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 1110956 output: [[[[[ ~/Artee/arteesinglesignin ]]]]]
+App 1110956 output: 
+App 1110956 output: => Started proxy.
+App 1110956 output: => Started HMR server.
+App 1110956 output: => Started MongoDB.
+App 1110956 output: => Started your app.
+App 1110956 output: 
+App 1110956 output: => App running at: http://localhost:2157/
+App 1110956 output: W20220214-16:23:15.497(0)? (STDERR) (node:1111233) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+App 1110956 output: W20220214-16:23:15.567(0)? (STDERR) (Use `node --trace-deprecation ...` to show where the warning was created)
+App 1110956 output: => Client modified -- refreshing
+App 1110956 output: 
+App 1110956 output: => Client modified -- refreshing (x2)
+App 1110956 output: 
+App 1110956 output: => Client modified -- refreshing (x3)
+App 1110956 output: 
+App 1110956 output: => Client modified -- refreshing (x4)
+App 1110956 output: 
+App 1110956 output: => Client modified -- refreshing (x5)

@@ -90,16 +90,16 @@ export class LinkPage extends Component{
             if (subt.ready()){
                 countt++;
                 if (countt===1){
-                    // console.log(window.sessionStorage.getItem("username"));
-                    // var storage = String(window.sessionStorage.getItem("username"));
-                    
                     const currentuser=LoginDetails.find().fetch().filter(user=>{
                         
                         if (user._id===this.props.currentUser._id){
                             
                             return user;
+                            
                         }
+
                     });
+                   
                     if (currentuser[0].status==="Admin"){
                         // console.log("yes")
                         this.setState({
@@ -136,7 +136,7 @@ export class LinkPage extends Component{
                             return(
                             <div key={id} className="content1" url={urlVal} title={link.title}>
                                 <img urll={urlVal} id={link._id} style={{display:this.state.cancle}} src="cancle.png" className="cancleUrl" title="remove link" src="cancle.png" alt="cancle link" onClick={cancleLink}/>;
-                                <img url={urlVal} src={link.logo} alt="appsheet link" height="200px" onClick={gotoLink}/>
+                                <img url={urlVal} src={link.logo} alt="appsheet link" height="100px" onClick={gotoLink}/>
                                 <h1 key={id} url={urlVal} onClick={gotoLink}>{link.title}</h1>
                             </div>)
                         })}

@@ -10,23 +10,7 @@ const REGION ='eu-west-1';
 // const authorize=()=>{
 // }
 // console.log(process.env.ACCESS_KEY_ID);
-Slingshot.fileRestrictions("imageUpload",{
-  allowedFileTypes: ["image/png", "image/jpeg", "image/gif"],
-  maxSize: 4 * 1024 * 1024,
-})
-Slingshot.createDirective("imageUpload", Slingshot.S3Storage, {
-    AWSAccessKeyId: process.env.ACCESS_KEY_ID,
-    AWSSecretAccessKey: process.env.SECRET_ACCESS_KEY,
-    bucket: S3_BUCKET,
-    acl: "public-read",
-    region: REGION,
-    authorize: function () {
-      return true;
-    },
-    key: function (file){
-      return file.name
-    }
-})
+
 
 
 // AWS.config.update({
@@ -79,6 +63,37 @@ if(Meteor.isServer) {
       // AppsheetLink.remove({});
       // console.log(AppsheetLink.find().fetch());
       // console.log(process.env.ACCESS_KEY_ID);
+      const settings = Meteor.settings.google;
+
+      if (settings) {  
+        ServiceConfiguration.configurations.remove({
+          service: 'google'
+        });
+
+        ServiceConfiguration.configurations.insert({
+          service: 'google',
+          clientId: settings.clientId,
+          secret: settings.secret
+        });
+      }
+      Slingshot.fileRestrictions("imageUpload",{
+        allowedFileTypes: ["image/png", "image/jpeg", "image/gif"],
+        maxSize: 4 * 1024 * 1024,
+      })
+      Slingshot.createDirective("imageUpload", Slingshot.S3Storage, {
+          AWSAccessKeyId: process.env.ACCESS_KEY_ID,
+          AWSSecretAccessKey: process.env.SECRET_ACCESS_KEY,
+          bucket: S3_BUCKET,
+          acl: "public-read",
+          region: REGION,
+          authorize: function () {
+            return true;
+          },
+          key: function (file){
+            return file.name
+          }
+      })
+
       LoginDetails.allow({
         insert: function () {
           return true;

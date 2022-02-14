@@ -23,6 +23,6 @@ react-meteor-data       # React higher-order component for reactively tracking M
 accounts-ui
 peerlibrary:aws-sdk
 edgee:slingshot
-joshowens:accounts-entry
 accounts-google
 service-configuration
+modules-runtime-hot
