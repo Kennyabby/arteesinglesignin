@@ -12,6 +12,7 @@ body {
 }
 
 .cover{
+  /* border: solid black 1px; */
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;

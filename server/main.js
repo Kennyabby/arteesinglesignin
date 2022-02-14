@@ -1,16 +1,37 @@
 import { Meteor } from 'meteor/meteor';
 import { AppsheetLink } from '/imports/api/links';
 import { LoginDetails } from '/imports/api/userLogin';
-// import AWS from 'aws-sdk';
-// const S3_BUCKET ='help-desk-bucket';
-// const REGION ='eu-west-1';
+// import Slingshot from 'slingshot';
+import AWS from 'aws-sdk';
+
+const S3_BUCKET ='help-desk-bucket';
+const REGION ='eu-west-1';
+
+// const authorize=()=>{
+// }
+// console.log(process.env.ACCESS_KEY_ID);
+Slingshot.fileRestrictions("imageUpload",{
+  allowedFileTypes: ["image/png", "image/jpeg", "image/gif"],
+  maxSize: 4 * 1024 * 1024,
+})
+Slingshot.createDirective("imageUpload", Slingshot.S3Storage, {
+    AWSAccessKeyId: process.env.ACCESS_KEY_ID,
+    AWSSecretAccessKey: process.env.SECRET_ACCESS_KEY,
+    bucket: S3_BUCKET,
+    acl: "public-read",
+    region: REGION,
+    authorize: function () {
+      return true;
+    },
+    key: function (file){
+      return file.name
+    }
+})
+
 
 // AWS.config.update({
-//     apiVersion: "2010-12-01",
-//     accessKeyId: process.env.ACCESS_KEY_ID,
-//     secretAccessKey: process.env.SECRET_ACCESS_KEY,
-//     region: REGION,
-//     endpoint: "http://54.247.57.9:3000",
+    
+    
 // })
 
 // const myBucket = new AWS.S3({
@@ -46,16 +67,9 @@ if(Meteor.isServer) {
       //   createdAt:new Date()
       //  })
       // LoginDetails.insert({
-      //   username:"arteegroup",
-      //   password:"10artee01",
+      //   username:"hdghhg",
+      //   password:"jhjg",
       //   status:"User",
-      //   active:"off",
-      //   page:"loginPage"
-      //  })
-      //  LoginDetails.insert({
-      //   username:"arteeadmin",
-      //   password:"admin114",
-      //   status:"Admin",
       //   active:"off",
       //   page:"loginPage"
       //  })
@@ -97,6 +111,31 @@ if(Meteor.isServer) {
 
         return AppsheetLink.find();
     });
+    // Meteor.publish('UploadImg', function(e){
+
+    //   console.log("Started uploading");
+    //   var file = e.target.files[0];
+    //     this.setState({
+    //         logo: file.name
+    //     })
+
+    //     const params = {
+    //         ACL: 'public-read',
+    //         Body: file,
+    //         Bucket: S3_BUCKET,
+    //         Key: file.name
+    //     };
+    //     // axios.post("/public", params);
+    //     myBucket.putObject(params).on('httpUploadProgress', (evt) => {
+    //             // setProgress(Math.round((evt.loaded / evt.total) * 100))
+    //         }).send((err) => {
+    //             if (err) {
+    //                 console.log(err)
+    //             }
+    //         })
+    //         // console.log(data.url);
+    //     console.log("Finished Uploading");
+    // });
     });
 }
 

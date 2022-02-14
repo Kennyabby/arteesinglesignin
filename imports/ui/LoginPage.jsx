@@ -161,6 +161,7 @@ export class LoginPage extends Component{
               </div>
               <div className="alternate">
                 <p style={{cursor:"pointer"}} onClick={this.gotoGoogle}>Signin with Google</p></div>
+                
               {this.signin}
               </div>
           </div>

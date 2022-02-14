@@ -40,9 +40,10 @@ export class LinkPage extends Component{
         super(props);
         this.state={
             link:[],
-            displayStatus:"inline-flex",
+            displayStatus:"none",
             search:"",
             show:false,
+            showAddButton:false,
             cancle:"none"
         }
         this.showAddForm = this.showAddForm.bind(this);
@@ -102,12 +103,14 @@ export class LinkPage extends Component{
                     if (currentuser[0].status==="Admin"){
                         // console.log("yes")
                         this.setState({
-                            cancle:"block"
+                            cancle:"block",
+                            displayStatus:"inline-flex"
                         })
                     }
                     else{
                         this.setState({
-                            cancle:"none"
+                            cancle:"none",
+                            displayStatus:"none"
                         })
                     }
                 }   

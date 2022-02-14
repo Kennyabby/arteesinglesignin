@@ -2,11 +2,13 @@ import React,{Component,useState} from 'react';
 import { AppsheetLink } from '/imports/api/links';
 import { Meteor } from 'meteor/meteor';
 import { Tracker } from 'meteor/tracker';
+import AWS from 'aws-sdk';
 // import axios from 'axios';
 
 
 var title="";
 var url="";
+var uploader = new ReactiveVar();
 
 
 export class AddForm extends Component{
@@ -14,22 +16,23 @@ export class AddForm extends Component{
         super(props);
         this.state={
             isViewAdd:"none",
-            logo:"logo.png"
+            logo:"logo.png",
+            file:null
         }
         
     }
     
     getAppName=(e)=>{
         title=e.target.value;
-        console.log("title: ",title.length,url.length)
+        // console.log("title: ",title.length,url.length)
         if (title.length===0 || url.length===0){
-            console.log("none");
+            // console.log("none");
             this.setState({
                 isViewAdd:"none"
             })
         }
         if(title.length!=0 && url!=0){
-            console.log("block");
+            // console.log("block");
             this.setState({
                 isViewAdd:"inline-block"
             })
@@ -38,16 +41,16 @@ export class AddForm extends Component{
     
     getAppUrl=(e)=>{
         url=e.target.value;
-        console.log("url: ",title.length,url.length)
+        // console.log("url: ",title.length,url.length)
         if (title.length===0 || url.length===0){
 
-            console.log("none");
+            // console.log("none");
             this.setState({
                 isViewAdd:"none"
             })
         }
         if(title.length!=0 && url!=0){
-            console.log("block");
+            // console.log("block");
             this.setState({
                 isViewAdd:"inline-block"
             })
@@ -56,35 +59,9 @@ export class AddForm extends Component{
     }
 
     getLogo=(e)=>{
-        var file = e.target.files[0];
         this.setState({
-            logo: file.name
-        })
-
-        // const [progress,setProgress] = useState(0);
-        // const formData = new FormData();
-    
-        // // Update the formData object
-        // formData.append(
-        //     "myFile",
-        //     file,
-        //     file.name
-        // );
-
-        // const params = {
-        //     ACL: 'public-read',
-        //     Body: file,
-        //     Bucket: S3_BUCKET,
-        //     Key: file.name
-        // };
-        // axios.post("/public", params);
-        // myBucket.putObject(params).on('httpUploadProgress', (evt) => {
-        //         // setProgress(Math.round((evt.loaded / evt.total) * 100))
-        //     }).send((err) => {
-        //         if (err) {
-        //             console.log(err)
-        //         }
-        //     })
+            file:e.target.files[0]
+        })   
     }
     
     appName = <input className='formInput' type="text" placeholder='Enter Appsheet Name' onChange={this.getAppName}/>;
@@ -93,12 +70,31 @@ export class AddForm extends Component{
     
     updateLinks=()=>{
         // console.log(this.appName.target);
+        var upload = new Slingshot.Upload("imageUpload");
+        upload.send(this.state.file, (error, downloadUrl)=>{
+            uploader.set();
+            if (error) {
+                console.log(error);
+                alert(error);
+            }
+            else{
+                console.log("Succesful");
+                console.log("Uploaded file available here",downloadUrl);
+                this.setState({
+                    logo:downloadUrl
+                })
+            }
+            
+            uploader.set(upload);
+            
+        });
         var sub = Meteor.subscribe('AppsheetLink');
         var count=0;
         Tracker.autorun(()=>{
             if (sub.ready()){
                 count++;
                 if (count===1){
+                    console.log("Added Link");
                     if (!url.includes("http://")){
                         url="http://"+url;
                     }
@@ -106,7 +102,7 @@ export class AddForm extends Component{
                     AppsheetLink.insert({
                         title:title,
                         url:url,
-                        logo:this.logo,
+                        logo:this.state.logo,
                         createdAt: new Date()
                     })
                     this.props.updates();
@@ -114,6 +110,8 @@ export class AddForm extends Component{
                 }
             }
         })
+        
+        
         
     }
     cancleUpdateLinks=()=>{
