@@ -985,3 +985,25 @@ App 1110956 output:
 App 1110956 output: => Client modified -- refreshing (x4)
 App 1110956 output: 
 App 1110956 output: => Client modified -- refreshing (x5)
+App 1110956 output: 
+App 1110956 output: => Errors prevented startup:
+App 1110956 output:    
+App 1110956 output:    While minifying app stylesheet:
+App 1110956 output:    app/client/App.css:43:10: Missed semicolon
+App 1110956 output:    
+App 1110956 output: => Your application has errors. Waiting for file change.
+App 1110956 output: => Modified -- restarting.
+App 1110956 output: => Meteor server restarted
+App 1110956 output: 
+App 1110956 output: => Errors prevented startup:
+App 1110956 output:    
+App 1110956 output:    While minifying app stylesheet:
+App 1110956 output:    app/client/App.css:43:10: Missed semicolon
+App 1110956 output:    
+App 1110956 output: => Your application has errors. Waiting for file change.
+App 1110956 output: => Modified -- restarting.
+App 1110956 output: => Meteor server restarted
+App 1110956 output: 
+App 1110956 output: => Client modified -- refreshing
+App 1110956 output: 
+App 1110956 output: => Client modified -- refreshing (x2)

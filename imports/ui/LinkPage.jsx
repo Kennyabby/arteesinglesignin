@@ -136,7 +136,7 @@ export class LinkPage extends Component{
                             return(
                             <div key={id} className="content1" url={urlVal} title={link.title}>
                                 <img urll={urlVal} id={link._id} style={{display:this.state.cancle}} src="cancle.png" className="cancleUrl" title="remove link" src="cancle.png" alt="cancle link" onClick={cancleLink}/>;
-                                <img url={urlVal} src={link.logo} alt="appsheet link" height="100px" onClick={gotoLink}/>
+                                <img url={urlVal} src={link.logo} alt="appsheet link" height="150px" onClick={gotoLink}/>
                                 <h1 key={id} url={urlVal} onClick={gotoLink}>{link.title}</h1>
                             </div>)
                         })}

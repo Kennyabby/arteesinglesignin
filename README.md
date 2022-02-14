@@ -18,7 +18,7 @@
 
 # Environment:
 	Actively running t2.micro, 8GiB, 30GiB, 15GiB Elastic Block Store (EBS), Amazon Web Service (AWS), Elastic Cloud Computing (EC2) Ubuntu 20.04 Instance, with public 
-	IP 34.242.180.128.
+	IP 54.247.xxx.xxx
 # Meteor Installation process:
 	The following command were executed in the above environment.
 		sudo apt update
