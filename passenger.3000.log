@@ -1689,3 +1689,4 @@ App 1633177 output:
 [ N 2022-02-15 11:58:17.1850 1632024/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
 [ N 2022-02-15 11:58:17.1851 1632024/Td Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
 [ N 2022-02-15 11:58:17.1852 1632024/Td Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ W 2022-02-15 11:58:47.1943 1633439/T1 age/Wat/WatchdogMain.cpp:537 ]: Some Phusion Passenger(R) agent processes did not exit in time, forcefully shutting down all.
