@@ -1690,3 +1690,707 @@ App 1633177 output:
 [ N 2022-02-15 11:58:17.1851 1632024/Td Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
 [ N 2022-02-15 11:58:17.1852 1632024/Td Ser/Server.h:558 ]: [ApiServer] Shutdown finished
 [ W 2022-02-15 11:58:47.1943 1633439/T1 age/Wat/WatchdogMain.cpp:537 ]: Some Phusion Passenger(R) agent processes did not exit in time, forcefully shutting down all.
+[ N 2022-02-15 11:59:44.0548 1634161/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-15 11:59:44.0753 1634164/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-15 11:59:44.0755 1634164/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-15 11:59:44.0832 1634164/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 1634164
+[ N 2022-02-15 11:59:46.2479 1634164/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 1634213 output: [[[[[ ~/Artee/arteesinglesignin ]]]]]
+App 1634213 output: 
+App 1634213 output: => Started proxy.
+App 1634213 output: => Started HMR server.
+App 1634213 output: => Started MongoDB.
+App 1634213 output: => Started your app.
+App 1634213 output: 
+App 1634213 output: => App running at: http://localhost:4729/
+App 1634213 output: => Client modified -- refreshing
+App 1634213 output: 
+App 1634213 output: => Client modified -- refreshing (x2)
+App 1634213 output: 
+App 1634213 output: => Client modified -- refreshing (x3)
+App 1634213 output: 
+App 1634213 output: => Client modified -- refreshing (x4)
+App 1634213 output: 
+App 1634213 output: => Client modified -- refreshing (x5)
+App 1634213 output: 
+App 1634213 output: => Client modified -- refreshing (x6)
+App 1634213 output: 
+App 1634213 output: => Client modified -- refreshing (x7)
+App 1634213 output: 
+App 1634213 output: => Client modified -- refreshing (x8)
+App 1634213 output: 
+App 1634213 output: => Client modified -- refreshing (x9)
+App 1634213 output: 
+App 1634213 output: => Client modified -- refreshing (x10)
+App 1634213 output: 
+App 1634213 output: => Client modified -- refreshing (x11)
+App 1634213 output: 
+App 1634213 output: => Client modified -- refreshing (x12)
+App 1634213 output: 
+App 1634213 output: => Client modified -- refreshing (x13)
+App 1634213 output: 
+App 1634213 output: => Client modified -- refreshing (x14)
+App 1634213 output: 
+App 1634213 output: => Client modified -- refreshing (x15)
+App 1634213 output: 
+App 1634213 output: => Client modified -- refreshing (x16)
+App 1634213 output: 
+App 1634213 output: => Client modified -- refreshing (x17)
+App 1634213 output: 
+App 1634213 output: => Client modified -- refreshing (x18)
+App 1634213 output: 
+App 1634213 output: => Client modified -- refreshing (x19)
+App 1634213 output: 
+App 1634213 output: => Client modified -- refreshing (x20)
+App 1634213 output: 
+App 1634213 output: => Server modified -- restarting...
+App 1634213 output:                                    
+App 1634213 output: => Meteor server restarted
+App 1634213 output: 
+App 1634213 output: I20220215-13:39:24.252(0)? authorized
+App 1634213 output: => Server modified -- restarting...
+App 1634213 output:                                    => Meteor server restarted
+App 1634213 output: 
+App 1634213 output: I20220215-13:40:46.084(0)? authorized
+App 1634213 output: I20220215-13:40:46.085(0)? add.jpg1644932446084
+App 1634213 output: => Server modified -- restarting...
+App 1634213 output:                                    
+App 1634213 output: => Meteor server restarted
+App 1634213 output: 
+App 1634213 output: I20220215-13:41:44.218(0)? authorized
+App 1634213 output: I20220215-13:41:44.221(0)? add.jpg1644932504218
+App 1634213 output: => Server modified -- restarting...
+App 1634213 output:                                    
+App 1634213 output: => Meteor server restarted
+App 1634213 output: 
+App 1634213 output: I20220215-13:42:25.651(0)? authorized
+App 1634213 output: I20220215-13:42:25.652(0)? add.jpg1644932545651
+App 1634213 output: I20220215-13:43:20.365(0)? authorized
+App 1634213 output: I20220215-13:43:20.365(0)? add.jpg1644932600365
+App 1634213 output: => Server modified -- restarting...
+App 1634213 output:                                    
+App 1634213 output: => Meteor server restarted
+App 1634213 output: 
+App 1634213 output: I20220215-13:44:13.998(0)? authorized
+App 1634213 output: I20220215-13:44:13.999(0)? add.jpg1644932653998
+App 1634213 output: I20220215-13:44:52.829(0)? authorized
+App 1634213 output: I20220215-13:44:52.829(0)? add.jpg1644932692828
+
+[ N 2022-02-15 13:45:12.4967 1634164/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-15 13:45:12.4968 1634164/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-15 13:45:12.4968 1634164/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 1634213, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-15 13:45:12.4969 1634164/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-15 13:45:12.4970 1634164/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-15 13:45:12.4970 1634164/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-15 13:45:12.4971 1634164/Td Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-15 13:45:12.4971 1634164/Td Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-15 13:45:12.4972 1634164/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-15 13:45:12.4973 1634164/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 1634213, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-15 13:45:12.7652 1634164/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-15 13:45:14.8781 1683253/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-15 13:45:14.9067 1683256/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-15 13:45:14.9068 1683256/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-15 13:45:14.9145 1683256/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 1683256
+[ N 2022-02-15 13:45:17.0871 1683256/T8 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 1683300 output: [[[[[ ~/Artee/arteesinglesignin ]]]]]
+App 1683300 output: 
+App 1683300 output: => Started proxy.
+App 1683300 output: => Started HMR server.
+App 1683300 output: => Started MongoDB.
+App 1683300 output: => Started your app.
+App 1683300 output: 
+App 1683300 output: => App running at: http://localhost:6915/
+App 1683300 output: I20220215-13:46:15.158(0)? authorized
+App 1683300 output: I20220215-13:46:15.252(0)? add.jpg1644932775153
+App 1683300 output: => Server modified -- restarting...
+App 1683300 output:                                    
+App 1683300 output: => Meteor server restarted
+App 1683300 output: 
+App 1683300 output: I20220215-13:47:14.286(0)? authorized
+App 1683300 output: I20220215-13:47:14.288(0)? 1644932834281-add.jpg
+App 1683300 output: => Server modified -- restarting...
+App 1683300 output:                                    => Meteor server restarted
+App 1683300 output: 
+App 1683300 output: I20220215-13:48:42.132(0)? authorized
+App 1683300 output: I20220215-13:48:42.133(0)? 1644932922132-add.jpg
+App 1683300 output: => Server modified -- restarting...
+App 1683300 output:                                    
+App 1683300 output: => Meteor server restarted
+App 1683300 output: 
+App 1683300 output: => Server modified -- restarting...
+App 1683300 output:                                    
+App 1683300 output: I20220215-13:49:36.305(0)? AKIAUILE6XYFZ623WXPC
+App 1683300 output: I20220215-13:49:36.307(0)? ZomQj+8DUuhliOk1bgdWhpZup2S7UNodxs4eOQz1
+App 1683300 output: => Meteor server restarted
+App 1683300 output: 
+App 1683300 output: => Server modified -- restarting...
+App 1683300 output:                                    I20220215-13:50:03.937(0)? AKIAUILE6XYFZ623WXPC
+App 1683300 output: I20220215-13:50:03.938(0)? ZomQj+8DUuhliOk1bgdWhpZup2S7UNodxs4eOQz1
+App 1683300 output: => Meteor server restarted
+App 1683300 output: 
+App 1683300 output: => Server modified -- restarting...
+App 1683300 output:                                    I20220215-13:50:12.396(0)? AKIAUILE6XYFZ623WXPC
+App 1683300 output: I20220215-13:50:12.396(0)? ZomQj+8DUuhliOk1bgdWhpZup2S7UNodxs4eOQz1
+App 1683300 output: W20220215-13:50:12.397(0)? (STDERR) 
+App 1683300 output: W20220215-13:50:12.397(0)? (STDERR) /home/ubuntu/.meteor/packages/promise/.0.12.0.1180b18.l7yg++os+web.browser+web.browser.legacy+web.cordova/npm/node_modules/meteor-promise/promise_server.js:218
+App 1683300 output: W20220215-13:50:12.398(0)? (STDERR)       throw error;
+App 1683300 output: W20220215-13:50:12.398(0)? (STDERR)       ^
+App 1683300 output: => Errors prevented startup:
+App 1683300 output:    
+App 1683300 output:    While running post-startup callbacks:
+App 1683300 output:    error: write EPIPE
+App 1683300 output:    
+App 1683300 output: => Your application has errors. Waiting for file change.
+App 1683300 output: W20220215-13:50:13.193(0)? (STDERR) errorClass [Error]: Match error: Missing key 'maxSize'
+App 1683300 output: W20220215-13:50:13.194(0)? (STDERR)     at check (packages/check/match.js:36:17)
+App 1683300 output: W20220215-13:50:13.194(0)? (STDERR)     at new Slingshot.Directive (packages/mikkelking:slingshot/lib/directive.js:113:3)
+App 1683300 output: W20220215-13:50:13.194(0)? (STDERR)     at Object.Slingshot.createDirective (packages/mikkelking:slingshot/lib/directive.js:83:5)
+App 1683300 output: W20220215-13:50:13.195(0)? (STDERR)     at server/main.js:86:17
+App 1683300 output: W20220215-13:50:13.195(0)? (STDERR)     at Function.time (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:273:30)
+App 1683300 output: W20220215-13:50:13.195(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:415:15
+App 1683300 output: W20220215-13:50:13.195(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:465:7
+App 1683300 output: W20220215-13:50:13.195(0)? (STDERR)     at Function.run (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:280:14)
+App 1683300 output: W20220215-13:50:13.196(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:463:13 {
+App 1683300 output: W20220215-13:50:13.196(0)? (STDERR)   path: '',
+App 1683300 output: W20220215-13:50:13.196(0)? (STDERR)   sanitizedError: errorClass [Error]: Match failed [400]
+App 1683300 output: W20220215-13:50:13.196(0)? (STDERR)       at errorClass.<anonymous> (packages/check/match.js:91:27)
+App 1683300 output: W20220215-13:50:13.196(0)? (STDERR)       at new errorClass (packages/meteor.js:660:17)
+App 1683300 output: W20220215-13:50:13.197(0)? (STDERR)       at check (packages/check/match.js:36:17)
+App 1683300 output: W20220215-13:50:13.197(0)? (STDERR)       at new Slingshot.Directive (packages/mikkelking:slingshot/lib/directive.js:113:3)
+App 1683300 output: W20220215-13:50:13.197(0)? (STDERR)       at Object.Slingshot.createDirective (packages/mikkelking:slingshot/lib/directive.js:83:5)
+App 1683300 output: W20220215-13:50:13.197(0)? (STDERR)       at server/main.js:86:17
+App 1683300 output: W20220215-13:50:13.197(0)? (STDERR)       at Function.time (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:273:30)
+App 1683300 output: W20220215-13:50:13.197(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:415:15
+App 1683300 output: W20220215-13:50:13.198(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:465:7
+App 1683300 output: W20220215-13:50:13.198(0)? (STDERR)       at Function.run (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:280:14)
+App 1683300 output: W20220215-13:50:13.198(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:463:13 {
+App 1683300 output: W20220215-13:50:13.198(0)? (STDERR)     isClientSafe: true,
+App 1683300 output: W20220215-13:50:13.198(0)? (STDERR)     error: 400,
+App 1683300 output: W20220215-13:50:13.210(0)? (STDERR)     reason: 'Match failed',
+App 1683300 output: W20220215-13:50:13.211(0)? (STDERR)     details: undefined,
+App 1683300 output: W20220215-13:50:13.211(0)? (STDERR)     errorType: 'Meteor.Error'
+App 1683300 output: W20220215-13:50:13.211(0)? (STDERR)   },
+App 1683300 output: W20220215-13:50:13.212(0)? (STDERR)   errorType: 'Match.Error'
+App 1683300 output: W20220215-13:50:13.212(0)? (STDERR) }
+
+[ N 2022-02-15 13:52:46.7939 1683256/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-15 13:52:46.7940 1683256/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-15 13:52:46.7940 1683256/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 1683300, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-15 13:52:46.7941 1683256/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-15 13:52:46.7941 1683256/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-15 13:52:46.7942 1683256/Tc Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-15 13:52:46.7942 1683256/Tc Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-15 13:52:46.7942 1683256/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-15 13:52:46.7943 1683256/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-15 13:52:46.7945 1683256/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 1683300, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-15 13:52:47.0828 1683256/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-15 13:52:51.1531 1687324/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-15 13:52:51.1816 1687327/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-15 13:52:51.1818 1687327/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-15 13:52:51.1897 1687327/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 1687327
+[ N 2022-02-15 13:52:53.3578 1687327/Te age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 1687371 output: [[[[[ ~/Artee/arteesinglesignin ]]]]]
+App 1687371 output: 
+App 1687371 output: => Started proxy.
+App 1687371 output: => Started HMR server.
+App 1687371 output: => Started MongoDB.
+App 1687371 output: I20220215-13:53:16.464(0)? AKIAUILE6XYFZ623WXPC
+App 1687371 output: I20220215-13:53:16.510(0)? ZomQj+8DUuhliOk1bgdWhpZup2S7UNodxs4eOQz1
+App 1687371 output: => Started your app.
+App 1687371 output: 
+App 1687371 output: => App running at: http://localhost:9693/
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    I20220215-13:53:43.467(0)? AKIAUILE6XYFZ623WXPC
+App 1687371 output: I20220215-13:53:43.468(0)? ZomQj+8DUuhliOk1bgdWhpZup2S7UNodxs4eOQz1
+App 1687371 output: => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    
+App 1687371 output: I20220215-13:54:45.107(0)? AKIAUILE6XYFZ623WXPC
+App 1687371 output: I20220215-13:54:45.110(0)? ZomQj+8DUuhliOk1bgdWhpZup2S7UNodxs4eOQz1
+App 1687371 output: => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: I20220215-13:54:52.148(0)? authorized
+App 1687371 output: I20220215-13:54:52.148(0)? 1644933292148-coverimg.jpg
+App 1687371 output: I20220215-13:56:39.681(0)? authorized
+App 1687371 output: I20220215-13:56:39.681(0)? 1644933399681-coverimg.jpg
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    I20220215-13:57:42.935(0)? AKIAUILE6XYFZ623WXPC
+App 1687371 output: I20220215-13:57:42.936(0)? ZomQj+8DUuhliOk1bgdWhpZup2S7UNodxs4eOQz1
+App 1687371 output: W20220215-13:57:42.937(0)? (STDERR) 
+App 1687371 output: W20220215-13:57:42.937(0)? (STDERR) /home/ubuntu/.meteor/packages/promise/.0.12.0.1180b18.l7yg++os+web.browser+web.browser.legacy+web.cordova/npm/node_modules/meteor-promise/promise_server.js:218
+App 1687371 output: W20220215-13:57:42.938(0)? (STDERR)       throw error;
+App 1687371 output: W20220215-13:57:42.938(0)? (STDERR)       ^
+App 1687371 output: W20220215-13:57:42.960(0)? (STDERR) errorClass [Error]: Match error: Expected string, got undefined in field AWSAccessKeyId
+App 1687371 output: W20220215-13:57:42.961(0)? (STDERR)     at check (packages/check/match.js:36:17)
+App 1687371 output: W20220215-13:57:42.961(0)? (STDERR)     at new Slingshot.Directive (packages/mikkelking:slingshot/lib/directive.js:113:3)
+App 1687371 output: W20220215-13:57:42.961(0)? (STDERR)     at Object.Slingshot.createDirective (packages/mikkelking:slingshot/lib/directive.js:83:5)
+App 1687371 output: W20220215-13:57:42.961(0)? (STDERR)     at server/main.js:86:17
+App 1687371 output: W20220215-13:57:42.961(0)? (STDERR)     at Function.time (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:273:30)
+App 1687371 output: W20220215-13:57:42.962(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:415:15
+App 1687371 output: W20220215-13:57:42.962(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:465:7
+App 1687371 output: W20220215-13:57:42.962(0)? (STDERR)     at Function.run (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:280:14)
+App 1687371 output: W20220215-13:57:42.962(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:463:13 {
+App 1687371 output: W20220215-13:57:42.962(0)? (STDERR)   path: 'AWSAccessKeyId',
+App 1687371 output: W20220215-13:57:42.962(0)? (STDERR)   sanitizedError: errorClass [Error]: Match failed [400]
+App 1687371 output: W20220215-13:57:42.962(0)? (STDERR)       at errorClass.<anonymous> (packages/check/match.js:91:27)
+App 1687371 output: W20220215-13:57:42.963(0)? (STDERR)       at new errorClass (packages/meteor.js:660:17)
+App 1687371 output: W20220215-13:57:42.963(0)? (STDERR)       at check (packages/check/match.js:36:17)
+App 1687371 output: W20220215-13:57:42.963(0)? (STDERR)       at new Slingshot.Directive (packages/mikkelking:slingshot/lib/directive.js:113:3)
+App 1687371 output: W20220215-13:57:42.963(0)? (STDERR)       at Object.Slingshot.createDirective (packages/mikkelking:slingshot/lib/directive.js:83:5)
+App 1687371 output: W20220215-13:57:42.963(0)? (STDERR)       at server/main.js:86:17
+App 1687371 output: W20220215-13:57:42.963(0)? (STDERR)       at Function.time (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:273:30)
+App 1687371 output: W20220215-13:57:42.963(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:415:15
+App 1687371 output: W20220215-13:57:42.964(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:465:7
+App 1687371 output: W20220215-13:57:42.964(0)? (STDERR)       at Function.run (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:280:14)
+App 1687371 output: W20220215-13:57:42.964(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:463:13 {
+App 1687371 output: W20220215-13:57:42.964(0)? (STDERR)     isClientSafe: true,
+App 1687371 output: W20220215-13:57:42.964(0)? (STDERR)     error: 400,
+App 1687371 output: W20220215-13:57:42.964(0)? (STDERR)     reason: 'Match failed',
+App 1687371 output: W20220215-13:57:42.964(0)? (STDERR)     details: undefined,
+App 1687371 output: W20220215-13:57:42.964(0)? (STDERR)     errorType: 'Meteor.Error'
+App 1687371 output: W20220215-13:57:42.965(0)? (STDERR)   },
+App 1687371 output: W20220215-13:57:42.965(0)? (STDERR)   errorType: 'Match.Error'
+App 1687371 output: W20220215-13:57:42.965(0)? (STDERR) }
+App 1687371 output: => Exited with code: 1
+App 1687371 output: => Your application is crashing. Waiting for file change.
+App 1687371 output: => Modified -- restarting.
+App 1687371 output: I20220215-13:58:14.123(0)? AKIAUILE6XYFZ623WXPC
+App 1687371 output: I20220215-13:58:14.126(0)? ZomQj+8DUuhliOk1bgdWhpZup2S7UNodxs4eOQz1
+App 1687371 output: => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    
+App 1687371 output: => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: I20220215-14:00:43.088(0)? authorized
+App 1687371 output: I20220215-14:00:43.092(0)? 1644933643088-logo.png
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    
+App 1687371 output: => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: I20220215-14:02:31.222(0)? authorized
+App 1687371 output: I20220215-14:02:31.223(0)? 1644933751223-add.jpg
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing
+App 1687371 output: 
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: I20220215-14:04:12.284(0)? authorized
+App 1687371 output: I20220215-14:04:12.285(0)? 1644933852283-add.jpg
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: I20220215-14:09:56.271(0)? authorized
+App 1687371 output: I20220215-14:09:56.272(0)? 1644934196271-add.jpg
+App 1687371 output: I20220215-14:09:56.276(0)? Finished Uploading
+App 1687371 output: I20220215-14:09:56.305(0)? InvalidParameterType: Expected params.Body to be a string, Buffer, Stream, Blob, or typed array object
+App 1687371 output: I20220215-14:09:56.306(0)?     at ParamValidator.fail (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:50:37)
+App 1687371 output: I20220215-14:09:56.306(0)?     at ParamValidator.validatePayload (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:269:10)
+App 1687371 output: I20220215-14:09:56.307(0)?     at ParamValidator.validateScalar (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:135:21)
+App 1687371 output: I20220215-14:09:56.307(0)?     at ParamValidator.validateMember (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:96:21)
+App 1687371 output: I20220215-14:09:56.307(0)?     at ParamValidator.validateStructure (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:77:14)
+App 1687371 output: I20220215-14:09:56.307(0)?     at ParamValidator.validateMember (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:90:21)
+App 1687371 output: I20220215-14:09:56.307(0)?     at ParamValidator.validate (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:34:10)
+App 1687371 output: I20220215-14:09:56.308(0)?     at Request.VALIDATE_PARAMETERS (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/event_listeners.js:132:42)
+App 1687371 output: I20220215-14:09:56.308(0)?     at Request.callListeners (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/sequential_executor.js:106:20)
+App 1687371 output: I20220215-14:09:56.308(0)?     at callNextListener (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/sequential_executor.js:96:12)
+App 1687371 output: I20220215-14:09:56.308(0)?     at /home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/event_listeners.js:86:9
+App 1687371 output: I20220215-14:09:56.308(0)?     at finish (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/config.js:396:7)
+App 1687371 output: I20220215-14:09:56.309(0)?     at /home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/config.js:438:9
+App 1687371 output: I20220215-14:09:56.309(0)?     at Object.<anonymous> (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/credentials/credential_provider_chain.js:111:13)
+App 1687371 output: I20220215-14:09:56.309(0)?     at Object.arrayEach (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/util.js:521:32)
+App 1687371 output: I20220215-14:09:56.309(0)?     at resolveNext (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/credentials/credential_provider_chain.js:110:20) {
+App 1687371 output: I20220215-14:09:56.309(0)?   code: 'InvalidParameterType',
+App 1687371 output: I20220215-14:09:56.310(0)?   time: 2022-02-15T14:09:56.302Z
+App 1687371 output: I20220215-14:09:56.310(0)? }
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    
+App 1687371 output: => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: I20220215-14:16:35.774(0)? authorized
+App 1687371 output: I20220215-14:16:35.777(0)? { name: 'add.jpg', size: 5974, type: 'image/jpeg' }
+App 1687371 output: I20220215-14:16:35.777(0)? 1644934595777-add.jpg
+App 1687371 output: I20220215-14:16:35.781(0)? Finished Uploading
+App 1687371 output: I20220215-14:16:35.806(0)? InvalidParameterType: Expected params.Body to be a string, Buffer, Stream, Blob, or typed array object
+App 1687371 output: I20220215-14:16:35.807(0)?     at ParamValidator.fail (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:50:37)
+App 1687371 output: I20220215-14:16:35.807(0)?     at ParamValidator.validatePayload (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:269:10)
+App 1687371 output: I20220215-14:16:35.807(0)?     at ParamValidator.validateScalar (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:135:21)
+App 1687371 output: I20220215-14:16:35.808(0)?     at ParamValidator.validateMember (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:96:21)
+App 1687371 output: I20220215-14:16:35.808(0)?     at ParamValidator.validateStructure (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:77:14)
+App 1687371 output: I20220215-14:16:35.808(0)?     at ParamValidator.validateMember (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:90:21)
+App 1687371 output: I20220215-14:16:35.808(0)?     at ParamValidator.validate (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:34:10)
+App 1687371 output: I20220215-14:16:35.808(0)?     at Request.VALIDATE_PARAMETERS (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/event_listeners.js:132:42)
+App 1687371 output: I20220215-14:16:35.809(0)?     at Request.callListeners (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/sequential_executor.js:106:20)
+App 1687371 output: I20220215-14:16:35.809(0)?     at callNextListener (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/sequential_executor.js:96:12)
+App 1687371 output: I20220215-14:16:35.809(0)?     at /home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/event_listeners.js:86:9
+App 1687371 output: I20220215-14:16:35.809(0)?     at finish (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/config.js:396:7)
+App 1687371 output: I20220215-14:16:35.809(0)?     at /home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/config.js:438:9
+App 1687371 output: I20220215-14:16:35.810(0)?     at Object.<anonymous> (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/credentials/credential_provider_chain.js:111:13)
+App 1687371 output: I20220215-14:16:35.810(0)?     at Object.arrayEach (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/util.js:521:32)
+App 1687371 output: I20220215-14:16:35.810(0)?     at resolveNext (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/credentials/credential_provider_chain.js:110:20) {
+App 1687371 output: I20220215-14:16:35.810(0)?   code: 'InvalidParameterType',
+App 1687371 output: I20220215-14:16:35.810(0)?   time: 2022-02-15T14:16:35.805Z
+App 1687371 output: I20220215-14:16:35.811(0)? }
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    
+App 1687371 output: => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: I20220215-14:18:18.700(0)? authorized
+App 1687371 output: I20220215-14:18:18.703(0)? { name: 'add.jpg', size: 5974, type: 'image/jpeg' }
+App 1687371 output: I20220215-14:18:18.703(0)? 1644934698703-add.jpg
+App 1687371 output: I20220215-14:18:18.707(0)? Finished Uploading
+App 1687371 output: I20220215-14:18:18.730(0)? InvalidParameterType: Expected params.Body to be a string, Buffer, Stream, Blob, or typed array object
+App 1687371 output: I20220215-14:18:18.731(0)?     at ParamValidator.fail (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:50:37)
+App 1687371 output: I20220215-14:18:18.731(0)?     at ParamValidator.validatePayload (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:269:10)
+App 1687371 output: I20220215-14:18:18.731(0)?     at ParamValidator.validateScalar (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:135:21)
+App 1687371 output: I20220215-14:18:18.731(0)?     at ParamValidator.validateMember (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:96:21)
+App 1687371 output: I20220215-14:18:18.732(0)?     at ParamValidator.validateStructure (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:77:14)
+App 1687371 output: I20220215-14:18:18.732(0)?     at ParamValidator.validateMember (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:90:21)
+App 1687371 output: I20220215-14:18:18.732(0)?     at ParamValidator.validate (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/param_validator.js:34:10)
+App 1687371 output: I20220215-14:18:18.732(0)?     at Request.VALIDATE_PARAMETERS (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/event_listeners.js:132:42)
+App 1687371 output: I20220215-14:18:18.732(0)?     at Request.callListeners (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/sequential_executor.js:106:20)
+App 1687371 output: I20220215-14:18:18.733(0)?     at callNextListener (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/sequential_executor.js:96:12)
+App 1687371 output: I20220215-14:18:18.733(0)?     at /home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/event_listeners.js:86:9
+App 1687371 output: I20220215-14:18:18.733(0)?     at finish (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/config.js:396:7)
+App 1687371 output: I20220215-14:18:18.733(0)?     at /home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/config.js:438:9
+App 1687371 output: I20220215-14:18:18.733(0)?     at Object.<anonymous> (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/credentials/credential_provider_chain.js:111:13)
+App 1687371 output: I20220215-14:18:18.734(0)?     at Object.arrayEach (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/util.js:521:32)
+App 1687371 output: I20220215-14:18:18.734(0)?     at resolveNext (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/credentials/credential_provider_chain.js:110:20) {
+App 1687371 output: I20220215-14:18:18.734(0)?   code: 'InvalidParameterType',
+App 1687371 output: I20220215-14:18:18.734(0)?   time: 2022-02-15T14:18:18.729Z
+App 1687371 output: I20220215-14:18:18.734(0)? }
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    
+App 1687371 output: => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: I20220215-14:20:53.007(0)? authorized
+App 1687371 output: I20220215-14:20:53.009(0)? { name: 'add.jpg', size: 5974, type: 'image/jpeg' }
+App 1687371 output: I20220215-14:20:53.010(0)? 1644934853002-add.jpg
+App 1687371 output: I20220215-14:20:53.010(0)? Finished Uploading
+App 1687371 output: I20220215-14:20:53.086(0)? AccessDenied: Access Denied
+App 1687371 output: I20220215-14:20:53.086(0)?     at Request.extractError (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/services/s3.js:710:35)
+App 1687371 output: I20220215-14:20:53.087(0)?     at Request.callListeners (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/sequential_executor.js:106:20)
+App 1687371 output: I20220215-14:20:53.087(0)?     at Request.emit (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/sequential_executor.js:78:10)
+App 1687371 output: I20220215-14:20:53.087(0)?     at Request.emit (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:686:14)
+App 1687371 output: I20220215-14:20:53.088(0)?     at Request.transition (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:22:10)
+App 1687371 output: I20220215-14:20:53.088(0)?     at AcceptorStateMachine.runTo (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/state_machine.js:14:12)
+App 1687371 output: I20220215-14:20:53.088(0)?     at /home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/state_machine.js:26:10
+App 1687371 output: I20220215-14:20:53.088(0)?     at Request.<anonymous> (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:38:9)
+App 1687371 output: I20220215-14:20:53.088(0)?     at Request.<anonymous> (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:688:12)
+App 1687371 output: I20220215-14:20:53.089(0)?     at Request.callListeners (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/sequential_executor.js:116:18)
+App 1687371 output: I20220215-14:20:53.089(0)?     at Request.emit (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/sequential_executor.js:78:10)
+App 1687371 output: I20220215-14:20:53.089(0)?     at Request.emit (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:686:14)
+App 1687371 output: I20220215-14:20:53.089(0)?     at Request.transition (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:22:10)
+App 1687371 output: I20220215-14:20:53.089(0)?     at AcceptorStateMachine.runTo (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/state_machine.js:14:12)
+App 1687371 output: I20220215-14:20:53.090(0)?     at /home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/state_machine.js:26:10
+App 1687371 output: I20220215-14:20:53.090(0)?     at Request.<anonymous> (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:38:9) {
+App 1687371 output: I20220215-14:20:53.090(0)?   code: 'AccessDenied',
+App 1687371 output: I20220215-14:20:53.090(0)?   region: null,
+App 1687371 output: I20220215-14:20:53.090(0)?   time: 2022-02-15T14:20:53.083Z,
+App 1687371 output: I20220215-14:20:53.090(0)?   requestId: 'BW3N02KRATEEYCFC',
+App 1687371 output: I20220215-14:20:53.091(0)?   extendedRequestId: 'T4/cVrqpDBh9hv7x9WbxqdAqSH/7QivD8KE7SaCH655gJL4hDq1BEfDpaAhu8qSLuYWF5Nr7Xc4=',
+App 1687371 output: I20220215-14:20:53.091(0)?   cfId: undefined,
+App 1687371 output: I20220215-14:20:53.092(0)?   statusCode: 403,
+App 1687371 output: I20220215-14:20:53.092(0)?   retryable: false,
+App 1687371 output: I20220215-14:20:53.093(0)?   retryDelay: 51.10858460300911
+App 1687371 output: I20220215-14:20:53.093(0)? }
+App 1687371 output: => Client modified -- refreshing
+App 1687371 output: 
+App 1687371 output: I20220215-14:25:05.918(0)? authorized
+App 1687371 output: I20220215-14:25:05.919(0)? { name: 'add.jpg', size: 5974, type: 'image/jpeg' }
+App 1687371 output: I20220215-14:25:05.920(0)? 1644935105918-add.jpg
+App 1687371 output: I20220215-14:25:05.923(0)? Finished Uploading
+App 1687371 output: I20220215-14:25:05.950(0)? AccessDenied: Access Denied
+App 1687371 output: I20220215-14:25:05.950(0)?     at Request.extractError (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/services/s3.js:710:35)
+App 1687371 output: I20220215-14:25:05.951(0)?     at Request.callListeners (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/sequential_executor.js:106:20)
+App 1687371 output: I20220215-14:25:05.951(0)?     at Request.emit (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/sequential_executor.js:78:10)
+App 1687371 output: I20220215-14:25:05.951(0)?     at Request.emit (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:686:14)
+App 1687371 output: I20220215-14:25:05.951(0)?     at Request.transition (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:22:10)
+App 1687371 output: I20220215-14:25:05.951(0)?     at AcceptorStateMachine.runTo (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/state_machine.js:14:12)
+App 1687371 output: I20220215-14:25:05.952(0)?     at /home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/state_machine.js:26:10
+App 1687371 output: I20220215-14:25:05.952(0)?     at Request.<anonymous> (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:38:9)
+App 1687371 output: I20220215-14:25:05.952(0)?     at Request.<anonymous> (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:688:12)
+App 1687371 output: I20220215-14:25:05.952(0)?     at Request.callListeners (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/sequential_executor.js:116:18)
+App 1687371 output: I20220215-14:25:05.952(0)?     at Request.emit (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/sequential_executor.js:78:10)
+App 1687371 output: I20220215-14:25:05.953(0)?     at Request.emit (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:686:14)
+App 1687371 output: I20220215-14:25:05.953(0)?     at Request.transition (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:22:10)
+App 1687371 output: I20220215-14:25:05.953(0)?     at AcceptorStateMachine.runTo (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/state_machine.js:14:12)
+App 1687371 output: I20220215-14:25:05.953(0)?     at /home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/state_machine.js:26:10
+App 1687371 output: I20220215-14:25:05.953(0)?     at Request.<anonymous> (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:38:9) {
+App 1687371 output: I20220215-14:25:05.954(0)?   code: 'AccessDenied',
+App 1687371 output: I20220215-14:25:05.954(0)?   region: null,
+App 1687371 output: I20220215-14:25:05.954(0)?   time: 2022-02-15T14:25:05.948Z,
+App 1687371 output: I20220215-14:25:05.954(0)?   requestId: 'X4D309MK5HHBM7HF',
+App 1687371 output: I20220215-14:25:05.954(0)?   extendedRequestId: 'jtWXd0OIhgGg/ofKz7UaGoh2wlV/U9RiJ/xK+67aQXBVwtZdH4Xf+aeaHkeiiNhJHomx3hOP2f8=',
+App 1687371 output: I20220215-14:25:05.955(0)?   cfId: undefined,
+App 1687371 output: I20220215-14:25:05.955(0)?   statusCode: 403,
+App 1687371 output: I20220215-14:25:05.955(0)?   retryable: false,
+App 1687371 output: I20220215-14:25:05.955(0)?   retryDelay: 30.39938158851283
+App 1687371 output: I20220215-14:25:05.955(0)? }
+App 1687371 output: => Client modified -- refreshing
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing (x2)
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing (x3)
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing (x4)
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing (x5)
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing (x6)
+App 1687371 output: 
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    
+App 1687371 output: => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing (x2)
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing (x3)
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing (x4)
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing (x5)
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing (x6)
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing (x7)
+App 1687371 output: 
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    
+App 1687371 output: => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing (x2)
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing (x3)
+App 1687371 output: 
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: I20220215-14:51:22.986(0)? authorized
+App 1687371 output: I20220215-14:51:22.988(0)? { name: 'add.jpg', size: 5974, type: 'image/jpeg' }
+App 1687371 output: I20220215-14:51:22.989(0)? 1644936682988-add.jpg
+App 1687371 output: I20220215-14:51:23.017(0)? Finished Uploading
+App 1687371 output: I20220215-14:51:23.062(0)? AccessControlListNotSupported: The bucket does not allow ACLs
+App 1687371 output: I20220215-14:51:23.062(0)?     at Request.extractError (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/services/s3.js:710:35)
+App 1687371 output: I20220215-14:51:23.062(0)?     at Request.callListeners (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/sequential_executor.js:106:20)
+App 1687371 output: I20220215-14:51:23.063(0)?     at Request.emit (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/sequential_executor.js:78:10)
+App 1687371 output: I20220215-14:51:23.063(0)?     at Request.emit (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:686:14)
+App 1687371 output: I20220215-14:51:23.063(0)?     at Request.transition (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:22:10)
+App 1687371 output: I20220215-14:51:23.063(0)?     at AcceptorStateMachine.runTo (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/state_machine.js:14:12)
+App 1687371 output: I20220215-14:51:23.063(0)?     at /home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/state_machine.js:26:10
+App 1687371 output: I20220215-14:51:23.063(0)?     at Request.<anonymous> (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:38:9)
+App 1687371 output: I20220215-14:51:23.063(0)?     at Request.<anonymous> (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:688:12)
+App 1687371 output: I20220215-14:51:23.064(0)?     at Request.callListeners (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/sequential_executor.js:116:18)
+App 1687371 output: I20220215-14:51:23.064(0)?     at Request.emit (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/sequential_executor.js:78:10)
+App 1687371 output: I20220215-14:51:23.064(0)?     at Request.emit (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:686:14)
+App 1687371 output: I20220215-14:51:23.064(0)?     at Request.transition (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:22:10)
+App 1687371 output: I20220215-14:51:23.064(0)?     at AcceptorStateMachine.runTo (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/state_machine.js:14:12)
+App 1687371 output: I20220215-14:51:23.064(0)?     at /home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/state_machine.js:26:10
+App 1687371 output: I20220215-14:51:23.064(0)?     at Request.<anonymous> (/home/ubuntu/Artee/arteesinglesignin/node_modules/aws-sdk/lib/request.js:38:9) {
+App 1687371 output: I20220215-14:51:23.064(0)?   code: 'AccessControlListNotSupported',
+App 1687371 output: I20220215-14:51:23.064(0)?   region: null,
+App 1687371 output: I20220215-14:51:23.065(0)?   time: 2022-02-15T14:51:23.059Z,
+App 1687371 output: I20220215-14:51:23.065(0)?   requestId: 'FF2ZTTK3YGGKY09J',
+App 1687371 output: I20220215-14:51:23.065(0)?   extendedRequestId: 'zuraKy3BwqNIeJgb5pCAFaUkDLVbnO4Lmv4eQR8kwC6ciAfiw5O2NEgQFvr/SMNS7yUHZ7aPo2I=',
+App 1687371 output: I20220215-14:51:23.065(0)?   cfId: undefined,
+App 1687371 output: I20220215-14:51:23.065(0)?   statusCode: 400,
+App 1687371 output: I20220215-14:51:23.065(0)?   retryable: false,
+App 1687371 output: I20220215-14:51:23.066(0)?   retryDelay: 97.3306159645916
+App 1687371 output: I20220215-14:51:23.066(0)? }
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    
+App 1687371 output: => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: I20220215-14:55:35.213(0)? authorized
+App 1687371 output: I20220215-14:55:35.215(0)? { name: 'add.jpg', size: 5974, type: 'image/jpeg' }
+App 1687371 output: I20220215-14:55:35.216(0)? 1644936935215-add.jpg
+App 1687371 output: I20220215-14:55:35.242(0)? Finished Uploading
+App 1687371 output: I20220215-14:55:35.287(0)? { ETag: '"86200e5f12a577899aae153e2fbb596c"' }
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    
+App 1687371 output: => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing
+App 1687371 output: 
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    
+App 1687371 output: => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: I20220215-15:00:09.872(0)? authorized
+App 1687371 output: I20220215-15:00:09.875(0)? Finished Uploading
+App 1687371 output: I20220215-15:02:04.874(0)? authorized
+App 1687371 output: I20220215-15:02:04.874(0)? Finished Uploading
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    I20220215-15:03:01.461(0)? [
+App 1687371 output: I20220215-15:03:01.462(0)?   {
+App 1687371 output: I20220215-15:03:01.462(0)?     _id: 'SZ38m3X5C8tanqcAQ',
+App 1687371 output: I20220215-15:03:01.462(0)?     title: 'Artee Visitor Regulator',
+App 1687371 output: I20220215-15:03:01.462(0)?     logo: 'artee_visitor_regulator.png',
+App 1687371 output: I20220215-15:03:01.463(0)?     url: 'https://www.appsheet.com/start/e20ae8b0-dc92-40fd-b080-a8fbc767b0ea',
+App 1687371 output: I20220215-15:03:01.463(0)?     createdAt: 2022-02-07T09:49:31.087Z
+App 1687371 output: I20220215-15:03:01.464(0)?   },
+App 1687371 output: I20220215-15:03:01.464(0)?   {
+App 1687371 output: I20220215-15:03:01.464(0)?     _id: 'MsmkSJGHHAJYaxNmi',
+App 1687371 output: I20220215-15:03:01.465(0)?     title: 'Artee Ticketing 2021',
+App 1687371 output: I20220215-15:03:01.465(0)?     logo: 'artee_ticketing_2021.jpg',
+App 1687371 output: I20220215-15:03:01.465(0)?     url: 'https://www.appsheet.com/start/345a570c-710d-4a30-9d56-a6450994860b',
+App 1687371 output: I20220215-15:03:01.465(0)?     createdAt: 2022-02-07T09:49:31.187Z
+App 1687371 output: I20220215-15:03:01.465(0)?   },
+App 1687371 output: I20220215-15:03:01.466(0)?   {
+App 1687371 output: I20220215-15:03:01.466(0)?     _id: 'FgkXzjvv2g65jSJ2z',
+App 1687371 output: I20220215-15:03:01.466(0)?     title: 'Artee Vehicle Inspection',
+App 1687371 output: I20220215-15:03:01.466(0)?     logo: 'artee_vehicle_inspection.png',
+App 1687371 output: I20220215-15:03:01.466(0)?     url: 'https://www.appsheet.com/start/8f7ae2fa-acdb-42f0-afb3-cd2fe696c9a2',
+App 1687371 output: I20220215-15:03:01.467(0)?     createdAt: 2022-02-07T09:49:31.193Z
+App 1687371 output: I20220215-15:03:01.467(0)?   },
+App 1687371 output: I20220215-15:03:01.467(0)?   {
+App 1687371 output: I20220215-15:03:01.467(0)?     _id: 'Qf8LeoA3eb5GGSBQE',
+App 1687371 output: I20220215-15:03:01.467(0)?     title: 'Google',
+App 1687371 output: I20220215-15:03:01.467(0)?     url: 'http://google.com',
+App 1687371 output: I20220215-15:03:01.467(0)?     logo: 'logo.png',
+App 1687371 output: I20220215-15:03:01.467(0)?     createdAt: 2022-02-15T15:02:05.823Z
+App 1687371 output: I20220215-15:03:01.468(0)?   }
+App 1687371 output: I20220215-15:03:01.468(0)? ]
+App 1687371 output: => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing
+App 1687371 output: 
+App 1687371 output: I20220215-15:04:35.838(0)? authorized
+App 1687371 output: I20220215-15:04:35.842(0)? Finished Uploading
+App 1687371 output: I20220215-15:06:18.425(0)? authorized
+App 1687371 output: I20220215-15:06:18.425(0)? Finished Uploading
+App 1687371 output: I20220215-15:08:24.574(0)? authorized
+App 1687371 output: I20220215-15:08:24.574(0)? Finished Uploading
+App 1687371 output: => Client modified -- refreshing
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing (x2)
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing (x3)
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing (x4)
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing (x5)
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing (x6)
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing (x7)
+App 1687371 output: 
+App 1687371 output: => Client modified -- refreshing (x8)
+App 1687371 output: 
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    
+App 1687371 output: I20220215-15:12:15.509(0)? [
+App 1687371 output: I20220215-15:12:15.512(0)?   {
+App 1687371 output: I20220215-15:12:15.512(0)?     _id: 'SZ38m3X5C8tanqcAQ',
+App 1687371 output: I20220215-15:12:15.513(0)?     title: 'Artee Visitor Regulator',
+App 1687371 output: I20220215-15:12:15.513(0)?     logo: 'artee_visitor_regulator.png',
+App 1687371 output: I20220215-15:12:15.513(0)?     url: 'https://www.appsheet.com/start/e20ae8b0-dc92-40fd-b080-a8fbc767b0ea',
+App 1687371 output: I20220215-15:12:15.513(0)?     createdAt: 2022-02-07T09:49:31.087Z
+App 1687371 output: I20220215-15:12:15.514(0)?   },
+App 1687371 output: I20220215-15:12:15.514(0)?   {
+App 1687371 output: I20220215-15:12:15.514(0)?     _id: 'MsmkSJGHHAJYaxNmi',
+App 1687371 output: I20220215-15:12:15.514(0)?     title: 'Artee Ticketing 2021',
+App 1687371 output: I20220215-15:12:15.515(0)?     logo: 'artee_ticketing_2021.jpg',
+App 1687371 output: I20220215-15:12:15.515(0)?     url: 'https://www.appsheet.com/start/345a570c-710d-4a30-9d56-a6450994860b',
+App 1687371 output: I20220215-15:12:15.515(0)?     createdAt: 2022-02-07T09:49:31.187Z
+App 1687371 output: I20220215-15:12:15.515(0)?   },
+App 1687371 output: I20220215-15:12:15.515(0)?   {
+App 1687371 output: I20220215-15:12:15.516(0)?     _id: 'FgkXzjvv2g65jSJ2z',
+App 1687371 output: I20220215-15:12:15.516(0)?     title: 'Artee Vehicle Inspection',
+App 1687371 output: I20220215-15:12:15.516(0)?     logo: 'artee_vehicle_inspection.png',
+App 1687371 output: I20220215-15:12:15.516(0)?     url: 'https://www.appsheet.com/start/8f7ae2fa-acdb-42f0-afb3-cd2fe696c9a2',
+App 1687371 output: I20220215-15:12:15.516(0)?     createdAt: 2022-02-07T09:49:31.193Z
+App 1687371 output: I20220215-15:12:15.517(0)?   }
+App 1687371 output: I20220215-15:12:15.517(0)? ]
+App 1687371 output: => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    
+App 1687371 output: I20220215-15:13:10.727(0)? [
+App 1687371 output: I20220215-15:13:10.729(0)?   {
+App 1687371 output: I20220215-15:13:10.730(0)?     _id: 'SZ38m3X5C8tanqcAQ',
+App 1687371 output: I20220215-15:13:10.730(0)?     title: 'Artee Visitor Regulator',
+App 1687371 output: I20220215-15:13:10.730(0)?     logo: 'artee_visitor_regulator.png',
+App 1687371 output: I20220215-15:13:10.731(0)?     url: 'https://www.appsheet.com/start/e20ae8b0-dc92-40fd-b080-a8fbc767b0ea',
+App 1687371 output: I20220215-15:13:10.731(0)?     createdAt: 2022-02-07T09:49:31.087Z
+App 1687371 output: I20220215-15:13:10.731(0)?   },
+App 1687371 output: I20220215-15:13:10.731(0)?   {
+App 1687371 output: I20220215-15:13:10.731(0)?     _id: 'MsmkSJGHHAJYaxNmi',
+App 1687371 output: I20220215-15:13:10.732(0)?     title: 'Artee Ticketing 2021',
+App 1687371 output: I20220215-15:13:10.732(0)?     logo: 'artee_ticketing_2021.jpg',
+App 1687371 output: I20220215-15:13:10.732(0)?     url: 'https://www.appsheet.com/start/345a570c-710d-4a30-9d56-a6450994860b',
+App 1687371 output: I20220215-15:13:10.732(0)?     createdAt: 2022-02-07T09:49:31.187Z
+App 1687371 output: I20220215-15:13:10.732(0)?   },
+App 1687371 output: I20220215-15:13:10.733(0)?   {
+App 1687371 output: I20220215-15:13:10.733(0)?     _id: 'FgkXzjvv2g65jSJ2z',
+App 1687371 output: I20220215-15:13:10.733(0)?     title: 'Artee Vehicle Inspection',
+App 1687371 output: I20220215-15:13:10.733(0)?     logo: 'artee_vehicle_inspection.png',
+App 1687371 output: I20220215-15:13:10.733(0)?     url: 'https://www.appsheet.com/start/8f7ae2fa-acdb-42f0-afb3-cd2fe696c9a2',
+App 1687371 output: I20220215-15:13:10.734(0)?     createdAt: 2022-02-07T09:49:31.193Z
+App 1687371 output: I20220215-15:13:10.734(0)?   }
+App 1687371 output: I20220215-15:13:10.734(0)? ]
+App 1687371 output: => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    
+App 1687371 output: I20220215-15:13:24.153(0)? [
+App 1687371 output: I20220215-15:13:24.154(0)?   {
+App 1687371 output: I20220215-15:13:24.154(0)?     _id: 'SZ38m3X5C8tanqcAQ',
+App 1687371 output: I20220215-15:13:24.154(0)?     title: 'Artee Visitor Regulator',
+App 1687371 output: I20220215-15:13:24.154(0)?     logo: 'artee_visitor_regulator.png',
+App 1687371 output: I20220215-15:13:24.155(0)?     url: 'https://www.appsheet.com/start/e20ae8b0-dc92-40fd-b080-a8fbc767b0ea',
+App 1687371 output: I20220215-15:13:24.155(0)?     createdAt: 2022-02-07T09:49:31.087Z
+App 1687371 output: I20220215-15:13:24.155(0)?   },
+App 1687371 output: I20220215-15:13:24.155(0)?   {
+App 1687371 output: I20220215-15:13:24.155(0)?     _id: 'MsmkSJGHHAJYaxNmi',
+App 1687371 output: I20220215-15:13:24.155(0)?     title: 'Artee Ticketing 2021',
+App 1687371 output: I20220215-15:13:24.155(0)?     logo: 'artee_ticketing_2021.jpg',
+App 1687371 output: I20220215-15:13:24.155(0)?     url: 'https://www.appsheet.com/start/345a570c-710d-4a30-9d56-a6450994860b',
+App 1687371 output: I20220215-15:13:24.155(0)?     createdAt: 2022-02-07T09:49:31.187Z
+App 1687371 output: I20220215-15:13:24.156(0)?   },
+App 1687371 output: I20220215-15:13:24.156(0)?   {
+App 1687371 output: I20220215-15:13:24.156(0)?     _id: 'FgkXzjvv2g65jSJ2z',
+App 1687371 output: I20220215-15:13:24.156(0)?     title: 'Artee Vehicle Inspection',
+App 1687371 output: I20220215-15:13:24.156(0)?     logo: 'artee_vehicle_inspection.png',
+App 1687371 output: I20220215-15:13:24.156(0)?     url: 'https://www.appsheet.com/start/8f7ae2fa-acdb-42f0-afb3-cd2fe696c9a2',
+App 1687371 output: I20220215-15:13:24.156(0)?     createdAt: 2022-02-07T09:49:31.193Z
+App 1687371 output: I20220215-15:13:24.156(0)?   }
+App 1687371 output: I20220215-15:13:24.156(0)? ]
+App 1687371 output: => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: => Server modified -- restarting...
+App 1687371 output:                                    => Meteor server restarted
+App 1687371 output: 
+App 1687371 output: I20220215-15:14:50.336(0)? authorized
+App 1687371 output: => Client modified -- refreshing
+App 1687371 output: 
+App 1687371 output: I20220215-15:18:35.164(0)? authorized
+
+[ N 2022-02-15 15:19:15.7412 1687327/T6 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-15 15:19:15.7413 1687327/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-15 15:19:15.7413 1687327/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 1687371, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-15 15:19:15.7414 1687327/T6 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-15 15:19:15.7415 1687327/T6 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-15 15:19:15.7415 1687327/T9 Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-15 15:19:15.7415 1687327/T9 Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-15 15:19:15.7416 1687327/Tc Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-15 15:19:15.7416 1687327/Tc Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-15 15:19:15.7418 1687327/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 1687371, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-15 15:19:16.0369 1687327/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished

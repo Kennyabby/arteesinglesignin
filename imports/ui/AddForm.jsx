@@ -9,7 +9,8 @@ import AWS from 'aws-sdk';
 var title="";
 var url="";
 var uploader = new ReactiveVar();
-
+const S3_BUCKET = "spar-hep-desk";
+const REGION = "eu-west-1";
 
 export class AddForm extends Component{
     constructor(props){
@@ -24,16 +25,13 @@ export class AddForm extends Component{
     
     getAppName=(e)=>{
         title=e.target.value;
-        // console.log("title: ",title.length,url.length)
         sessionStorage.setItem("currentLink", e.target.value);
         if (title.length===0 || url.length===0){
-            // console.log("none");
             this.setState({
                 isViewAdd:"none"
             })
         }
         if(title.length!=0 && url!=0){
-            // console.log("block");
             this.setState({
                 isViewAdd:"inline-block"
             })
@@ -42,16 +40,12 @@ export class AddForm extends Component{
     
     getAppUrl=(e)=>{
         url=e.target.value;
-        // console.log("url: ",title.length,url.length)
         if (title.length===0 || url.length===0){
-
-            // console.log("none");
             this.setState({
                 isViewAdd:"none"
             })
         }
         if(title.length!=0 && url!=0){
-            // console.log("block");
             this.setState({
                 isViewAdd:"inline-block"
             })
@@ -71,50 +65,71 @@ export class AddForm extends Component{
     
     updateLinks=()=>{
         // console.log(this.appName.target);
-        var upload = new Slingshot.Upload("imageUpload");
-        upload.send(this.state.file, (error, downloadUrl)=>{
-            uploader.set();
-            if (error) {
-                console.log(error);
-                alert(error);
-                // window.open("http://stackoverflow.com/"+error,"_blank");
-            }
-            else{
-                console.log("Succesful");
-                console.log("Uploaded file available here",downloadUrl);
-                alert("Uploaded file available here",downloadUrl);
-                this.setState({
-                    logo:downloadUrl
-                })
-            }
-            
-            uploader.set(upload);
-            
-        });
-        var sub = Meteor.subscribe('AppsheetLink');
-        var count=0;
-        Tracker.autorun(()=>{
-            if (sub.ready()){
-                count++;
-                if (count===1){
-                    console.log("Added Link");
-                    if (!url.includes("http://")){
-                        url="http://"+url;
-                    }
-                    // console.log(AppsheetLink.find().fetch());
-                    AppsheetLink.insert({
-                        title:title,
-                        url:url,
-                        logo:this.state.logo,
-                        createdAt: new Date()
-                    })
-                    this.props.updates();
-                // console.log(AppsheetLink.find().fetch());
+        if (this.state.file!=null){
+            var upload = new Slingshot.Upload("imageUpload");
+            upload.send(this.state.file, (error, downloadUrl)=>{
+                uploader.set();
+                if (error) {
+                    console.log(error);
+                    alert(error);
+                    
                 }
-            }
-        })
-        
-        
+                else{
+                    
+                    this.setState({
+                        logo:downloadUrl
+                    })
+                }
+                console.log(downloadUrl);
+                uploader.set(upload);
+                var sub = Meteor.subscribe('AppsheetLink');
+                var count=0;
+                Tracker.autorun(()=>{
+                    if (sub.ready()){
+                        count++;
+                        if (count===1){
+                            console.log("Added Link");
+                            if (!url.includes("http://")){
+                                url="http://"+url;
+                            }
+                            
+                            AppsheetLink.insert({
+                                title:title,
+                                url:url,
+                                logo:this.state.logo,
+                                createdAt: new Date()
+                            })
+                            this.props.updates();
+                        
+                        }
+                    }
+                })
+                
+            }); 
+        }else{
+            var sub = Meteor.subscribe('AppsheetLink');
+            var count=0;
+            Tracker.autorun(()=>{
+                if (sub.ready()){
+                    count++;
+                    if (count===1){
+                        console.log("Added Link");
+                        if (!url.includes("http://")){
+                            url="http://"+url;
+                        }
+                        
+                        AppsheetLink.insert({
+                            title:title,
+                            url:url,
+                            logo:this.state.logo,
+                            createdAt: new Date()
+                        })
+                        this.props.updates();
+                    
+                    }
+                }
+            })
+        }
         
     }
     cancleUpdateLinks=()=>{

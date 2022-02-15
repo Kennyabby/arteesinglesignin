@@ -23,6 +23,10 @@ export class LoginPage extends Component{
           topInput:"none",
           bottomInput:"none",
           border:"solid white 1px",
+          inputPadValueLeft:"10px",
+          inputPadValueRight:"10px",
+          passPadValueLeft:"10px",
+          passPadValueRight:"10px",
           inputBorderBottom:"solid black 1px",
           passBorderBottom:"solid black 1px"
       }
@@ -31,13 +35,21 @@ export class LoginPage extends Component{
     var inputName = e.target.getAttribute("name");
     if(inputName==="Username"){
       this.setState({
-        inputBorderBottom:"solid rgb(100,100,250) 1.5px",
+        inputPadValueLeft:"20px",
+        inputPadValueRight:"20px",
+        passPadValueLeft:"10px",
+        passPadValueRight:"10px",
+        inputBorderBottom:"solid rgb(0,0,250) 1.5px",
         passBorderBottom:"solid black 1px"
       })
     }else if(inputName==="Password"){
       this.setState({
+        passPadValueLeft:"20px",
+        passPadValueRight:"20px",
+        inputPadValueLeft:"10px",
+        inputPadValueRight:"10px",
         inputBorderBottom:"solid black 1px",
-        passBorderBottom:"solid rgb(100,100,250) 1.5px"
+        passBorderBottom:"solid rgb(0,0,250) 1.5px"
       })
     }
   }
@@ -66,7 +78,11 @@ export class LoginPage extends Component{
         this.setState({
           err: "Please enter the fields!",
           inputBorderBottom:"solid rgb(250,100,100) 1.5px",
-          passBorderBottom:"solid rgb(250,100,100) 1.5px"
+          passBorderBottom:"solid rgb(250,100,100) 1.5px",
+          inputPadValueLeft:"10px",
+          inputPadValueRight:"10px",
+          passPadValueLeft:"10px",
+          passPadValueRight:"10px",
         })
       }
       else{
@@ -78,7 +94,11 @@ export class LoginPage extends Component{
       this.setState({
         err: "You have entered an invalid detail!",
         inputBorderBottom:"solid rgb(250,100,100) 1.5px",
-        passBorderBottom:"solid rgb(250,100,100) 1.5px"
+        passBorderBottom:"solid rgb(250,100,100) 1.5px",
+        inputPadValueLeft:"10px",
+        inputPadValueRight:"10px",
+        passPadValueLeft:"10px",
+        passPadValueRight:"10px",
       })
     }
   }
@@ -115,12 +135,16 @@ export class LoginPage extends Component{
     const userInputStyle={
       outline:this.state.topInput, 
       border:this.state.border,
-      borderBottom:this.state.inputBorderBottom
+      borderBottom:this.state.inputBorderBottom,
+      paddingLeft:this.state.inputPadValueLeft,
+      paddingRight:this.state.inputPadValueRight
     }
     const passInputStyle={
       outline:this.state.bottomInput, 
       border:this.state.border,
-      borderBottom:this.state.passBorderBottom
+      borderBottom:this.state.passBorderBottom,
+      paddingLeft:this.state.passPadValueLeft,
+      paddingRight:this.state.passPadValueRight
     }
     const usernameInput = <input  
       className="input-top" 

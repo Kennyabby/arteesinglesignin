@@ -2,25 +2,19 @@ import { Meteor } from 'meteor/meteor';
 import { AppsheetLink } from '/imports/api/links';
 import { LoginDetails } from '/imports/api/userLogin';
 // import Slingshot from 'slingshot';
-import AWS from 'aws-sdk';
+// import AWS from 'aws-sdk';
 
 const S3_BUCKET ='spar-help-desk';
 const REGION ='eu-west-1';
-var credentials = new AWS.EC2MetadataCredentials();
-// const authorize=()=>{
-// }
-// console.log(process.env.ACCESS_KEY_ID);
-
-
 
 // AWS.config.update({
-    
-    
+//   accessKeyId: process.env.ACCESS_KEY_ID,
+//   secretAccessKey: process.env.SECRET_ACCESS_KEY
 // })
 
 // const myBucket = new AWS.S3({
-//     params: { Bucket: S3_BUCKET},
-//     region: REGION,
+//   params: { Bucket: S3_BUCKET},
+//   region: REGION,
 // })
 
 if(Meteor.isServer) {
@@ -62,39 +56,41 @@ if(Meteor.isServer) {
       // LoginDetails.remove({});
       // AppsheetLink.remove({});
       // console.log(AppsheetLink.find().fetch());
-      // console.log(process.env.ACCESS_KEY_ID);
-      const settings = Meteor.settings.google;
-
-      if (settings) {  
-        ServiceConfiguration.configurations.remove({
-          service: 'google'
-        });
-
-        ServiceConfiguration.configurations.insert({
-          service: 'google',
-          clientId: process.env.CLIENT_ID,
-          secret: process.env.CLIENT_SECRET
-        });
-      }
      
-      Slingshot.fileRestrictions("imageUpload",{
-        allowedFileTypes: ["image/png", "image/jpeg", "image/gif", "image/jpg"],
-        maxSize: 5 * 1024 * 1024,
-      })
-      // console.log(process.env.ACCESS_KEY_ID);
       Slingshot.createDirective("imageUpload", Slingshot.S3Storage, {
-          // AWSAccessKeyId: process.env.ACCESS_KEY_ID,
-          // AWSSecretAccessKey: process.env.SECRET_ACCESS_KEY,
+          allowedFileTypes: ["image/png", "image/jpeg", "image/gif", "image/jpg"],
+          maxSize: 5 * 1024 * 1024,
           AWSAccessKeyId: process.env.ACCESS_KEY_ID,
           AWSSecretAccessKey: process.env.SECRET_ACCESS_KEY,
           bucket: S3_BUCKET,
           acl: "public-read",
           region: REGION,
           authorize: function () {
+            console.log("authorized");
             return true;
           },
           key: function (file){
-            return file.name + Date.now();
+          //   console.log(file)
+          //   console.log(Date.now()+"-"+file.name);
+          //   const params = {
+          //       ACL: 'public-read',
+          //       Body: JSON.stringify(file),
+          //       Bucket: S3_BUCKET,
+          //       Key: file.name
+          //   };
+          // // axios.post("/public", params);
+          //   myBucket.putObject(params).on('httpUploadProgress', (evt) => {
+          //           // setProgress(Math.round((evt.loaded / evt.total) * 100))
+          //       }).send((err,data) => {
+          //           if (err) {
+          //               console.log(err)
+          //           }
+          //           else{
+          //             console.log(data)
+          //           }
+          //       })
+          //       // console.log(data.url);
+            return Date.now()+"-"+file.name;
           }
       })
 
@@ -138,22 +134,22 @@ if(Meteor.isServer) {
     //         logo: file.name
     //     })
 
-    //     const params = {
-    //         ACL: 'public-read',
-    //         Body: file,
-    //         Bucket: S3_BUCKET,
-    //         Key: file.name
-    //     };
-    //     // axios.post("/public", params);
-    //     myBucket.putObject(params).on('httpUploadProgress', (evt) => {
-    //             // setProgress(Math.round((evt.loaded / evt.total) * 100))
-    //         }).send((err) => {
-    //             if (err) {
-    //                 console.log(err)
-    //             }
-    //         })
-    //         // console.log(data.url);
-    //     console.log("Finished Uploading");
+        // const params = {
+        //     ACL: 'public-read',
+        //     Body: file,
+        //     Bucket: S3_BUCKET,
+        //     Key: file.name
+        // };
+        // // axios.post("/public", params);
+        // myBucket.putObject(params).on('httpUploadProgress', (evt) => {
+        //         // setProgress(Math.round((evt.loaded / evt.total) * 100))
+        //     }).send((err) => {
+        //         if (err) {
+        //             console.log(err)
+        //         }
+        //     })
+        //     // console.log(data.url);
+        // console.log("Finished Uploading");
     // });
     });
 }
