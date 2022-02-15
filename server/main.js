@@ -85,20 +85,11 @@ if(Meteor.isServer) {
       Slingshot.createDirective("imageUpload", Slingshot.S3Storage, {
           // AWSAccessKeyId: process.env.ACCESS_KEY_ID,
           // AWSSecretAccessKey: process.env.SECRET_ACCESS_KEY,
+          AWSAccessKeyId: process.env.ACCESS_KEY_ID,
+          AWSSecretAccessKey: process.env.SECRET_ACCESS_KEY,
           bucket: S3_BUCKET,
           acl: "public-read",
           region: REGION,
-          temporaryCredentials: function () {
-            if (credentials.needsRefresh()) {
-              updateCredentials();
-            }
-        
-            return {
-              AccessKeyId: credentials.accessKeyId,
-              SecretAccessKey: credentials.secretAccessKey,
-              SessionToken: credentials.sessionToken
-            };
-          },
           authorize: function () {
             return true;
           },

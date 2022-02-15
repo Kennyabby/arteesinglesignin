@@ -1,7 +1,7 @@
 node_modules/
 gitup.sh
 devop.sh
-.env
+env.sh
 settings.json
 package.tar.gz
 TestServerKey.pem

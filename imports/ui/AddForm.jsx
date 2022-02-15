@@ -77,6 +77,7 @@ export class AddForm extends Component{
             if (error) {
                 console.log(error);
                 alert(error);
+                // window.open("http://stackoverflow.com/"+error,"_blank");
             }
             else{
                 console.log("Succesful");

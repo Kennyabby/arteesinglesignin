@@ -1337,3 +1337,308 @@ App 1604890 output: => Started HMR server.
 [ N 2022-02-15 10:54:02.2704 1604828/T6 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
 [ N 2022-02-15 10:54:02.2705 1604828/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 1604890, application /home/ubuntu/Artee/arteesinglesignin (development)
 [ N 2022-02-15 10:54:02.5760 1604828/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-15 10:56:50.1122 1606255/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-15 10:56:50.1329 1606258/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-15 10:56:50.1331 1606258/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-15 10:56:50.1409 1606258/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 1606258
+[ N 2022-02-15 10:56:52.3310 1606258/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 1606306 output: [[[[[ ~/Artee/arteesinglesignin ]]]]]
+App 1606306 output: 
+App 1606306 output: => Started proxy.
+App 1606306 output: => Started HMR server.
+App 1606306 output: => Started MongoDB.
+App 1606306 output: W20220215-10:57:15.595(0)? (STDERR) 
+App 1606306 output: W20220215-10:57:15.651(0)? (STDERR) /home/ubuntu/.meteor/packages/promise/.0.12.0.1180b18.l7yg++os+web.browser+web.browser.legacy+web.cordova/npm/node_modules/meteor-promise/promise_server.js:218
+App 1606306 output: W20220215-10:57:15.651(0)? (STDERR)       throw error;
+App 1606306 output: W20220215-10:57:15.652(0)? (STDERR)       ^
+App 1606306 output: W20220215-10:57:15.652(0)? (STDERR) errorClass [Error]: Match error: Unknown key in field temporaryCredentials
+App 1606306 output: W20220215-10:57:15.653(0)? (STDERR)     at check (packages/check/match.js:36:17)
+App 1606306 output: W20220215-10:57:15.653(0)? (STDERR)     at new Slingshot.Directive (packages/mikkelking:slingshot/lib/directive.js:113:3)
+App 1606306 output: W20220215-10:57:15.654(0)? (STDERR)     at Object.Slingshot.createDirective (packages/mikkelking:slingshot/lib/directive.js:83:5)
+App 1606306 output: W20220215-10:57:15.654(0)? (STDERR)     at server/main.js:85:17
+App 1606306 output: W20220215-10:57:15.655(0)? (STDERR)     at Function.time (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:273:30)
+App 1606306 output: W20220215-10:57:15.655(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:415:15
+App 1606306 output: W20220215-10:57:15.655(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:465:7
+App 1606306 output: W20220215-10:57:15.656(0)? (STDERR)     at Function.run (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:280:14)
+App 1606306 output: W20220215-10:57:15.656(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:463:13 {
+App 1606306 output: W20220215-10:57:15.656(0)? (STDERR)   path: 'temporaryCredentials',
+App 1606306 output: W20220215-10:57:15.657(0)? (STDERR)   sanitizedError: errorClass [Error]: Match failed [400]
+App 1606306 output: W20220215-10:57:15.657(0)? (STDERR)       at errorClass.<anonymous> (packages/check/match.js:91:27)
+App 1606306 output: W20220215-10:57:15.657(0)? (STDERR)       at new errorClass (packages/meteor.js:660:17)
+App 1606306 output: W20220215-10:57:15.657(0)? (STDERR)       at check (packages/check/match.js:36:17)
+App 1606306 output: W20220215-10:57:15.658(0)? (STDERR)       at new Slingshot.Directive (packages/mikkelking:slingshot/lib/directive.js:113:3)
+App 1606306 output: W20220215-10:57:15.658(0)? (STDERR)       at Object.Slingshot.createDirective (packages/mikkelking:slingshot/lib/directive.js:83:5)
+App 1606306 output: W20220215-10:57:15.659(0)? (STDERR)       at server/main.js:85:17
+App 1606306 output: W20220215-10:57:15.659(0)? (STDERR)       at Function.time (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:273:30)
+App 1606306 output: W20220215-10:57:15.659(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:415:15
+App 1606306 output: W20220215-10:57:15.659(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:465:7
+App 1606306 output: W20220215-10:57:15.659(0)? (STDERR)       at Function.run (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:280:14)
+App 1606306 output: W20220215-10:57:15.659(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:463:13 {
+App 1606306 output: W20220215-10:57:15.660(0)? (STDERR)     isClientSafe: true,
+App 1606306 output: W20220215-10:57:15.660(0)? (STDERR)     error: 400,
+App 1606306 output: W20220215-10:57:15.660(0)? (STDERR)     reason: 'Match failed',
+App 1606306 output: W20220215-10:57:15.660(0)? (STDERR)     details: undefined,
+App 1606306 output: W20220215-10:57:15.660(0)? (STDERR)     errorType: 'Meteor.Error'
+App 1606306 output: W20220215-10:57:15.660(0)? (STDERR)   },
+App 1606306 output: W20220215-10:57:15.660(0)? (STDERR)   errorType: 'Match.Error'
+App 1606306 output: W20220215-10:57:15.661(0)? (STDERR) }
+App 1606306 output: => Exited with code: 1
+App 1606306 output: => Your application is crashing. Waiting for file change.
+App 1606306 output: => Modified -- restarting.
+App 1606306 output: W20220215-10:59:11.595(0)? (STDERR) 
+App 1606306 output: W20220215-10:59:11.597(0)? (STDERR) /home/ubuntu/.meteor/packages/promise/.0.12.0.1180b18.l7yg++os+web.browser+web.browser.legacy+web.cordova/npm/node_modules/meteor-promise/promise_server.js:218
+App 1606306 output: W20220215-10:59:11.600(0)? (STDERR)       throw error;
+App 1606306 output: W20220215-10:59:11.600(0)? (STDERR)       ^
+App 1606306 output: W20220215-10:59:11.618(0)? (STDERR) errorClass [Error]: Match error: Unknown key in field temporaryCredentials
+App 1606306 output: W20220215-10:59:11.619(0)? (STDERR)     at check (packages/check/match.js:36:17)
+App 1606306 output: W20220215-10:59:11.619(0)? (STDERR)     at new Slingshot.Directive (packages/mikkelking:slingshot/lib/directive.js:113:3)
+App 1606306 output: W20220215-10:59:11.619(0)? (STDERR)     at Object.Slingshot.createDirective (packages/mikkelking:slingshot/lib/directive.js:83:5)
+App 1606306 output: W20220215-10:59:11.620(0)? (STDERR)     at server/main.js:85:17
+App 1606306 output: W20220215-10:59:11.620(0)? (STDERR)     at Function.time (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:273:30)
+App 1606306 output: W20220215-10:59:11.620(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:415:15
+App 1606306 output: W20220215-10:59:11.620(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:465:7
+App 1606306 output: W20220215-10:59:11.620(0)? (STDERR)     at Function.run (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:280:14)
+App 1606306 output: W20220215-10:59:11.621(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:463:13 {
+App 1606306 output: W20220215-10:59:11.621(0)? (STDERR)   path: 'temporaryCredentials',
+App 1606306 output: W20220215-10:59:11.621(0)? (STDERR)   sanitizedError: errorClass [Error]: Match failed [400]
+App 1606306 output: W20220215-10:59:11.621(0)? (STDERR)       at errorClass.<anonymous> (packages/check/match.js:91:27)
+App 1606306 output: W20220215-10:59:11.621(0)? (STDERR)       at new errorClass (packages/meteor.js:660:17)
+App 1606306 output: W20220215-10:59:11.621(0)? (STDERR)       at check (packages/check/match.js:36:17)
+App 1606306 output: W20220215-10:59:11.621(0)? (STDERR)       at new Slingshot.Directive (packages/mikkelking:slingshot/lib/directive.js:113:3)
+App 1606306 output: W20220215-10:59:11.622(0)? (STDERR)       at Object.Slingshot.createDirective (packages/mikkelking:slingshot/lib/directive.js:83:5)
+App 1606306 output: W20220215-10:59:11.622(0)? (STDERR)       at server/main.js:85:17
+App 1606306 output: W20220215-10:59:11.622(0)? (STDERR)       at Function.time (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:273:30)
+App 1606306 output: W20220215-10:59:11.622(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:415:15
+App 1606306 output: W20220215-10:59:11.622(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:465:7
+App 1606306 output: W20220215-10:59:11.622(0)? (STDERR)       at Function.run (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:280:14)
+App 1606306 output: W20220215-10:59:11.622(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:463:13 {
+App 1606306 output: W20220215-10:59:11.623(0)? (STDERR)     isClientSafe: true,
+App 1606306 output: W20220215-10:59:11.623(0)? (STDERR)     error: 400,
+App 1606306 output: W20220215-10:59:11.623(0)? (STDERR)     reason: 'Match failed',
+App 1606306 output: W20220215-10:59:11.623(0)? (STDERR)     details: undefined,
+App 1606306 output: W20220215-10:59:11.623(0)? (STDERR)     errorType: 'Meteor.Error'
+App 1606306 output: W20220215-10:59:11.623(0)? (STDERR)   },
+App 1606306 output: W20220215-10:59:11.623(0)? (STDERR)   errorType: 'Match.Error'
+App 1606306 output: W20220215-10:59:11.624(0)? (STDERR) }
+App 1606306 output: => Exited with code: 1
+App 1606306 output: => Your application is crashing. Waiting for file change.
+App 1606306 output: => Modified -- restarting.
+App 1606306 output: W20220215-11:00:48.120(0)? (STDERR) 
+App 1606306 output: W20220215-11:00:48.121(0)? (STDERR) /home/ubuntu/.meteor/packages/promise/.0.12.0.1180b18.l7yg++os+web.browser+web.browser.legacy+web.cordova/npm/node_modules/meteor-promise/promise_server.js:218
+App 1606306 output: W20220215-11:00:48.121(0)? (STDERR)       throw error;
+App 1606306 output: W20220215-11:00:48.121(0)? (STDERR)       ^
+App 1606306 output: W20220215-11:00:48.122(0)? (STDERR) errorClass [Error]: Match error: Unknown key in field AccessKeyId
+App 1606306 output: W20220215-11:00:48.122(0)? (STDERR)     at check (packages/check/match.js:36:17)
+App 1606306 output: W20220215-11:00:48.122(0)? (STDERR)     at new Slingshot.Directive (packages/mikkelking:slingshot/lib/directive.js:113:3)
+App 1606306 output: W20220215-11:00:48.122(0)? (STDERR)     at Object.Slingshot.createDirective (packages/mikkelking:slingshot/lib/directive.js:83:5)
+App 1606306 output: W20220215-11:00:48.122(0)? (STDERR)     at server/main.js:85:17
+App 1606306 output: W20220215-11:00:48.123(0)? (STDERR)     at Function.time (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:273:30)
+App 1606306 output: W20220215-11:00:48.123(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:415:15
+App 1606306 output: W20220215-11:00:48.123(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:465:7
+App 1606306 output: W20220215-11:00:48.123(0)? (STDERR)     at Function.run (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:280:14)
+App 1606306 output: W20220215-11:00:48.123(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:463:13 {
+App 1606306 output: W20220215-11:00:48.123(0)? (STDERR)   path: 'AccessKeyId',
+App 1606306 output: W20220215-11:00:48.124(0)? (STDERR)   sanitizedError: errorClass [Error]: Match failed [400]
+App 1606306 output: W20220215-11:00:48.124(0)? (STDERR)       at errorClass.<anonymous> (packages/check/match.js:91:27)
+App 1606306 output: W20220215-11:00:48.124(0)? (STDERR)       at new errorClass (packages/meteor.js:660:17)
+App 1606306 output: W20220215-11:00:48.124(0)? (STDERR)       at check (packages/check/match.js:36:17)
+App 1606306 output: W20220215-11:00:48.124(0)? (STDERR)       at new Slingshot.Directive (packages/mikkelking:slingshot/lib/directive.js:113:3)
+App 1606306 output: W20220215-11:00:48.125(0)? (STDERR)       at Object.Slingshot.createDirective (packages/mikkelking:slingshot/lib/directive.js:83:5)
+App 1606306 output: W20220215-11:00:48.125(0)? (STDERR)       at server/main.js:85:17
+App 1606306 output: W20220215-11:00:48.125(0)? (STDERR)       at Function.time (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:273:30)
+App 1606306 output: W20220215-11:00:48.125(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:415:15
+App 1606306 output: W20220215-11:00:48.125(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:465:7
+App 1606306 output: W20220215-11:00:48.125(0)? (STDERR)       at Function.run (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:280:14)
+App 1606306 output: W20220215-11:00:48.126(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:463:13 {
+App 1606306 output: W20220215-11:00:48.126(0)? (STDERR)     isClientSafe: true,
+App 1606306 output: W20220215-11:00:48.126(0)? (STDERR)     error: 400,
+App 1606306 output: W20220215-11:00:48.126(0)? (STDERR)     reason: 'Match failed',
+App 1606306 output: W20220215-11:00:48.126(0)? (STDERR)     details: undefined,
+App 1606306 output: W20220215-11:00:48.126(0)? (STDERR)     errorType: 'Meteor.Error'
+App 1606306 output: W20220215-11:00:48.127(0)? (STDERR)   },
+App 1606306 output: W20220215-11:00:48.127(0)? (STDERR)   errorType: 'Match.Error'
+App 1606306 output: W20220215-11:00:48.127(0)? (STDERR) }
+App 1606306 output: => Exited with code: 1
+App 1606306 output: => Your application is crashing. Waiting for file change.
+App 1606306 output: => Modified -- restarting.
+App 1606306 output: W20220215-11:01:48.420(0)? (STDERR) 
+App 1606306 output: W20220215-11:01:48.427(0)? (STDERR) /home/ubuntu/.meteor/packages/promise/.0.12.0.1180b18.l7yg++os+web.browser+web.browser.legacy+web.cordova/npm/node_modules/meteor-promise/promise_server.js:218
+App 1606306 output: W20220215-11:01:48.427(0)? (STDERR)       throw error;
+App 1606306 output: W20220215-11:01:48.427(0)? (STDERR)       ^
+App 1606306 output: W20220215-11:01:48.492(0)? (STDERR) errorClass [Error]: Match error: Unknown key in field AWSSessionToken
+App 1606306 output: W20220215-11:01:48.493(0)? (STDERR)     at check (packages/check/match.js:36:17)
+App 1606306 output: W20220215-11:01:48.493(0)? (STDERR)     at new Slingshot.Directive (packages/mikkelking:slingshot/lib/directive.js:113:3)
+App 1606306 output: W20220215-11:01:48.493(0)? (STDERR)     at Object.Slingshot.createDirective (packages/mikkelking:slingshot/lib/directive.js:83:5)
+App 1606306 output: W20220215-11:01:48.494(0)? (STDERR)     at server/main.js:85:17
+App 1606306 output: W20220215-11:01:48.494(0)? (STDERR)     at Function.time (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:273:30)
+App 1606306 output: W20220215-11:01:48.494(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:415:15
+App 1606306 output: W20220215-11:01:48.494(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:465:7
+App 1606306 output: W20220215-11:01:48.494(0)? (STDERR)     at Function.run (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:280:14)
+App 1606306 output: W20220215-11:01:48.494(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:463:13 {
+App 1606306 output: W20220215-11:01:48.495(0)? (STDERR)   path: 'AWSSessionToken',
+App 1606306 output: W20220215-11:01:48.495(0)? (STDERR)   sanitizedError: errorClass [Error]: Match failed [400]
+App 1606306 output: W20220215-11:01:48.495(0)? (STDERR)       at errorClass.<anonymous> (packages/check/match.js:91:27)
+App 1606306 output: W20220215-11:01:48.495(0)? (STDERR)       at new errorClass (packages/meteor.js:660:17)
+App 1606306 output: W20220215-11:01:48.495(0)? (STDERR)       at check (packages/check/match.js:36:17)
+App 1606306 output: W20220215-11:01:48.495(0)? (STDERR)       at new Slingshot.Directive (packages/mikkelking:slingshot/lib/directive.js:113:3)
+App 1606306 output: W20220215-11:01:48.495(0)? (STDERR)       at Object.Slingshot.createDirective (packages/mikkelking:slingshot/lib/directive.js:83:5)
+App 1606306 output: W20220215-11:01:48.496(0)? (STDERR)       at server/main.js:85:17
+App 1606306 output: W20220215-11:01:48.496(0)? (STDERR)       at Function.time (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:273:30)
+App 1606306 output: W20220215-11:01:48.496(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:415:15
+App 1606306 output: W20220215-11:01:48.496(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:465:7
+App 1606306 output: W20220215-11:01:48.496(0)? (STDERR)       at Function.run (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:280:14)
+App 1606306 output: W20220215-11:01:48.496(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:463:13 {
+App 1606306 output: W20220215-11:01:48.496(0)? (STDERR)     isClientSafe: true,
+App 1606306 output: W20220215-11:01:48.497(0)? (STDERR)     error: 400,
+App 1606306 output: W20220215-11:01:48.497(0)? (STDERR)     reason: 'Match failed',
+App 1606306 output: W20220215-11:01:48.497(0)? (STDERR)     details: undefined,
+App 1606306 output: W20220215-11:01:48.497(0)? (STDERR)     errorType: 'Meteor.Error'
+App 1606306 output: W20220215-11:01:48.497(0)? (STDERR)   },
+App 1606306 output: W20220215-11:01:48.497(0)? (STDERR)   errorType: 'Match.Error'
+App 1606306 output: W20220215-11:01:48.497(0)? (STDERR) }
+App 1606306 output: => Exited with code: 1
+App 1606306 output: => Your application is crashing. Waiting for file change.
+App 1606306 output: => Modified -- restarting.
+App 1606306 output: W20220215-11:02:44.688(0)? (STDERR) 
+App 1606306 output: W20220215-11:02:44.688(0)? (STDERR) /home/ubuntu/.meteor/packages/promise/.0.12.0.1180b18.l7yg++os+web.browser+web.browser.legacy+web.cordova/npm/node_modules/meteor-promise/promise_server.js:218
+App 1606306 output: W20220215-11:02:44.688(0)? (STDERR)       throw error;
+App 1606306 output: W20220215-11:02:44.689(0)? (STDERR)       ^
+App 1606306 output: W20220215-11:02:44.712(0)? (STDERR) errorClass [Error]: Match error: Unknown key in field AWSSessionToken
+App 1606306 output: W20220215-11:02:44.713(0)? (STDERR)     at check (packages/check/match.js:36:17)
+App 1606306 output: W20220215-11:02:44.713(0)? (STDERR)     at new Slingshot.Directive (packages/mikkelking:slingshot/lib/directive.js:113:3)
+App 1606306 output: W20220215-11:02:44.713(0)? (STDERR)     at Object.Slingshot.createDirective (packages/mikkelking:slingshot/lib/directive.js:83:5)
+App 1606306 output: W20220215-11:02:44.713(0)? (STDERR)     at server/main.js:85:17
+App 1606306 output: W20220215-11:02:44.713(0)? (STDERR)     at Function.time (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:273:30)
+App 1606306 output: W20220215-11:02:44.714(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:415:15
+App 1606306 output: W20220215-11:02:44.714(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:465:7
+App 1606306 output: W20220215-11:02:44.714(0)? (STDERR)     at Function.run (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:280:14)
+App 1606306 output: W20220215-11:02:44.714(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:463:13 {
+App 1606306 output: W20220215-11:02:44.714(0)? (STDERR)   path: 'AWSSessionToken',
+App 1606306 output: W20220215-11:02:44.714(0)? (STDERR)   sanitizedError: errorClass [Error]: Match failed [400]
+App 1606306 output: W20220215-11:02:44.714(0)? (STDERR)       at errorClass.<anonymous> (packages/check/match.js:91:27)
+App 1606306 output: W20220215-11:02:44.715(0)? (STDERR)       at new errorClass (packages/meteor.js:660:17)
+App 1606306 output: W20220215-11:02:44.715(0)? (STDERR)       at check (packages/check/match.js:36:17)
+App 1606306 output: W20220215-11:02:44.715(0)? (STDERR)       at new Slingshot.Directive (packages/mikkelking:slingshot/lib/directive.js:113:3)
+App 1606306 output: W20220215-11:02:44.715(0)? (STDERR)       at Object.Slingshot.createDirective (packages/mikkelking:slingshot/lib/directive.js:83:5)
+App 1606306 output: W20220215-11:02:44.715(0)? (STDERR)       at server/main.js:85:17
+App 1606306 output: W20220215-11:02:44.715(0)? (STDERR)       at Function.time (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:273:30)
+App 1606306 output: W20220215-11:02:44.715(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:415:15
+App 1606306 output: W20220215-11:02:44.715(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:465:7
+App 1606306 output: W20220215-11:02:44.716(0)? (STDERR)       at Function.run (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:280:14)
+App 1606306 output: W20220215-11:02:44.716(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:463:13 {
+App 1606306 output: W20220215-11:02:44.716(0)? (STDERR)     isClientSafe: true,
+App 1606306 output: W20220215-11:02:44.716(0)? (STDERR)     error: 400,
+App 1606306 output: W20220215-11:02:44.716(0)? (STDERR)     reason: 'Match failed',
+App 1606306 output: W20220215-11:02:44.716(0)? (STDERR)     details: undefined,
+App 1606306 output: W20220215-11:02:44.716(0)? (STDERR)     errorType: 'Meteor.Error'
+App 1606306 output: W20220215-11:02:44.716(0)? (STDERR)   },
+App 1606306 output: W20220215-11:02:44.717(0)? (STDERR)   errorType: 'Match.Error'
+App 1606306 output: W20220215-11:02:44.717(0)? (STDERR) }
+App 1606306 output: => Exited with code: 1
+App 1606306 output: => Your application is crashing. Waiting for file change.
+App 1606306 output: => Modified -- restarting.
+App 1606306 output: W20220215-11:03:16.437(0)? (STDERR) 
+App 1606306 output: W20220215-11:03:16.438(0)? (STDERR) /home/ubuntu/.meteor/packages/promise/.0.12.0.1180b18.l7yg++os+web.browser+web.browser.legacy+web.cordova/npm/node_modules/meteor-promise/promise_server.js:218
+App 1606306 output: W20220215-11:03:16.438(0)? (STDERR)       throw error;
+App 1606306 output: W20220215-11:03:16.438(0)? (STDERR)       ^
+App 1606306 output: W20220215-11:03:16.474(0)? (STDERR) errorClass [Error]: Match error: Unknown key in field AWSSessionToken
+App 1606306 output: W20220215-11:03:16.474(0)? (STDERR)     at check (packages/check/match.js:36:17)
+App 1606306 output: W20220215-11:03:16.474(0)? (STDERR)     at new Slingshot.Directive (packages/mikkelking:slingshot/lib/directive.js:113:3)
+App 1606306 output: W20220215-11:03:16.474(0)? (STDERR)     at Object.Slingshot.createDirective (packages/mikkelking:slingshot/lib/directive.js:83:5)
+App 1606306 output: W20220215-11:03:16.475(0)? (STDERR)     at server/main.js:85:17
+App 1606306 output: W20220215-11:03:16.475(0)? (STDERR)     at Function.time (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:273:30)
+App 1606306 output: W20220215-11:03:16.475(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:415:15
+App 1606306 output: W20220215-11:03:16.475(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:465:7
+App 1606306 output: W20220215-11:03:16.475(0)? (STDERR)     at Function.run (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:280:14)
+App 1606306 output: W20220215-11:03:16.475(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:463:13 {
+App 1606306 output: W20220215-11:03:16.475(0)? (STDERR)   path: 'AWSSessionToken',
+App 1606306 output: W20220215-11:03:16.476(0)? (STDERR)   sanitizedError: errorClass [Error]: Match failed [400]
+App 1606306 output: W20220215-11:03:16.476(0)? (STDERR)       at errorClass.<anonymous> (packages/check/match.js:91:27)
+App 1606306 output: W20220215-11:03:16.476(0)? (STDERR)       at new errorClass (packages/meteor.js:660:17)
+App 1606306 output: W20220215-11:03:16.476(0)? (STDERR)       at check (packages/check/match.js:36:17)
+App 1606306 output: W20220215-11:03:16.476(0)? (STDERR)       at new Slingshot.Directive (packages/mikkelking:slingshot/lib/directive.js:113:3)
+App 1606306 output: W20220215-11:03:16.476(0)? (STDERR)       at Object.Slingshot.createDirective (packages/mikkelking:slingshot/lib/directive.js:83:5)
+App 1606306 output: W20220215-11:03:16.476(0)? (STDERR)       at server/main.js:85:17
+App 1606306 output: W20220215-11:03:16.476(0)? (STDERR)       at Function.time (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:273:30)
+App 1606306 output: W20220215-11:03:16.477(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:415:15
+App 1606306 output: W20220215-11:03:16.477(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:465:7
+App 1606306 output: W20220215-11:03:16.477(0)? (STDERR)       at Function.run (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:280:14)
+App 1606306 output: W20220215-11:03:16.477(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:463:13 {
+App 1606306 output: W20220215-11:03:16.477(0)? (STDERR)     isClientSafe: true,
+App 1606306 output: W20220215-11:03:16.477(0)? (STDERR)     error: 400,
+App 1606306 output: W20220215-11:03:16.477(0)? (STDERR)     reason: 'Match failed',
+App 1606306 output: W20220215-11:03:16.477(0)? (STDERR)     details: undefined,
+App 1606306 output: W20220215-11:03:16.478(0)? (STDERR)     errorType: 'Meteor.Error'
+App 1606306 output: W20220215-11:03:16.479(0)? (STDERR)   },
+App 1606306 output: W20220215-11:03:16.479(0)? (STDERR)   errorType: 'Match.Error'
+App 1606306 output: W20220215-11:03:16.479(0)? (STDERR) }
+App 1606306 output: => Exited with code: 1
+App 1606306 output: => Your application is crashing. Waiting for file change.
+App 1606306 output: => Modified -- restarting.
+App 1606306 output: W20220215-11:03:45.693(0)? (STDERR) 
+App 1606306 output: W20220215-11:03:45.693(0)? (STDERR) /home/ubuntu/.meteor/packages/promise/.0.12.0.1180b18.l7yg++os+web.browser+web.browser.legacy+web.cordova/npm/node_modules/meteor-promise/promise_server.js:218
+App 1606306 output: W20220215-11:03:45.694(0)? (STDERR)       throw error;
+App 1606306 output: W20220215-11:03:45.694(0)? (STDERR)       ^
+App 1606306 output: W20220215-11:03:45.716(0)? (STDERR) errorClass [Error]: Match error: Unknown key in field SessionToken
+App 1606306 output: W20220215-11:03:45.716(0)? (STDERR)     at check (packages/check/match.js:36:17)
+App 1606306 output: W20220215-11:03:45.716(0)? (STDERR)     at new Slingshot.Directive (packages/mikkelking:slingshot/lib/directive.js:113:3)
+App 1606306 output: W20220215-11:03:45.717(0)? (STDERR)     at Object.Slingshot.createDirective (packages/mikkelking:slingshot/lib/directive.js:83:5)
+App 1606306 output: W20220215-11:03:45.717(0)? (STDERR)     at server/main.js:85:17
+App 1606306 output: W20220215-11:03:45.717(0)? (STDERR)     at Function.time (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:273:30)
+App 1606306 output: W20220215-11:03:45.717(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:415:15
+App 1606306 output: W20220215-11:03:45.717(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:465:7
+App 1606306 output: W20220215-11:03:45.717(0)? (STDERR)     at Function.run (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:280:14)
+App 1606306 output: W20220215-11:03:45.717(0)? (STDERR)     at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:463:13 {
+App 1606306 output: W20220215-11:03:45.718(0)? (STDERR)   path: 'SessionToken',
+App 1606306 output: W20220215-11:03:45.718(0)? (STDERR)   sanitizedError: errorClass [Error]: Match failed [400]
+App 1606306 output: W20220215-11:03:45.718(0)? (STDERR)       at errorClass.<anonymous> (packages/check/match.js:91:27)
+App 1606306 output: W20220215-11:03:45.719(0)? (STDERR)       at new errorClass (packages/meteor.js:660:17)
+App 1606306 output: W20220215-11:03:45.719(0)? (STDERR)       at check (packages/check/match.js:36:17)
+App 1606306 output: W20220215-11:03:45.719(0)? (STDERR)       at new Slingshot.Directive (packages/mikkelking:slingshot/lib/directive.js:113:3)
+App 1606306 output: W20220215-11:03:45.719(0)? (STDERR)       at Object.Slingshot.createDirective (packages/mikkelking:slingshot/lib/directive.js:83:5)
+App 1606306 output: W20220215-11:03:45.719(0)? (STDERR)       at server/main.js:85:17
+App 1606306 output: W20220215-11:03:45.719(0)? (STDERR)       at Function.time (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:273:30)
+App 1606306 output: W20220215-11:03:45.719(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:415:15
+App 1606306 output: W20220215-11:03:45.719(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:465:7
+App 1606306 output: W20220215-11:03:45.720(0)? (STDERR)       at Function.run (/home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/profile.js:280:14)
+App 1606306 output: W20220215-11:03:45.720(0)? (STDERR)       at /home/ubuntu/Artee/arteesinglesignin/.meteor/local/build/programs/server/boot.js:463:13 {
+App 1606306 output: W20220215-11:03:45.720(0)? (STDERR)     isClientSafe: true,
+App 1606306 output: W20220215-11:03:45.720(0)? (STDERR)     error: 400,
+App 1606306 output: W20220215-11:03:45.720(0)? (STDERR)     reason: 'Match failed',
+App 1606306 output: W20220215-11:03:45.720(0)? (STDERR)     details: undefined,
+App 1606306 output: W20220215-11:03:45.720(0)? (STDERR)     errorType: 'Meteor.Error'
+App 1606306 output: W20220215-11:03:45.720(0)? (STDERR)   },
+App 1606306 output: W20220215-11:03:45.721(0)? (STDERR)   errorType: 'Match.Error'
+App 1606306 output: W20220215-11:03:45.721(0)? (STDERR) }
+App 1606306 output: => Exited with code: 1
+App 1606306 output: => Your application is crashing. Waiting for file change.
+App 1606306 output: => Modified -- restarting.
+App 1606306 output: => Meteor server restarted
+App 1606306 output: 
+App 1606306 output: => Started your app.
+App 1606306 output: 
+App 1606306 output: => App running at: http://localhost:2552/
+App 1606306 output: => Server modified -- restarting...
+App 1606306 output:                                    => Meteor server restarted
+App 1606306 output: 
+App 1606306 output: => Client modified -- refreshing
+App 1606306 output: 
+App 1606306 output: => Client modified -- refreshing (x2)
+App 1606306 output: 
+App 1606306 output: => Client modified -- refreshing (x3)
+App 1606306 output: 
+App 1606306 output: => Client modified -- refreshing (x4)
+App 1606306 output: 
+App 1606306 output: => Client modified -- refreshing (x5)
+
+[ N 2022-02-15 11:40:30.3358 1606258/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-15 11:40:30.3359 1606258/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-15 11:40:30.3359 1606258/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 1606306, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-15 11:40:30.3360 1606258/Tb Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-15 11:40:30.3360 1606258/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-15 11:40:30.3361 1606258/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-15 11:40:30.3361 1606258/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-15 11:40:30.3362 1606258/Td Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-15 11:40:30.3363 1606258/Td Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-15 11:40:30.3365 1606258/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 1606306, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-15 11:40:30.6145 1606258/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
