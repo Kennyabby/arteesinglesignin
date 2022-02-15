@@ -2,5 +2,6 @@
 # export SECRET_ACCESS_KEY='q5BlgWTw3+tj8Ds83r+7t1f38aU0Zntc4SzjLseI'
 export ACCESS_KEY_ID='AKIAUILE6XYFREGPRNPN'
 export SECRET_ACCESS_KEY='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'
+export SESSION_TOKEN='https://292806376971.signin.aws.amazon.com/console'
 export CLIENT_ID='30205901409-os2fqhj3552262eon5hnlbe4lf9nanmj.apps.googleusercontent.com'
 export CLIENT_SECRET='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'

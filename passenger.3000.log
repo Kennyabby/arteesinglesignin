@@ -1279,3 +1279,61 @@ App 1567200 output: => Your application has errors. Waiting for file change.
 [ N 2022-02-15 10:46:44.7797 1567163/Td Ser/Server.h:558 ]: [ApiServer] Shutdown finished
 [ N 2022-02-15 10:46:44.7799 1567163/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 1567200, application /home/ubuntu/Artee/arteesinglesignin (development)
 [ N 2022-02-15 10:46:45.0559 1567163/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-15 10:46:58.3161 1601700/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-15 10:46:58.3446 1601703/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-15 10:46:58.3448 1601703/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-15 10:46:58.3528 1601703/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 1601703
+[ N 2022-02-15 10:47:00.5267 1601703/Tb age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 1601745 output: [[[[[ ~/Artee/arteesinglesignin ]]]]]
+App 1601745 output: 
+App 1601745 output: => Started proxy.
+App 1601745 output: => Started HMR server.
+App 1601745 output: => Errors prevented startup:
+App 1601745 output:    
+App 1601745 output:    While building for os.linux.x86_64:
+App 1601745 output:    server/main.js:86:26: /home/ubuntu/Artee/arteesinglesignin/server/main.js:
+App 1601745 output:    Unexpected token (86:26)
+App 1601745 output:    
+App 1601745 output:    84 |       // console.log(process.env.ACCESS_KEY_ID);
+App 1601745 output:    85 |       Slingshot.createDirective("imageUpload", Slingshot.S3Storage, {
+App 1601745 output:    > 86 |           AWSAccessKeyId: ,
+App 1601745 output:    |                           ^
+App 1601745 output:    87 |           AWSSecretAccessKey: ,
+App 1601745 output:    88 |           bucket: S3_BUCKET,
+App 1601745 output:    89 |           acl: "public-read",
+App 1601745 output:    
+App 1601745 output: => Your application has errors. Waiting for file change.
+App 1601745 output: => Started MongoDB.
+
+[ N 2022-02-15 10:53:44.3501 1601703/T5 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-15 10:53:44.3502 1601703/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-15 10:53:44.3502 1601703/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 1601745, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-15 10:53:44.3503 1601703/T5 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-15 10:53:44.3504 1601703/T5 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-15 10:53:44.3504 1601703/T9 Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-15 10:53:44.3504 1601703/T9 Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-15 10:53:44.3505 1601703/Tc Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-15 10:53:44.3505 1601703/Tc Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-15 10:53:44.3507 1601703/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 1601745, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-15 10:53:44.6307 1604825/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-15 10:53:44.6465 1601703/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-15 10:53:44.6518 1604828/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-15 10:53:44.6520 1604828/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-15 10:53:44.6596 1604828/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 1604828
+[ N 2022-02-15 10:53:46.8219 1604828/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 1604890 output: [[[[[ ~/Artee/arteesinglesignin ]]]]]
+App 1604890 output: 
+App 1604890 output: => Started proxy.
+App 1604890 output: => Started HMR server.
+
+[ N 2022-02-15 10:53:56.9758 1604828/T6 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-15 10:53:56.9758 1604828/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-15 10:53:56.9758 1604828/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 1604890, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-15 10:53:56.9759 1604828/Ta Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-15 10:53:56.9759 1604828/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-15 10:53:56.9761 1604828/Td Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-15 10:53:56.9761 1604828/Td Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-15 10:54:02.2703 1604828/T6 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-15 10:54:02.2704 1604828/T6 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-15 10:54:02.2705 1604828/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 1604890, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-15 10:54:02.5760 1604828/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
