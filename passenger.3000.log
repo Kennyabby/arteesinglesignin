@@ -1642,3 +1642,50 @@ App 1606306 output: => Client modified -- refreshing (x5)
 [ N 2022-02-15 11:40:30.3363 1606258/Td Ser/Server.h:558 ]: [ApiServer] Shutdown finished
 [ N 2022-02-15 11:40:30.3365 1606258/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 1606306, application /home/ubuntu/Artee/arteesinglesignin (development)
 [ N 2022-02-15 11:40:30.6145 1606258/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-15 11:55:34.2299 1632021/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-15 11:55:34.2517 1632024/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-15 11:55:34.2518 1632024/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-15 11:55:34.2598 1632024/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 1632024
+[ N 2022-02-15 11:55:36.4668 1632024/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 1632073 output: 
+App 1632073 output: You are attempting to run Meteor as the 'root' superuser. If you are
+App 1632073 output: developing, this is almost certainly *not* what you want to do and will likely
+App 1632073 output: result in incorrect file permissions. However, if you are running this command
+App 1632073 output: in a build process (CI, etc.), or you are absolutely sure you know what you are
+App 1632073 output: doing, set the METEOR_ALLOW_SUPERUSER environment variable or pass
+App 1632073 output: --allow-superuser to proceed.
+App 1632073 output: 
+App 1632073 output: Even with METEOR_ALLOW_SUPERUSER or --allow-superuser, permissions in your app
+App 1632073 output: directory will be incorrect if you ever attempt to perform any Meteor tasks as
+App 1632073 output: a normal user. If you need to fix your permissions, run the following command
+App 1632073 output: from the root of your project:
+App 1632073 output: 
+App 1632073 output:   sudo chown -Rh <username> .meteor/local
+App 1632073 output: 
+[ E 2022-02-15 11:57:06.4322 1632024/Tf age/Cor/App/Implementation.cpp:221 ]: Could not spawn process for application /home/ubuntu/Artee/arteesinglesignin: A timeout occurred while spawning an application process.
+  Error ID: 1a91d1e2
+  Error details saved to: /tmp/passenger-error-XWi2hb.html
+
+[ E 2022-02-15 11:57:06.4367 1632024/T9 age/Cor/Con/CheckoutSession.cpp:281 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 1a91d1e2. Please see earlier logs for details about the error.
+App 1633177 output: 
+App 1633177 output: You are attempting to run Meteor as the 'root' superuser. If you are
+App 1633177 output: developing, this is almost certainly *not* what you want to do and will likely
+App 1633177 output: result in incorrect file permissions. However, if you are running this command
+App 1633177 output: in a build process (CI, etc.), or you are absolutely sure you know what you are
+App 1633177 output: doing, set the METEOR_ALLOW_SUPERUSER environment variable or pass
+App 1633177 output: --allow-superuser to proceed.
+App 1633177 output: 
+App 1633177 output: Even with METEOR_ALLOW_SUPERUSER or --allow-superuser, permissions in your app
+App 1633177 output: directory will be incorrect if you ever attempt to perform any Meteor tasks as
+App 1633177 output: a normal user. If you need to fix your permissions, run the following command
+App 1633177 output: from the root of your project:
+App 1633177 output: 
+App 1633177 output:   sudo chown -Rh <username> .meteor/local
+App 1633177 output: 
+
+[ N 2022-02-15 11:58:17.1849 1632024/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-15 11:58:17.1849 1632024/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-15 11:58:17.1850 1632024/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-15 11:58:17.1850 1632024/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-15 11:58:17.1851 1632024/Td Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-15 11:58:17.1852 1632024/Td Ser/Server.h:558 ]: [ApiServer] Shutdown finished
