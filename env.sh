@@ -1,7 +1,0 @@
-# export ACCESS_KEY_ID='AKIA5VBGVTKPYDPRFRXD'
-# export SECRET_ACCESS_KEY='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'
-#export ACCESS_KEY_ID='AKIAUILE6XYFU3UE4OT2'
-#export SECRET_ACCESS_KEY='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'
-export SESSION_TOKEN='https://292806376971.signin.aws.amazon.com/console'
-export CLIENT_ID='30205901409-os2fqhj3552262eon5hnlbe4lf9nanmj.apps.googleusercontent.com'
-export CLIENT_SECRET='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'
