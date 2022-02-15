@@ -22,7 +22,7 @@ static-html@1.3.2             # Define static page content in .html files
 react-meteor-data       # React higher-order component for reactively tracking Meteor data
 accounts-ui
 peerlibrary:aws-sdk
-edgee:slingshot
 accounts-google
 service-configuration
 modules-runtime-hot
+mikkelking:slingshot

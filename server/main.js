@@ -4,9 +4,9 @@ import { LoginDetails } from '/imports/api/userLogin';
 // import Slingshot from 'slingshot';
 import AWS from 'aws-sdk';
 
-const S3_BUCKET ='help-desk-bucket';
+const S3_BUCKET ='spar-help-desk';
 const REGION ='eu-west-1';
-
+var credentials = new AWS.EC2MetadataCredentials();
 // const authorize=()=>{
 // }
 // console.log(process.env.ACCESS_KEY_ID);
@@ -72,26 +72,38 @@ if(Meteor.isServer) {
 
         ServiceConfiguration.configurations.insert({
           service: 'google',
-          clientId: settings.clientId,
-          secret: settings.secret
+          clientId: process.env.CLIENT_ID,
+          secret: process.env.CLIENT_SECRET
         });
       }
-      console.log(settings.secret);
+     
       Slingshot.fileRestrictions("imageUpload",{
-        allowedFileTypes: ["image/png", "image/jpeg", "image/gif"],
-        maxSize: 4 * 1024 * 1024,
+        allowedFileTypes: ["image/png", "image/jpeg", "image/gif", "image/jpg"],
+        maxSize: 5 * 1024 * 1024,
       })
+      // console.log(process.env.ACCESS_KEY_ID);
       Slingshot.createDirective("imageUpload", Slingshot.S3Storage, {
-          AWSAccessKeyId: process.env.ACCESS_KEY_ID,
-          AWSSecretAccessKey: process.env.SECRET_ACCESS_KEY,
+          AWSAccessKeyId: ,
+          AWSSecretAccessKey: ,
           bucket: S3_BUCKET,
           acl: "public-read",
           region: REGION,
+          temporaryCredentials: function () {
+            if (credentials.needsRefresh()) {
+              updateCredentials();
+            }
+        
+            return {
+              AccessKeyId: process.env.ACCESS_KEY_ID,
+              SecretAccessKey: process.env.SECRET_ACCESS_KEY,
+              SessionToken: credentials.sessionToken
+            };
+          },
           authorize: function () {
             return true;
           },
           key: function (file){
-            return file.name
+            return file.name + Date.now();
           }
       })
 

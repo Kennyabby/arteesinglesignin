@@ -31,13 +31,13 @@ export class LoginPage extends Component{
     var inputName = e.target.getAttribute("name");
     if(inputName==="Username"){
       this.setState({
-        inputBorderBottom:"solid rgb(100,100,250) 1px",
+        inputBorderBottom:"solid rgb(100,100,250) 1.5px",
         passBorderBottom:"solid black 1px"
       })
     }else if(inputName==="Password"){
       this.setState({
         inputBorderBottom:"solid black 1px",
-        passBorderBottom:"solid rgb(100,100,250) 1px"
+        passBorderBottom:"solid rgb(100,100,250) 1.5px"
       })
     }
   }
@@ -65,8 +65,8 @@ export class LoginPage extends Component{
       }else if(username==="" && password===""){
         this.setState({
           err: "Please enter the fields!",
-          inputBorderBottom:"solid rgb(250,100,100) 1px",
-          passBorderBottom:"solid rgb(250,100,100) 1px"
+          inputBorderBottom:"solid rgb(250,100,100) 1.5px",
+          passBorderBottom:"solid rgb(250,100,100) 1.5px"
         })
       }
       else{
@@ -77,8 +77,8 @@ export class LoginPage extends Component{
     if (cot===this.state.users.length){
       this.setState({
         err: "You have entered an invalid detail!",
-        inputBorderBottom:"solid rgb(250,100,100) 1px",
-        passBorderBottom:"solid rgb(250,100,100) 1px"
+        inputBorderBottom:"solid rgb(250,100,100) 1.5px",
+        passBorderBottom:"solid rgb(250,100,100) 1.5px"
       })
     }
   }
@@ -141,31 +141,31 @@ export class LoginPage extends Component{
       onChange={this.getPassword}
       onKeyUp={this.onKeyUpValue.bind(this)}
     />;
-      return(
-        <div className='cover'>
-        <p><img src="sparLogo.png" style={{margin:"0px"}} alt="Spar Logo" width="400px"/></p>
-        <div className="content" onClick={()=>{
-        }}>
-            <h1 className="top-label">Sign Into Your Account</h1>
-            {/* <img src="logo.png" alt="Spar Logo" width="100px"/> */}
-            <div className="input">
-            <div style={{display:"inline-flex", marginTop:"50px"}}>
-              <img src="username.png" alt="User Logo" height="30px"/>
-              {usernameInput}
-            </div>
-            <div style={{display:"inline-flex", marginTop:"30px"}}>
-              <img src="password.png" alt="Lock Logo" height="30px"/>
-              {passwordInput}
-            </div>
-            <p className="error">{this.state.err}</p>
-            </div>
-            <div className="alternate">
-              <p style={{cursor:"pointer"}} onClick={this.gotoGoogle}>Signin with Google</p></div>
-              
-            {this.signin}
-            </div>
-        </div>
-      );
+    return(
+      <div className='cover'>
+      <p><img src="sparLogo.png" style={{margin:"0px"}} alt="Spar Logo" width="400px"/></p>
+      <div className="content" onClick={()=>{
+      }}>
+          <h1 className="top-label">Sign Into Your Account</h1>
+          {/* <img src="logo.png" alt="Spar Logo" width="100px"/> */}
+          <div className="input">
+          <div style={{display:"inline-flex", marginTop:"50px"}}>
+            <img src="username.png" alt="User Logo" height="30px"/>
+            {usernameInput}
+          </div>
+          <div style={{display:"inline-flex", marginTop:"30px"}}>
+            <img src="password.png" alt="Lock Logo" height="30px"/>
+            {passwordInput}
+          </div>
+          <p className="error">{this.state.err}</p>
+          </div>
+          <div className="alternate">
+            <p style={{cursor:"pointer"}} onClick={this.gotoGoogle}>Signin with Google</p></div>
+            
+          {this.signin}
+          </div>
+      </div>
+    );
   }
   
   componentDidMount(){

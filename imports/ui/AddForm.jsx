@@ -25,6 +25,7 @@ export class AddForm extends Component{
     getAppName=(e)=>{
         title=e.target.value;
         // console.log("title: ",title.length,url.length)
+        sessionStorage.setItem("currentLink", e.target.value);
         if (title.length===0 || url.length===0){
             // console.log("none");
             this.setState({
@@ -80,6 +81,7 @@ export class AddForm extends Component{
             else{
                 console.log("Succesful");
                 console.log("Uploaded file available here",downloadUrl);
+                alert("Uploaded file available here",downloadUrl);
                 this.setState({
                     logo:downloadUrl
                 })

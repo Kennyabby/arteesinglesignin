@@ -15,7 +15,6 @@ function gotoLink(e){
 
 }
 function cancleLink(e){
-    console.log("got the request to cancle!");
     var url = e.target.getAttribute("urll");
     var id = e.target.getAttribute("id");
     var subs = Meteor.subscribe('AppsheetLink');
@@ -75,7 +74,6 @@ export class LinkPage extends Component{
         Tracker.autorun(()=>{
             if (subs.ready()){
                 var newLinkList=linkList.filter(list=>{return (list.title.toLowerCase().includes(this.state.search))});
-                console.log(newLinkList);
                 this.setState({
                     link:newLinkList
                 })

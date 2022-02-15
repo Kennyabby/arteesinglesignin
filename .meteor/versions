@@ -27,7 +27,6 @@ ecmascript@0.16.1
 ecmascript-runtime@0.8.0
 ecmascript-runtime-client@0.12.1
 ecmascript-runtime-server@0.11.0
-edgee:slingshot@0.7.1
 ejson@1.1.1
 es5-shim@4.8.0
 fetch@0.1.1
@@ -47,6 +46,7 @@ localstorage@1.2.0
 logging@1.3.1
 meteor@1.10.0
 meteor-base@1.5.1
+mikkelking:slingshot@1.0.0
 minifier-css@1.6.0
 minifier-js@2.7.3
 minimongo@1.8.0
