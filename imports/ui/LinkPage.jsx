@@ -19,6 +19,10 @@ async function cancleLink(e){
     var id = e.target.getAttribute("id");
     var subs = Meteor.subscribe('AppsheetLink');
     var counts=0;
+    var link = AppsheetLink.findOne({_id: id})
+    // var link = {logo: "logo.png", title: "Google"}
+    console.log(link);
+    var sub = Meteor.subscribe('deleteImage',link);
     Tracker.autorun(()=>{
         if (subs.ready()){
             counts++;
@@ -29,27 +33,25 @@ async function cancleLink(e){
             }
         }
     })
-    var link = AppsheetLink.findOne({_id: id})
-    // var link = {logo: "logo.png", title: "Google"}
-    console.log(link);
+    
     // const sendDataString = JSON.stringify(link);
     // const xhr = new XMLHttpRequest();
     // xhr.open("POST", '/deleteImage', true);
     // xhr.setRequestHeader("Content-type", "application/json");
     // xhr.send(sendDataString);
-    try{
-        const opts = {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(link),
-        };
-        console.log("passing data");
-        const response= await fetch("/deleteImage", opts);
-    }catch(TypeError){
-        console.log(TypeError);
-    }
+    // try{
+    //     const opts = {
+    //         method: 'POST',
+    //         headers: {
+    //             'Content-Type': 'application/json'
+    //         },
+    //         body: JSON.stringify(link),
+    //     };
+    //     console.log("passing data");
+    //     const response= await fetch("/deleteImage", opts);
+    // }catch(TypeError){
+    //     console.log(TypeError);
+    // }
     
     // const MatricList = await response.json();
     

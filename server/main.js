@@ -10,6 +10,7 @@ import AWS from 'aws-sdk';
 const app = express();
 const S3_BUCKET = process.env.S3_BUCKET;
 const REGION = process.env.REGION;
+const ACL = process.env.ACL;
 
 AWS.config.update({
   accessKeyId: process.env.ACCESS_KEY_ID,
@@ -20,26 +21,48 @@ const myBucket = new AWS.S3({
   params: {Bucket: S3_BUCKET},
   region: REGION,
 })
-
+// var val = Meteor.call("deleteImage");
+// console.log(val);
+Meteor.publish("deleteImage",function(link){
+  // console.log(link);
+  console.log("deleting now!");
+  console.log(link);
+  const params = {
+    Bucket: S3_BUCKET,
+    Key: link.logo
+  };
+  myBucket.deleteObject(params,(error,data)=>{
+    if (error) {
+      console.log(error);
+    }else{
+      console.log("File has been deleted successfully");
+    }
+    
+  })
+  return [];
+})
 if(Meteor.isServer) {
     
     Meteor.startup(function () {
-      WebApp.connectHandlers.use('/deleteImage',async (req, res, next)=>{
-        try{
-          console.log("deleting now!");
-          const val = await req.params;
-          console.log(val);
-          const params = {
-            ACL: process.env.ACL,
-            Bucket: S3_BUCKET,
-            Key: val
-          };
-        }catch(error){
+      // WebApp.connectHandlers.use('/deleteImage',async (req, res, next)=>{
+      //   try{
+          // console.log("deleting now!");
+          // const val = await req.params;
+          // console.log(val);
+          // const params = {
+          //   ACL: ACL,
+          //   Bucket: S3_BUCKET,
+          //   Key: val
+          // };
+      //   }catch(error){
 
-        }
-        res.writeHead(200);
-        res.end();
-      })
+      //   }
+      //   res.writeHead(200);
+      //   res.end();
+      // })
+      
+
+      
       // WebApp.connectHandlers.use(app);
       //  AppsheetLink.insert({
       //   title:"Artee Visitor Regulator",
@@ -83,7 +106,7 @@ if(Meteor.isServer) {
           AWSAccessKeyId: process.env.ACCESS_KEY_ID,
           AWSSecretAccessKey: process.env.SECRET_ACCESS_KEY,
           bucket: S3_BUCKET,
-          acl: process.env.ACL,
+          acl: ACL,
           region: REGION,
           authorize: function () {
             console.log("authorized");
@@ -93,7 +116,7 @@ if(Meteor.isServer) {
           //   console.log(file)
           //   console.log(Date.now()+"-"+file.name);
           //   const params = {
-          //       ACL: process.env.ACL,
+          //       ACL: ACL,
           //       Body: JSON.stringify(file),
           //       Bucket: S3_BUCKET,
           //       Key: file.name
@@ -146,6 +169,7 @@ if(Meteor.isServer) {
 
         return AppsheetLink.find();
     });
+    
     // Meteor.publish('UploadImg', function(e){
 
     //   console.log("Started uploading");
