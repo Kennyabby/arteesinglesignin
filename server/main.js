@@ -8,8 +8,8 @@ import bodyParser from 'body-parser';
 import AWS from 'aws-sdk';
 
 const app = express();
-const S3_BUCKET ='spar-help-desk';
-const REGION ='eu-west-1';
+const S3_BUCKET = process.env.S3_BUCKET;
+const REGION = process.env.REGION;
 
 AWS.config.update({
   accessKeyId: process.env.ACCESS_KEY_ID,
@@ -30,7 +30,7 @@ if(Meteor.isServer) {
           const val = await req.params;
           console.log(val);
           const params = {
-            ACL: 'public-read',
+            ACL: process.env.ACL,
             Bucket: S3_BUCKET,
             Key: val
           };
@@ -83,32 +83,32 @@ if(Meteor.isServer) {
           AWSAccessKeyId: process.env.ACCESS_KEY_ID,
           AWSSecretAccessKey: process.env.SECRET_ACCESS_KEY,
           bucket: S3_BUCKET,
-          acl: "public-read",
+          acl: process.env.ACL,
           region: REGION,
           authorize: function () {
             console.log("authorized");
             return true;
           },
           key: function (file){
-            console.log(file)
-            console.log(Date.now()+"-"+file.name);
-            const params = {
-                ACL: 'public-read',
-                Body: JSON.stringify(file),
-                Bucket: S3_BUCKET,
-                Key: file.name
-            };
-          // axios.post("/public", params);
-            myBucket.putObject(params).on('httpUploadProgress', (evt) => {
-                    // setProgress(Math.round((evt.loaded / evt.total) * 100))
-                }).send((err,data) => {
-                    if (err) {
-                        console.log(err)
-                    }
-                    else{
-                      console.log(data)
-                    }
-                })
+          //   console.log(file)
+          //   console.log(Date.now()+"-"+file.name);
+          //   const params = {
+          //       ACL: process.env.ACL,
+          //       Body: JSON.stringify(file),
+          //       Bucket: S3_BUCKET,
+          //       Key: file.name
+          //   };
+          // // axios.post("/public", params);
+          //   myBucket.putObject(params).on('httpUploadProgress', (evt) => {
+          //           // setProgress(Math.round((evt.loaded / evt.total) * 100))
+          //       }).send((err,data) => {
+          //           if (err) {
+          //               console.log(err)
+          //           }
+          //           else{
+          //             console.log(data)
+          //           }
+          //       })
                 // console.log(data.url);
             return Date.now()+"-"+file.name;
           }

@@ -7429,3 +7429,30 @@ App 2238029 output: I20220216-11:59:37.210(0)? undefined
 [ N 2022-02-16 12:12:10.9069 2237984/Tc Ser/Server.h:558 ]: [ApiServer] Shutdown finished
 [ N 2022-02-16 12:12:10.9071 2237984/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 2238029, application /home/ubuntu/Artee/arteesinglesignin (development)
 [ N 2022-02-16 12:12:11.1764 2237984/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-02-16 12:17:39.8008 2290158/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2022-02-16 12:17:39.8214 2290161/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-02-16 12:17:39.8216 2290161/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-02-16 12:17:39.8293 2290161/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 2290161
+[ N 2022-02-16 12:17:42.0044 2290161/Ta age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 2290210 output: [[[[[ ~/Artee/arteesinglesignin ]]]]]
+App 2290210 output: 
+App 2290210 output: => Started proxy.
+App 2290210 output: => Started HMR server.
+App 2290210 output: => Started MongoDB.
+App 2290210 output: => Started your app.
+App 2290210 output: 
+App 2290210 output: => App running at: http://localhost:3266/
+App 2290210 output: => Server modified -- restarting...
+App 2290210 output:                                    => Meteor server restarted
+
+[ N 2022-02-16 12:19:10.7901 2290161/T6 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-02-16 12:19:10.7901 2290161/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-02-16 12:19:10.7901 2290161/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 2290210, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-16 12:19:10.7903 2290161/T9 Ser/Server.h:901 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2022-02-16 12:19:10.7903 2290161/T9 Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2022-02-16 12:19:10.7904 2290161/T6 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-02-16 12:19:10.7904 2290161/T6 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-02-16 12:19:10.7905 2290161/Tb Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-02-16 12:19:10.7905 2290161/Tb Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-02-16 12:19:10.7907 2290161/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 2290210, application /home/ubuntu/Artee/arteesinglesignin (development)
+[ N 2022-02-16 12:19:11.0849 2290161/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
