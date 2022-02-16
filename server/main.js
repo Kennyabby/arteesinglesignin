@@ -1,26 +1,46 @@
 import { Meteor } from 'meteor/meteor';
 import { AppsheetLink } from '/imports/api/links';
 import { LoginDetails } from '/imports/api/userLogin';
+import express from 'express';
+import { WebApp } from 'meteor/webapp';
+import bodyParser from 'body-parser';
 // import Slingshot from 'slingshot';
-// import AWS from 'aws-sdk';
+import AWS from 'aws-sdk';
 
+const app = express();
 const S3_BUCKET ='spar-help-desk';
 const REGION ='eu-west-1';
 
-// AWS.config.update({
-//   accessKeyId: process.env.ACCESS_KEY_ID,
-//   secretAccessKey: process.env.SECRET_ACCESS_KEY
-// })
+AWS.config.update({
+  accessKeyId: process.env.ACCESS_KEY_ID,
+  secretAccessKey: process.env.SECRET_ACCESS_KEY
+})
 
-// const myBucket = new AWS.S3({
-//   params: { Bucket: S3_BUCKET},
-//   region: REGION,
-// })
+const myBucket = new AWS.S3({
+  params: {Bucket: S3_BUCKET},
+  region: REGION,
+})
 
 if(Meteor.isServer) {
-  // console.log(sessionStorage)
+    
     Meteor.startup(function () {
-      // console.log(LoginDetails.find().fetch());
+      WebApp.connectHandlers.use('/deleteImage',async (req, res, next)=>{
+        try{
+          console.log("deleting now!");
+          const val = await req.params;
+          console.log(val);
+          const params = {
+            ACL: 'public-read',
+            Bucket: S3_BUCKET,
+            Key: val
+          };
+        }catch(error){
+
+        }
+        res.writeHead(200);
+        res.end();
+      })
+      // WebApp.connectHandlers.use(app);
       //  AppsheetLink.insert({
       //   title:"Artee Visitor Regulator",
       //   logo:"artee_visitor_regulator.png",
@@ -70,26 +90,26 @@ if(Meteor.isServer) {
             return true;
           },
           key: function (file){
-          //   console.log(file)
-          //   console.log(Date.now()+"-"+file.name);
-          //   const params = {
-          //       ACL: 'public-read',
-          //       Body: JSON.stringify(file),
-          //       Bucket: S3_BUCKET,
-          //       Key: file.name
-          //   };
-          // // axios.post("/public", params);
-          //   myBucket.putObject(params).on('httpUploadProgress', (evt) => {
-          //           // setProgress(Math.round((evt.loaded / evt.total) * 100))
-          //       }).send((err,data) => {
-          //           if (err) {
-          //               console.log(err)
-          //           }
-          //           else{
-          //             console.log(data)
-          //           }
-          //       })
-          //       // console.log(data.url);
+            console.log(file)
+            console.log(Date.now()+"-"+file.name);
+            const params = {
+                ACL: 'public-read',
+                Body: JSON.stringify(file),
+                Bucket: S3_BUCKET,
+                Key: file.name
+            };
+          // axios.post("/public", params);
+            myBucket.putObject(params).on('httpUploadProgress', (evt) => {
+                    // setProgress(Math.round((evt.loaded / evt.total) * 100))
+                }).send((err,data) => {
+                    if (err) {
+                        console.log(err)
+                    }
+                    else{
+                      console.log(data)
+                    }
+                })
+                // console.log(data.url);
             return Date.now()+"-"+file.name;
           }
       })

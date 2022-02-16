@@ -132,8 +132,9 @@ export class AddForm extends Component{
         }
         
     }
-    cancleUpdateLinks=()=>{
+    cancleUpdateLinks = ()=>{
         this.props.updates();
+        
     }
     
     render(){

@@ -14,7 +14,7 @@ function gotoLink(e){
     window.open(appsheetLink, "_blank");
 
 }
-function cancleLink(e){
+async function cancleLink(e){
     var url = e.target.getAttribute("urll");
     var id = e.target.getAttribute("id");
     var subs = Meteor.subscribe('AppsheetLink');
@@ -29,6 +29,38 @@ function cancleLink(e){
             }
         }
     })
+    var link = AppsheetLink.findOne({_id: id})
+    // var link = {logo: "logo.png", title: "Google"}
+    console.log(link);
+    // const sendDataString = JSON.stringify(link);
+    // const xhr = new XMLHttpRequest();
+    // xhr.open("POST", '/deleteImage', true);
+    // xhr.setRequestHeader("Content-type", "application/json");
+    // xhr.send(sendDataString);
+    try{
+        const opts = {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(link),
+        };
+        console.log("passing data");
+        const response= await fetch("/deleteImage", opts);
+    }catch(TypeError){
+        console.log(TypeError);
+    }
+    
+    // const MatricList = await response.json();
+    
+    // if (MatricList.matricList.includes(inputMatricNo.value)){
+    //     isIncludeMatric=true;
+    // }
+    // else{
+    //     isIncludeMatric=false;
+    // }
+
+    
     
 }
 
@@ -133,7 +165,7 @@ export class LinkPage extends Component{
                             var urlVal=link.url;
                             return(
                             <div key={id} className="content1" url={urlVal} title={link.title}>
-                                <img urll={urlVal} id={link._id} style={{display:this.state.cancle}} src="cancle.png" className="cancleUrl" title="remove link" src="cancle.png" alt="cancle link" onClick={cancleLink}/>;
+                                <img urll={urlVal} id={link._id} style={{display:this.state.cancle}} src="cancle.png" className="cancleUrl" title="remove link" src="cancle.png" alt="cancle link" onClick={cancleLink}/>
                                 <img url={urlVal} src={link.logo} alt="appsheet link" height="150px" onClick={gotoLink}/>
                                 <h1 key={id} url={urlVal} onClick={gotoLink}>{link.title}</h1>
                             </div>)
