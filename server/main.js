@@ -25,8 +25,8 @@ const myBucket = new AWS.S3({
 // console.log(val);
 Meteor.publish("deleteImage",function(link){
   // console.log(link);
-  console.log("deleting now!");
-  console.log(link);
+  // console.log("deleting now!");
+  // console.log(link);
   const params = {
     Bucket: S3_BUCKET,
     Key: link.logo
@@ -35,7 +35,7 @@ Meteor.publish("deleteImage",function(link){
     if (error) {
       console.log(error);
     }else{
-      console.log("File has been deleted successfully");
+      // console.log("File has been deleted successfully");
     }
     
   })
@@ -109,7 +109,7 @@ if(Meteor.isServer) {
           acl: ACL,
           region: REGION,
           authorize: function () {
-            console.log("authorized");
+            // console.log("authorized");
             return true;
           },
           key: function (file){
@@ -133,7 +133,8 @@ if(Meteor.isServer) {
           //           }
           //       })
                 // console.log(data.url);
-            return Date.now()+"-"+file.name;
+            var name = Date.now()+"-"+file.name;
+            return name;
           }
       })
 

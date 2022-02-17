@@ -21,7 +21,7 @@ async function cancleLink(e){
     var counts=0;
     var link = AppsheetLink.findOne({_id: id})
     // var link = {logo: "logo.png", title: "Google"}
-    console.log(link);
+    // console.log(link);
     var sub = Meteor.subscribe('deleteImage',link);
     Tracker.autorun(()=>{
         if (subs.ready()){
