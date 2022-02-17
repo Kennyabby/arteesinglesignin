@@ -89,9 +89,11 @@ export class AddForm extends Component{
                         count++;
                         if (count===1){
                             console.log("Added Link");
-                            if (!url.includes("http://")){
+                            if (!url.includes("http://") || !url.includes("https://")){
+                            
                                 url="http://"+url;
                             }
+                            console.log(url);
                             
                             AppsheetLink.insert({
                                 title:title,
