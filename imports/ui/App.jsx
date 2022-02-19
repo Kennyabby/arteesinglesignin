@@ -59,7 +59,7 @@ export class App extends Component{
               if for each object fetched as variable “user”, 
               the value of the username attribute in user is equal to 
               the value of the key “username” in the sessionStorage.*/
-              if (user.username===sessionStorage.getItem("username")){
+              if (user.username===localStorage.getItem("username")){
                   /* if the condition above is true, include the “user” object for this loop in 
                   the currentUser array.*/
                   return user;
@@ -68,7 +68,8 @@ export class App extends Component{
           /* sets the attribute active to “off” for this “user”.*/
           LoginDetails.update({_id : currentUser[0]._id},{$set:{active:"off"}});
           /* removes the key “username” from sessionStorage*/
-          window.sessionStorage.removeItem("username");
+          window.localStorage.removeItem("username");
+          // $.cookie("username",null);
           /* sets the attribute view in state in the constructor attribute to a new loginpage.*/
           this.setState({
             view:<LoginPage loggedin={this.goToLink} passUser={this.getUser}/>
@@ -110,14 +111,28 @@ export class App extends Component{
   /* This function is also inbuilt. It is part of the react life cycle. 
   It is the second function that is automatically called after the render() function is called 
   and mounted on the DOM*/
-  componentDidMount(){
+  async componentDidMount(){
     /* "subs" stores an instance called by Meteor.subscribe().*/
     /* Meteor.subscribe('LoginDetails') subscribes to a published request of LoginDetails, in mongodb, from the main.js file in the server folder.*/
-
+    
     var subs = Meteor.subscribe('LoginDetails');
+    // try{
+    //   const opts = {
+    //       method: 'POST',
+    //       headers: {
+    //           'Content-Type': 'application/json'
+    //       },
+    //   };
+      
+    //   const response= await fetch("/getUser", opts);
+    //   // username = await response.json();
+    // }catch(TypeError){
+    //     console.log(TypeError);
+    // }
+    var username= window.localStorage.getItem("username");
     /* Checking if the value of the key "username" in sessionStorage is null.*/
-    if (sessionStorage.getItem("username")==="arteeadmin"
-    || sessionStorage.getItem("username")==="arteegroup"){
+    if (username==="arteeadmin"
+    || username==="arteegroup"){
       /* This is used to track the instance/process running in the subs variable*/
       Tracker.autorun(()=>{
       /*the if condition checks if the process running in sub is ready*/
@@ -133,7 +148,7 @@ export class App extends Component{
                 if for each object fetched as variable “user”, the value of 
                 the username attribute in user is equal to the value of the key “username” in 
                 the sessionStorage.*/      
-                if (user.username===sessionStorage.getItem("username")){
+                if (user.username===username){
                     /* if the condition above is true, include 
                     the “user” object for this loop in the currentUser array.*/
                     

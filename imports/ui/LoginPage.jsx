@@ -68,7 +68,9 @@ export class LoginPage extends Component{
         
         LoginDetails.update({_id : user._id},{$set:{active:"on"}});
         this.props.passUser(user);
-        window.sessionStorage.setItem("username",username);
+        window.localStorage.setItem("username",username);
+        // Meteor.subscribe("Username",username);
+        // $.cookie("username",username);
         // event.target.innerHTML="Signin...";
         setTimeout(()=>{
           this.props.loggedin();
@@ -184,7 +186,8 @@ export class LoginPage extends Component{
           <p className="error">{this.state.err}</p>
           </div>
           <div className="alternate">
-            <p style={{cursor:"pointer"}} onClick={this.gotoGoogle}>Signin with Google</p></div>
+            {/* <p style={{cursor:"pointer"}} onClick={this.gotoGoogle}>Signin with Google</p> */}
+          </div>
             
           {this.signin}
           </div>

@@ -6,6 +6,7 @@ import { WebApp } from 'meteor/webapp';
 import bodyParser from 'body-parser';
 // import Slingshot from 'slingshot';
 import AWS from 'aws-sdk';
+import { Session } from 'inspector';
 
 const app = express();
 const S3_BUCKET = process.env.S3_BUCKET;
@@ -14,28 +15,29 @@ const ACL = process.env.ACL;
 
 AWS.config.update({
   accessKeyId: process.env.ACCESS_KEY_ID,
-  secretAccessKey: process.env.SECRET_ACCESS_KEY
+  secretAccessKey: process.env.SECRET_ACCESS_KEY,
+  region: REGION
 })
 
-const myBucket = new AWS.S3({
-  params: {Bucket: S3_BUCKET},
-  region: REGION,
-})
+const myBucket = new AWS.S3();
+// var user = null;
 // var val = Meteor.call("deleteImage");
 // console.log(val);
 Meteor.publish("deleteImage",function(link){
   // console.log(link);
   // console.log("deleting now!");
-  // console.log(link);
+  var keys = link.logo;
+  var keyIndex = keys.indexOf("m/")
+  var key = keys.slice(keyIndex+2,);
   const params = {
     Bucket: S3_BUCKET,
-    Key: link.logo
+    Key: key
   };
-  myBucket.deleteObject(params,(error,data)=>{
-    if (error) {
-      console.log(error);
+  myBucket.deleteObject(params,(err,data)=>{
+    if (err) {
+      console.log(err);
     }else{
-      // console.log("File has been deleted successfully");
+      // console.log("File has been deleted successfully", data);
     }
     
   })
@@ -44,16 +46,25 @@ Meteor.publish("deleteImage",function(link){
 if(Meteor.isServer) {
     
     Meteor.startup(function () {
+
+      // app.post("/getUser", async (req,res)=>{
+
+      //   res.json({
+      //     user : Session.get("username"),
+      //   });
+      // })
+
+      WebApp.connectHandlers.use(app);
       // WebApp.connectHandlers.use('/deleteImage',async (req, res, next)=>{
       //   try{
-          // console.log("deleting now!");
-          // const val = await req.params;
-          // console.log(val);
-          // const params = {
-          //   ACL: ACL,
-          //   Bucket: S3_BUCKET,
-          //   Key: val
-          // };
+      //     console.log("deleting now!");
+      //     const val = await req.params;
+      //     console.log(val);
+      //     const params = {
+      //       ACL: ACL,
+      //       Bucket: S3_BUCKET,
+      //       Key: val
+      //     };
       //   }catch(error){
 
       //   }
@@ -170,7 +181,13 @@ if(Meteor.isServer) {
 
         return AppsheetLink.find();
     });
-    
+    // Meteor.publish("Username", function(username){
+    //     // user=username;
+    //     Session.set("username",username);
+    //     console.log(Session.get("username"));
+    //     return [];
+    // });
+    // console.log(user);
     // Meteor.publish('UploadImg', function(e){
 
     //   console.log("Started uploading");
